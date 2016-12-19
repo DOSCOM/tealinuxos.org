@@ -1,0 +1,10 @@
+<li>
+  <form id="search-form">
+    <input type="text" id="search-query-<%- context %>" class="search-query st-default-search-input">
+  </form>
+</li>
+<li><a href="/v2/guide/" class="nav-link<%- page.path.match(/guide/) ? ' current' : '' %>">Dukungan</a></li>
+<li><a href="/v2/api/" class="nav-link<%- page.path.match(/api/) ? ' current' : '' %>">Kontribusi</a></li>
+<li><a href="/v2/examples/" class="nav-link<%- page.path.match(/examples/) ? ' current' : '' %>">Blog</a></li>
+<%- partial('partials/ecosystem_dropdown') %>
+<%- partial('partials/language_dropdown') %>

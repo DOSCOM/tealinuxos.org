@@ -1,0 +1,77 @@
+<div class="sidebar">
+  <ul class="main-menu">
+    <%- partial('partials/main_menu', { context: 'sidebar' }) %>
+  </ul>
+</div>
+
+<div id="hero">
+  <div class="inner">
+    <div class="left">
+      <img class="hero-logo" src="/images/tealinuxos.png">
+    </div><div class="right">
+      <h2 class="vue">TealinuxOS</h2>
+      <h1>
+        <br>
+        Nikmatnya Sebuah Racikan
+      </h1>
+      <p>
+        <a class="button" href="/v2/guide/">GET STARTED</a>
+        <a class="button white" href="https://github.com/vuejs/vue" target="_blank">GITHUB</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="highlights">
+  <div class="inner">
+    <div class="point">
+      <h2>Anteapiracy</h2>
+      <p>The opensource has come true, this is the time to revenge.</p>
+    </div>
+
+    <div class="point">
+      <h2>High Qualitea</h2>
+      <p>Berangkat dari dukungan dari semua pihak sistem operasi ini mengalami penyempurnaan mejadi sistem operasi yang stabil dan berkualitas.</p>
+    </div>
+
+    <div class="point">
+      <h2>Communitea</h2>
+      <p>
+        Dukungan kuat dari forum dan komunitas dunia virtual maupun komunitas riil menjadikan sistem operasi ini berkembang cepat.
+      </p>
+    </div>
+    <div class="point">
+      <h2>Nutriteaon</h2>
+      <p>
+        Dukungan yang kuat dan tersedianya repository yang lengkap menjadikan sistem operasi ini penuh nutrisi.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="sponsors">
+  <div class="inner">
+    <h3>PROUDLY SPONSORED BY</h3>
+    <%- partial('partials/sponsors') %>
+    <br>
+    <a class="become-sponsor button white" href="/support-vuejs/">Become a Backer</a>
+  </div>
+</div>
+
+<div id="footer">
+  Released under the <a href="https://opensource.org/licenses/MIT" href="_blank">MIT License</a><br>
+  Copyright &copy; 2014-<%- new Date().getFullYear() %> Evan You
+</div>
+
+<script>
+var topScrolled = false
+window.addEventListener('scroll', function () {
+  if (window.pageYOffset > 165 && !topScrolled) {
+    topScrolled = true
+    document.getElementById('mobile-bar').classList.remove('top')
+  } else if (window.pageYOffset <= 165 && topScrolled) {
+    topScrolled = false
+    document.getElementById('mobile-bar').classList.add('top')
+  }
+})
+</script>
