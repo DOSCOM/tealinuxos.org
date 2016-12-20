@@ -11,4 +11,4 @@ $ npm install -g hexo-cli
 $ npm install
 $ hexo server
 ```
-##Forked vuejs.org
+##Forked from vuejs.org
