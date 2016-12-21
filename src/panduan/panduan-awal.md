@@ -31,3 +31,5 @@ TealinuxOS telah diluncurkan sebanyak 8 versi diantaranya adalah :
 * TeaLinuxOS ver 2.0 Code Name : Black Tea, based on Ubuntu 9.10
 
 Minta tolong di lanjutin ya, Bro
+
+Test edi dari Github
