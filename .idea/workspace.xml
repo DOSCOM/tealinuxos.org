@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b00f466-27d9-4e2a-a583-51c05cb7ce7f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/page-sitemap.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/post-sitemap.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sitemap.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sitemap.xsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.deploy_git" afterPath="$PROJECT_DIR$/.deploy_git" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2014/03/index.html" afterPath="$PROJECT_DIR$/public/archives/2014/03/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2014/07/index.html" afterPath="$PROJECT_DIR$/public/archives/2014/07/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2014/11/index.html" afterPath="$PROJECT_DIR$/public/archives/2014/11/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2014/12/index.html" afterPath="$PROJECT_DIR$/public/archives/2014/12/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2014/index.html" afterPath="$PROJECT_DIR$/public/archives/2014/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2015/06/index.html" afterPath="$PROJECT_DIR$/public/archives/2015/06/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2015/10/index.html" afterPath="$PROJECT_DIR$/public/archives/2015/10/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2015/12/index.html" afterPath="$PROJECT_DIR$/public/archives/2015/12/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2015/index.html" afterPath="$PROJECT_DIR$/public/archives/2015/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2016/02/index.html" afterPath="$PROJECT_DIR$/public/archives/2016/02/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2016/03/index.html" afterPath="$PROJECT_DIR$/public/archives/2016/03/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2016/04/index.html" afterPath="$PROJECT_DIR$/public/archives/2016/04/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2016/index.html" afterPath="$PROJECT_DIR$/public/archives/2016/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/index.html" afterPath="$PROJECT_DIR$/public/archives/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/page/2/index.html" afterPath="$PROJECT_DIR$/public/archives/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/index.css" afterPath="$PROJECT_DIR$/public/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/page.css" afterPath="$PROJECT_DIR$/public/css/page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/search.css" afterPath="$PROJECT_DIR$/public/css/search.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/page/2/index.html" afterPath="$PROJECT_DIR$/public/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/vue/layout/index.ejs" afterPath="$PROJECT_DIR$/themes/vue/layout/index.ejs" />
     </list>
     <ignored path="vuejs.org.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="180">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -108,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -134,10 +161,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yarn.lock" pinned="false" current-in-tab="true">
+      <file leaf-file-name="yarn.lock" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yarn.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="-1260">
               <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
@@ -265,20 +292,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc-tea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc-tea" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -374,12 +387,12 @@
       <workItem from="1482420123395" duration="46000" />
       <workItem from="1482420226291" duration="25000" />
       <workItem from="1482420327262" duration="134000" />
-      <workItem from="1482420528837" duration="680000" />
+      <workItem from="1482420528837" duration="1025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25896000" />
+    <option name="totallyTimeSpent" value="26241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
@@ -391,7 +404,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22278057" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2998325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -741,14 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/update.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -787,7 +792,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -810,8 +815,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="-1260">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
       </provider>

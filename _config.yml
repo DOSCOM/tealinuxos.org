@@ -8,14 +8,12 @@ subtitle: Nikmatnya Sebuah Racikan
 description: Nikmatnya Sebuah Racikan
 author: Doscom - Dinus Open Source Community
 email: sekretariat@doscom.org
-language:
--id
--en
+language: id
 timezone: Asia/Jakarta
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://doscom.github.io/
+url: https://doscom.github.io/tealinuxos.org
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -111,3 +109,6 @@ feed:
 
 alias:
   api/index.html: v2/api/index.html
+
+sitemap:
+    path: sitemap.xml
