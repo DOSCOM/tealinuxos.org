@@ -6,13 +6,14 @@
 title: Tealinux OS
 subtitle: Nikmatnya Sebuah Racikan
 description: Nikmatnya Sebuah Racikan
-author: Doscom
+author: Doscom - Dinus Open Source Community
 email: sekretariat@doscom.org
 language: id
+timezone: Asia/Jakarta
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://doscom.github.io/tealinuxos.org
+url: https://doscom.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags

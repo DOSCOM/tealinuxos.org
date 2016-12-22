@@ -3,7 +3,7 @@
         <%- partial('partials/main_menu', { context: 'sidebar' }) %>
     </ul>
     <div class="list">
-        <div class="main-sponsor">
+        <!-- <div class="main-sponsor">
             <span>Sponsored By</span><br>
             <a href="http://www.thedifferenceengine.io/" target="_blank"
                 style="background-color: #f3f3f3; padding: 10px 0">
@@ -12,8 +12,8 @@
         </div>
         <a class="become-backer" href="/support-vuejs">
             Become a Backer
-        </a>
-        <h2>
+        </a> -->
+        <!-- <h2>
             <%- type === 'api' ? 'API' : (type.charAt(0).toUpperCase() + type.slice(1)) %>
             <% if (type !== 'cookbook') { %>
                 <select class="version-select">
@@ -23,7 +23,7 @@
                     <option value="011">0.11</option>
                 </select>
             <% } %>
-        </h2>
+        </h2> -->
         <ul class="menu-root">
             <% type !== 'api' && site.pages.find({type: type}).sort('order').each(function (p) { %>
                 <% var fileName = p.path.replace(/^.+?\/([\w-]+)\.html/, '$1') %>

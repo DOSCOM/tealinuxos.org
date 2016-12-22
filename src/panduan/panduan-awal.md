@@ -1,6 +1,6 @@
 ---
 title: Panduan Awal Pengguna TeaLinuxOS
-type: Panduan
+type: panduan
 order: 101
 ---
 
