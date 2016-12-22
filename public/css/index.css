@@ -34,7 +34,7 @@ pre .symbol,
 pre .symbol .string,
 pre .value,
 pre .regexp {
-  color: #42b983;
+  color: #0d9d57;
 }
 pre .title {
   color: #a6e22e;
@@ -63,7 +63,7 @@ pre .apache .tag,
 pre .apache .cbracket,
 pre .tex .command,
 pre .prompt {
-  color: #42b983;
+  color: #0d9d57;
 }
 pre .comment,
 pre .java .annotation,
@@ -144,14 +144,14 @@ a.button {
   border-radius: 2em;
   display: inline-block;
   color: #fff;
-  background-color: #4fc08d;
+  background-color: #0d9d57;
   transition: all 0.15s ease;
   box-sizing: border-box;
-  border: 1px solid #4fc08d;
+  border: 1px solid #0d9d57;
 }
 a.button.white {
   background-color: #fff;
-  color: #42b983;
+  color: #0d9d57;
 }
 .highlight {
   overflow-x: auto;
@@ -308,7 +308,7 @@ a.button.white {
   display: block;
 }
 #nav .nav-dropdown a:hover {
-  color: #42b983;
+  color: #0d9d57;
 }
 #nav .arrow {
   display: inline-block;
@@ -360,7 +360,7 @@ body.docs #nav {
 }
 .nav-link:hover,
 .nav-link.current {
-  border-bottom: 3px solid #42b983;
+  border-bottom: 3px solid #0d9d57;
 }
 .search-query {
   height: 30px;
@@ -378,7 +378,7 @@ body.docs #nav {
   vertical-align: middle !important;
 }
 .search-query:focus {
-  border-color: #42b983;
+  border-color: #0d9d57;
 }
 #logo {
   display: inline-block;
@@ -462,7 +462,7 @@ body.docs #nav {
 }
 .sidebar .sidebar-link.current {
   font-weight: 600;
-  color: #42b983;
+  color: #0d9d57;
 }
 .sidebar .sidebar-link.new:after {
   content: "NEW";
@@ -470,7 +470,7 @@ body.docs #nav {
   font-size: 10px;
   font-weight: 600;
   color: #fff;
-  background-color: #42b983;
+  background-color: #0d9d57;
   line-height: 14px;
   padding: 0 4px;
   border-radius: 3px;
@@ -480,11 +480,11 @@ body.docs #nav {
   top: -1px;
 }
 .sidebar .sidebar-link:hover {
-  border-bottom: 2px solid #42b983;
+  border-bottom: 2px solid #0d9d57;
 }
 .sidebar .section-link.active {
   font-weight: bold;
-  color: #42b983;
+  color: #0d9d57;
 }
 .sidebar .main-menu {
   margin-bottom: 20px;
@@ -504,10 +504,10 @@ body.docs #nav {
   display: inline-block;
 }
 .sidebar .become-backer {
-  border: 1px solid #42b983;
+  border: 1px solid #0d9d57;
   border-radius: 2em;
   display: inline-block;
-  color: #42b983;
+  color: #0d9d57;
   font-size: 0.8em;
   width: 125px;
   padding: 4px 0;
@@ -588,11 +588,12 @@ body {
   height: 215px;
   float: right;
   margin-right: 60px;
+  margin-top: 50px;
 }
 #hero h1 {
   font-weight: 300;
   margin: 0;
-  font-size: 3.2em;
+  font-size: 3em;
 }
 #hero h2 {
   font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
@@ -605,9 +606,6 @@ body {
   margin: 1em 0;
   font-size: 1.05em;
   font-weight: 600;
-  background-color: #62aa41;
-  border: 1px solid #62aa41;
-  color: #fff;
   letter-spacing: 0.1em;
 }
 #hero .button:first-child {
@@ -639,10 +637,10 @@ body {
   padding: 0 2em;
 }
 #highlights .point h2 {
-  color: #42b983;
+  color: #0d9d57;
   font-size: 1.5em;
   font-weight: 400;
-  color: #62aa41;
+  color: #0d9d57;
   margin: 0;
   padding: 0.5em 0;
 }
@@ -749,6 +747,6 @@ body {
   }
   #highlights .point:before {
     content: "—";
-    color: #42b983;
+    color: #0d9d57;
   }
 }
