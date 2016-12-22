@@ -34,7 +34,7 @@ pre .symbol,
 pre .symbol .string,
 pre .value,
 pre .regexp {
-  color: #42b983;
+  color: #0d9d57;
 }
 pre .title {
   color: #a6e22e;
@@ -63,7 +63,7 @@ pre .apache .tag,
 pre .apache .cbracket,
 pre .tex .command,
 pre .prompt {
-  color: #42b983;
+  color: #0d9d57;
 }
 pre .comment,
 pre .java .annotation,
@@ -144,14 +144,14 @@ a.button {
   border-radius: 2em;
   display: inline-block;
   color: #fff;
-  background-color: #4fc08d;
+  background-color: #0d9d57;
   transition: all 0.15s ease;
   box-sizing: border-box;
-  border: 1px solid #4fc08d;
+  border: 1px solid #0d9d57;
 }
 a.button.white {
   background-color: #fff;
-  color: #42b983;
+  color: #0d9d57;
 }
 .highlight {
   overflow-x: auto;
@@ -308,7 +308,7 @@ a.button.white {
   display: block;
 }
 #nav .nav-dropdown a:hover {
-  color: #42b983;
+  color: #0d9d57;
 }
 #nav .arrow {
   display: inline-block;
@@ -360,7 +360,7 @@ body.docs #nav {
 }
 .nav-link:hover,
 .nav-link.current {
-  border-bottom: 3px solid #42b983;
+  border-bottom: 3px solid #0d9d57;
 }
 .search-query {
   height: 30px;
@@ -378,7 +378,7 @@ body.docs #nav {
   vertical-align: middle !important;
 }
 .search-query:focus {
-  border-color: #42b983;
+  border-color: #0d9d57;
 }
 #logo {
   display: inline-block;
@@ -574,7 +574,7 @@ ul.demo li {
 }
 .sidebar .sidebar-link.current {
   font-weight: 600;
-  color: #42b983;
+  color: #0d9d57;
 }
 .sidebar .sidebar-link.new:after {
   content: "NEW";
@@ -582,7 +582,7 @@ ul.demo li {
   font-size: 10px;
   font-weight: 600;
   color: #fff;
-  background-color: #42b983;
+  background-color: #0d9d57;
   line-height: 14px;
   padding: 0 4px;
   border-radius: 3px;
@@ -592,11 +592,11 @@ ul.demo li {
   top: -1px;
 }
 .sidebar .sidebar-link:hover {
-  border-bottom: 2px solid #42b983;
+  border-bottom: 2px solid #0d9d57;
 }
 .sidebar .section-link.active {
   font-weight: bold;
-  color: #42b983;
+  color: #0d9d57;
 }
 .sidebar .main-menu {
   margin-bottom: 20px;
@@ -616,10 +616,10 @@ ul.demo li {
   display: inline-block;
 }
 .sidebar .become-backer {
-  border: 1px solid #42b983;
+  border: 1px solid #0d9d57;
   border-radius: 2em;
   display: inline-block;
-  color: #42b983;
+  color: #0d9d57;
   font-size: 0.8em;
   width: 125px;
   padding: 4px 0;
@@ -726,7 +726,7 @@ ul.demo li {
 }
 .content h3:after {
   content: "#";
-  color: #42b983;
+  color: #0d9d57;
   position: absolute;
   left: -0.7em;
   bottom: -2px;
@@ -750,13 +750,13 @@ ul.demo li {
   padding-left: 1.5em;
 }
 .content a {
-  color: #42b983;
+  color: #0d9d57;
   font-weight: 600;
 }
 .content blockquote {
   margin: 2em 0;
   padding-left: 20px;
-  border-left: 4px solid #42b983;
+  border-left: 4px solid #0d9d57;
 }
 .content blockquote p {
   font-weight: 600;
@@ -780,7 +780,7 @@ ul.demo li {
   background-color: #fcfcfc;
 }
 .content > table th {
-  background-color: #42b983;
+  background-color: #0d9d57;
   color: #fff;
   padding-top: 0.85em;
   padding-bottom: 0.85em;
@@ -869,7 +869,7 @@ ul.demo li {
   }
   .nav-link:hover,
   .nav-link.current {
-    border-bottom: 2px solid #42b983;
+    border-bottom: 2px solid #0d9d57;
   }
   #mobile-bar {
     display: block;
