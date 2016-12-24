@@ -17,6 +17,7 @@
         <meta name="twitter:image" content="https://<%- theme.root_domain %>/images/tealinuxos.png">
 
         <link rel="icon" href="/images/tealinuxos-logos/favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'>
         <link href='//fonts.googleapis.com/css?family=Dosis:500&text=Vue.js' rel='stylesheet' type='text/css'>
@@ -25,7 +26,7 @@
         <%- css(isIndex ? 'css/index' : 'css/page') %>
 
         <!-- this needs to be loaded before guide's inline scripts -->
-        <script src="/js/vue.js"></script>
+        <!-- <script src="/js/vue.js"></script> -->
         <script>window.PAGE_TYPE = "<%- page.type %>"</script>
     </head>
     <body class="<%- isIndex ? '' : 'docs' -%>">
