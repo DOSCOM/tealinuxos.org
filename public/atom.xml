@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Tealinux OS</title>
   <subtitle>Nikmatnya Sebuah Racikan</subtitle>
-  <link href="/web-tealinuxos/atom.xml" rel="self"/>
+  <link href="/webtea/atom.xml" rel="self"/>
   
   <link href="https://wkwksama.github.io/"/>
   <updated>2017-01-27T17:57:37.030Z</updated>
