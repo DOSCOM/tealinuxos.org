@@ -101,7 +101,7 @@ markdown:
 deploy:
   type: git
   # repo: git@github.com:tealinuxos/tealinuxos.github.io.git
-  repo: git@github.com:wkwksama/web-tealinuxos.git
+  repo: https://github.com/wkwksama/web-tealinuxos.git
   message: "Website terakhir diperbaharui pada : {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 feed:
