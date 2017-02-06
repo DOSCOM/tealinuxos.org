@@ -827,6 +827,9 @@ ul.demo li {
 .content p.tip em {
   color: #34495e;
 }
+.lebar {
+  max-width: 80%;
+}
 span.breathe {
   margin: 20px auto;
   display: block;

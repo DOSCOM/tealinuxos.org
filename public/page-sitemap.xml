@@ -1,97 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org</loc>
+        <loc>https://wkwksama.github.io</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/kontribusi/</loc>
+        <loc>https://wkwksama.github.io/kontribusi/</loc>
         <lastmod>2017-02-06T14:21:21.224Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/</loc>
+        <loc>https://wkwksama.github.io/</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/panduan/</loc>
+        <loc>https://wkwksama.github.io/panduan/</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/panduan/panduan-awal.html</loc>
+        <loc>https://wkwksama.github.io/panduan/panduan-awal.html</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/perf/</loc>
+        <loc>https://wkwksama.github.io/perf/</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/support-vuejs/</loc>
+        <loc>https://wkwksama.github.io/support-vuejs/</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/v2/api/</loc>
+        <loc>https://wkwksama.github.io/v2/api/</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/v2/cookbook/adding-instance-properties.html</loc>
+        <loc>https://wkwksama.github.io/v2/cookbook/adding-instance-properties.html</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/v2/cookbook/</loc>
+        <loc>https://wkwksama.github.io/v2/cookbook/</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/v2/examples/commits.html</loc>
+        <loc>https://wkwksama.github.io/v2/examples/commits.html</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/v2/examples/</loc>
+        <loc>https://wkwksama.github.io/v2/examples/</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/v2/guide/class-and-style.html</loc>
+        <loc>https://wkwksama.github.io/v2/guide/class-and-style.html</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/blog/</loc>
+        <loc>https://wkwksama.github.io/blog/</loc>
         <lastmod>2017-01-27T17:57:37.030Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>

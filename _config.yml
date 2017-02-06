@@ -13,8 +13,10 @@ timezone: Asia/Jakarta
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://doscom.github.io/tealinuxos.org
-root: /
+# url: https://doscom.github.io/tealinuxos.org
+# root: /
+url: https://wkwksama.github.io
+root: /web-tealinuxos
 permalink: :year/:month/:day/:title/
 tag_dir: tags
 archive_dir: archives
@@ -98,7 +100,8 @@ markdown:
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:tealinuxos/tealinuxos.github.io.git
+  # repo: git@github.com:tealinuxos/tealinuxos.github.io.git
+  repo: https://github.com/wkwksama/web-tealinuxos.git
   message: "Website terakhir diperbaharui pada : {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 feed:
