@@ -49,20 +49,6 @@
     </url>
     
     <url>
-        <loc>https://wkwksama.github.io/v2/examples/commits.html</loc>
-        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://wkwksama.github.io/v2/examples/</loc>
-        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>https://wkwksama.github.io/v2/cookbook/</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -77,6 +63,13 @@
     </url>
     
     <url>
+        <loc>https://wkwksama.github.io/v2/examples/commits.html</loc>
+        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://wkwksama.github.io/v2/guide/class-and-style.html</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -85,6 +78,13 @@
     
     <url>
         <loc>https://wkwksama.github.io/v2/api/</loc>
+        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://wkwksama.github.io/v2/examples/</loc>
         <lastmod>2017-01-27T17:57:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
