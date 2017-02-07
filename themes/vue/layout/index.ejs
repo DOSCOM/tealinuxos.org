@@ -7,7 +7,7 @@
 <div id="hero">
   <div class="inner">
     <div class="left">
-      <img class="hero-logo" src="/images/tealinuxos-logo.png">
+      <img class="hero-logo" src="<%- url_for('/images/tealinuxos-logo.png') %>">
     </div><div class="right">
       <h2 class="vue">TealinuxOS</h2>
       <h1>
@@ -15,8 +15,8 @@
         Operating System for Your Development Environment
       </h1>
       <p>
-        <a class="button" href="/download/">Download TeaLinuxOS</a>
-        <a class="button white" href="/panduan/">Lihat Panduan</a>
+        <a class="button" href="<%- url_for('/download') %>">Download TeaLinuxOS</a>
+        <a class="button white" href="<%- url_for('/panduan') %>">Lihat Panduan</a>
       </p>
     </div>
   </div>
@@ -65,8 +65,8 @@
         namun jika anda menyukai kami, anda dapat traktir kami (:</h2>
     <!-- <h3>PROUDLY SPONSORED BY</h3> -->
     <!-- <%- partial('partials/sponsors') %> -->
-    <a class="become-sponsor button white" href="/panduan">Donasi Sekarang</a>
-    <a class="become-sponsor button white" href="/kontribusi/">Ikut Kontribusi</a>
+    <a class="become-sponsor button white" href="<%- url_for('/panduan') %>">Donasi Sekarang</a>
+    <a class="become-sponsor button white" href="<%- url_for('/kontribusi') %>">Ikut Kontribusi</a>
   </div>
 </div>
 
