@@ -1,149 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://wkwksama.github.io</loc>
+        <loc>https://tealinuxos.github.io</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-<<<<<<< HEAD
-        <loc>https://doscom.github.io/tealinuxos.org/2014/11/09/vue-011-release/</loc>
+        <loc>https://tealinuxos.github.io/2014/11/09/vue-011-release/</loc>
         <lastmod>2017-02-07T00:54:15.341Z</lastmod>
-=======
-        <loc>https://wkwksama.github.io/2015/06/11/012-release/</loc>
-        <lastmod>2017-01-27T17:57:37.030Z</lastmod>
->>>>>>> 8337d0de419ff710e7c7f65f5df22d07a6371998
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-<<<<<<< HEAD
-        <loc>https://doscom.github.io/tealinuxos.org/2016/03/14/march-update/</loc>
+        <loc>https://tealinuxos.github.io/2016/03/14/march-update/</loc>
         <lastmod>2017-02-07T00:54:15.341Z</lastmod>
-=======
-        <loc>https://wkwksama.github.io/2015/10/26/1.0.0-release/</loc>
-        <lastmod>2017-01-27T17:57:37.030Z</lastmod>
->>>>>>> 8337d0de419ff710e7c7f65f5df22d07a6371998
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-<<<<<<< HEAD
-        <loc>https://doscom.github.io/tealinuxos.org/2015/12/28/vue-cli/</loc>
+        <loc>https://tealinuxos.github.io/2015/12/28/vue-cli/</loc>
         <lastmod>2017-02-07T00:54:15.341Z</lastmod>
-=======
-        <loc>https://wkwksama.github.io/2016/04/27/announcing-2.0/</loc>
-        <lastmod>2017-01-27T17:57:37.030Z</lastmod>
->>>>>>> 8337d0de419ff710e7c7f65f5df22d07a6371998
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-<<<<<<< HEAD
-        <loc>https://doscom.github.io/tealinuxos.org/2014/07/29/vue-next/</loc>
+        <loc>https://tealinuxos.github.io/2014/07/29/vue-next/</loc>
         <lastmod>2017-02-07T00:54:15.341Z</lastmod>
-=======
-        <loc>https://wkwksama.github.io/2016/02/06/common-gotchas/</loc>
-        <lastmod>2017-01-27T17:57:37.030Z</lastmod>
->>>>>>> 8337d0de419ff710e7c7f65f5df22d07a6371998
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-<<<<<<< HEAD
-        <loc>https://doscom.github.io/tealinuxos.org/2014/03/22/vuejs-010-release/</loc>
+        <loc>https://tealinuxos.github.io/2014/03/22/vuejs-010-release/</loc>
         <lastmod>2017-02-07T00:54:15.341Z</lastmod>
-=======
-        <loc>https://wkwksama.github.io/2016/03/14/march-update/</loc>
-        <lastmod>2017-01-27T17:57:37.030Z</lastmod>
->>>>>>> 8337d0de419ff710e7c7f65f5df22d07a6371998
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-<<<<<<< HEAD
-        <loc>https://doscom.github.io/tealinuxos.org/2015/10/28/why-no-template-url/</loc>
+        <loc>https://tealinuxos.github.io/2015/10/28/why-no-template-url/</loc>
         <lastmod>2017-02-07T00:54:15.341Z</lastmod>
-=======
-        <loc>https://wkwksama.github.io/2014/11/09/vue-011-release/</loc>
-        <lastmod>2017-01-27T17:57:37.030Z</lastmod>
->>>>>>> 8337d0de419ff710e7c7f65f5df22d07a6371998
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-<<<<<<< HEAD
-        <loc>https://doscom.github.io/tealinuxos.org/2014/12/08/011-component/</loc>
+        <loc>https://tealinuxos.github.io/2014/12/08/011-component/</loc>
         <lastmod>2017-02-07T00:54:15.337Z</lastmod>
-=======
-        <loc>https://wkwksama.github.io/2015/12/28/vue-cli/</loc>
-        <lastmod>2017-01-27T17:57:37.030Z</lastmod>
->>>>>>> 8337d0de419ff710e7c7f65f5df22d07a6371998
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-<<<<<<< HEAD
-        <loc>https://doscom.github.io/tealinuxos.org/2016/04/27/announcing-2.0/</loc>
+        <loc>https://tealinuxos.github.io/2016/04/27/announcing-2.0/</loc>
         <lastmod>2017-02-07T00:54:15.337Z</lastmod>
-=======
-        <loc>https://wkwksama.github.io/2014/07/29/vue-next/</loc>
-        <lastmod>2017-01-27T17:57:37.030Z</lastmod>
->>>>>>> 8337d0de419ff710e7c7f65f5df22d07a6371998
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-<<<<<<< HEAD
-        <loc>https://doscom.github.io/tealinuxos.org/2015/10/26/1.0.0-release/</loc>
+        <loc>https://tealinuxos.github.io/2015/10/26/1.0.0-release/</loc>
         <lastmod>2017-02-07T00:54:15.337Z</lastmod>
-=======
-        <loc>https://wkwksama.github.io/2014/03/22/vuejs-010-release/</loc>
-        <lastmod>2017-01-27T17:57:37.030Z</lastmod>
->>>>>>> 8337d0de419ff710e7c7f65f5df22d07a6371998
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-<<<<<<< HEAD
-        <loc>https://doscom.github.io/tealinuxos.org/2015/06/11/012-release/</loc>
+        <loc>https://tealinuxos.github.io/2015/06/11/012-release/</loc>
         <lastmod>2017-02-07T00:54:15.337Z</lastmod>
-=======
-        <loc>https://wkwksama.github.io/2015/10/28/why-no-template-url/</loc>
-        <lastmod>2017-01-27T17:57:37.030Z</lastmod>
->>>>>>> 8337d0de419ff710e7c7f65f5df22d07a6371998
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-<<<<<<< HEAD
-        <loc>https://doscom.github.io/tealinuxos.org/2016/02/06/common-gotchas/</loc>
+        <loc>https://tealinuxos.github.io/2016/02/06/common-gotchas/</loc>
         <lastmod>2017-02-07T00:54:15.337Z</lastmod>
-=======
-        <loc>https://wkwksama.github.io/2014/12/08/011-component/</loc>
-        <lastmod>2017-01-27T17:57:37.027Z</lastmod>
->>>>>>> 8337d0de419ff710e7c7f65f5df22d07a6371998
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

@@ -2,23 +2,13 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <sitemap>
-<<<<<<< HEAD
-        <loc>https://doscom.github.io/tealinuxos.org/post-sitemap.xml</loc>
+        <loc>https://tealinuxos.github.io/post-sitemap.xml</loc>
         <lastmod>2017-02-07T00:54:15.341Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://doscom.github.io/tealinuxos.org/page-sitemap.xml</loc>
+        <loc>https://tealinuxos.github.io/page-sitemap.xml</loc>
         <lastmod>2017-02-07T04:52:10.705Z</lastmod>
-=======
-        <loc>https://wkwksama.github.io/post-sitemap.xml</loc>
-        <lastmod>2017-01-27T17:57:37.030Z</lastmod>
-    </sitemap>
-
-    <sitemap>
-        <loc>https://wkwksama.github.io/page-sitemap.xml</loc>
-        <lastmod>2017-02-06T14:21:21.224Z</lastmod>
->>>>>>> 8337d0de419ff710e7c7f65f5df22d07a6371998
     </sitemap>
 
 </sitemapindex>
