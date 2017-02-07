@@ -7,92 +7,99 @@
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/kontribusi/</loc>
-        <lastmod>2017-02-06T14:21:21.224Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://doscom.github.io/tealinuxos.org/</loc>
-        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
+        <loc>https://doscom.github.io/tealinuxos.org/panduan/panduan-awal.html</loc>
+        <lastmod>2017-02-07T04:52:10.705Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>https://doscom.github.io/tealinuxos.org/panduan/</loc>
-        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
+        <lastmod>2017-02-07T04:50:14.249Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/panduan/panduan-awal.html</loc>
-        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
+        <loc>https://doscom.github.io/tealinuxos.org/panduan/install.html</loc>
+        <lastmod>2017-02-07T04:49:10.079Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://doscom.github.io/tealinuxos.org/perf/</loc>
-        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://doscom.github.io/tealinuxos.org/support-vuejs/</loc>
-        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://doscom.github.io/tealinuxos.org/v2/api/</loc>
-        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://doscom.github.io/tealinuxos.org/v2/cookbook/adding-instance-properties.html</loc>
-        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://doscom.github.io/tealinuxos.org/v2/cookbook/</loc>
-        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://doscom.github.io/tealinuxos.org/v2/examples/commits.html</loc>
-        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://doscom.github.io/tealinuxos.org/v2/examples/</loc>
-        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://doscom.github.io/tealinuxos.org/v2/guide/class-and-style.html</loc>
-        <lastmod>2017-01-27T17:57:37.033Z</lastmod>
+        <loc>https://doscom.github.io/tealinuxos.org/</loc>
+        <lastmod>2017-02-07T00:54:15.341Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>https://doscom.github.io/tealinuxos.org/blog/</loc>
-        <lastmod>2017-01-27T17:57:37.030Z</lastmod>
+        <lastmod>2017-02-07T00:54:15.341Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://doscom.github.io/tealinuxos.org/kontribusi/</loc>
+        <lastmod>2017-02-07T00:54:15.341Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://doscom.github.io/tealinuxos.org/perf/</loc>
+        <lastmod>2017-02-07T00:54:15.341Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://doscom.github.io/tealinuxos.org/support-vuejs/</loc>
+        <lastmod>2017-02-07T00:54:15.341Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://doscom.github.io/tealinuxos.org/v2/cookbook/adding-instance-properties.html</loc>
+        <lastmod>2017-02-07T00:54:15.341Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://doscom.github.io/tealinuxos.org/v2/cookbook/</loc>
+        <lastmod>2017-02-07T00:54:15.341Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://doscom.github.io/tealinuxos.org/v2/examples/</loc>
+        <lastmod>2017-02-07T00:54:15.341Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://doscom.github.io/tealinuxos.org/v2/examples/commits.html</loc>
+        <lastmod>2017-02-07T00:54:15.341Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://doscom.github.io/tealinuxos.org/v2/guide/class-and-style.html</loc>
+        <lastmod>2017-02-07T00:54:15.341Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://doscom.github.io/tealinuxos.org/v2/api/</loc>
+        <lastmod>2017-02-07T00:54:15.341Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

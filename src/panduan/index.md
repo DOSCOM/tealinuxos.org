@@ -1,7 +1,7 @@
 ---
-title: Panduan Pengguna TeaLinuxOS
+title: Kenalan dengan TealinuxOS
 type: panduan
-order: 101
+order: 1
 ---
 
 isi text disini
