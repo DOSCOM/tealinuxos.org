@@ -3,11 +3,12 @@
     <input type="text" id="search-query-<%- context %>" class="search-query st-default-search-input">
   </form>
 </li>
-<li><a href="/panduan/">Panduan</a></li>
+<!-- <li><a href="<%- url_for('panduan/') %>">Panduan</a></li> -->
+<li><a href="<%- url_for('/panduan') %>">Panduan</a></li>
 
 <!--li><a href="/v2/guide/" class="nav-link<%- page.path.match(/guide/) ? ' current' : '' %>">Dukungan</a></li-->
 
-<li><a href="/kontribusi/">Kontribusi</a></li>
-<li><a href="/blog/">Blog</a></li>
+<li><a href="<%- url_for('kontribusi/') %>">Kontribusi</a></li>
+<li><a href="<%- url_for('blog/') %>">Blog</a></li>
 <!-- <%- partial('partials/ecosystem_dropdown') %> -->
 <%- partial('partials/language_dropdown') %>

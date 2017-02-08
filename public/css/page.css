@@ -138,6 +138,7 @@ em {
 }
 p {
   word-spacing: 0.05em;
+  line-height: 1.5em;
 }
 a.button {
   padding: 0.75em 2em;
@@ -418,7 +419,7 @@ body.docs #nav {
   position: absolute;
   width: 30px;
   height: 30px;
-  background: url("../images/logo.png") center center no-repeat;
+  background: url("../images/tealinuxos-logos/tealinuxos-logo-192x192.png") center center no-repeat;
   top: 5px;
   left: 50%;
   margin-left: -15px;
@@ -667,6 +668,9 @@ ul.demo li {
   max-width: 600px;
   margin: 0 auto;
 }
+.content.lebar {
+  max-width: 80%;
+}
 .content.api > a:first-of-type > h2 {
   margin-top: 0;
   padding-top: 0;
@@ -704,6 +708,9 @@ ul.demo li {
 }
 .content h1 {
   margin: 0 0 1em;
+}
+.content h1.tengah {
+  text-align: center;
 }
 .content h2:before,
 .content h3:before {
@@ -819,6 +826,27 @@ ul.demo li {
 }
 .content p.tip em {
   color: #34495e;
+}
+.lebar {
+  max-width: 80%;
+}
+span.breathe {
+  margin: 20px auto;
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #ff4081;
+  content: "";
+}
+.tombol {
+  color: #000;
+  margin: 1em 0;
+  font-size: 1.05em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.tombol:first-child {
+  margin-right: 1em;
 }
 .guide-links {
   margin-top: 2em;

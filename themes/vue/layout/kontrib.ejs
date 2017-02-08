@@ -1,0 +1,24 @@
+<!-- <div class="content <%- page.type ? page.type + ' with-sidebar' : '' %> <%- page.type === 'guide' ? page.path.replace(/.+\//, '').replace('.html', '') + '-guide' : '' %>"> -->
+<div class="content lebar">
+    <% if (page.type) { %>
+      <%- partial('partials/ad') %>
+    <% } %>
+    <% if (page.title.trim()) { %>
+      <h1 class="tengah"><%- page.title %><%- page.type === 'examples' ? ' Example' : '' %></h1>
+    <% } %>
+    <%- page.content %>
+    <span class="breathe"></span>
+
+    <p>
+        <a class="tombol white" href="/download/">Download TeaLinuxOS</a>
+        <a class="tombol white" href="/panduan/">Lihat Panduan</a>
+    </p>
+
+
+    <div class="footer">
+      Menemukan kesahalan atau ingin berkontribusi pada dokumentasi ini ?
+      <a href="https://github.com/tealinuxos/tealinuxos.org/blob/master/src/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank"><br>
+        Sunting halaman ini secara langsung di Github
+      </a>
+    </div>
+</div>
