@@ -1,7 +1,7 @@
 ---
 title: Kenalan dengan TealinuxOS
 type: panduan
-order: 1
+order: 101
 ---
 
 ## Apa itu Tealinuxos?

@@ -1,7 +1,7 @@
 ---
 title: Instalasi TealinuxOS
 type: panduan
-order: 100
+order: 102
 ---
 
 isi text disini
