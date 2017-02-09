@@ -1,7 +1,7 @@
 ---
-title: Menjaga Keamanan Komputer
+title: Perintah Baris
 type: panduan
-order: 13
+order: 113
 ---
 
 ## Daftar Perintah Umum

@@ -1,11 +1,11 @@
 ---
 title: Pengenalan Aplikasi Bawaan
 type: panduan
-order: 6
+order: 106
 ---
 
 ## Aplikasi Multimedia
 
 ## Aplikasi Perkantoran
 
-## Browser 
+## Browser

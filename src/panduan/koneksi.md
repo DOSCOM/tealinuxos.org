@@ -1,7 +1,7 @@
 ---
 title: Koneksi Jaringan dan Internet
 type: panduan
-order: 7
+order: 107
 ---
 
 ## Menyambung dan Memutuskan jaringan

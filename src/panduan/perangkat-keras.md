@@ -1,7 +1,7 @@
 ---
-title: Menjaga Keamanan Komputer
+title: Perangkat Keras
 type: panduan
-order: 11
+order: 111
 ---
 
 ## Pembatasan Beberapa Driver

@@ -1,9 +1,9 @@
 ---
 title: Mengelola Aplikasi Terinstall
 type: panduan
-order: 9
+order: 109
 ---
 
 ## Menginstall Software
 
-## Uninstall Software 
+## Uninstall Software

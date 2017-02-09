@@ -1,7 +1,7 @@
 ---
-title: Menjaga Keamanan Komputer
+title: Tugas-tugas administratif
 type: panduan
-order: 12
+order: 112
 ---
 
 ## User dan Grub

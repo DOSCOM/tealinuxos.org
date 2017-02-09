@@ -1,7 +1,7 @@
 ---
 title: Print dan Scant
 type: panduan
-order: 8
+order: 108
 ---
 
 ## Penggunaan Printer

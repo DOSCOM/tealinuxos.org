@@ -1,7 +1,7 @@
 ---
 title: Migrasi dan Upgrade
 type: panduan
-order: 3
+order: 103
 ---
 
 ## Migrasi dari Windows
@@ -11,4 +11,4 @@ Jika anda sebelumnya hanya menggunakan sistem operasi windows maka selamat datan
 
 ## Cara mengupgrade
 
-TeaLinuxOS diluncurkan setahun sekali biasanya pada bulan april (diputuskan oleh tim rilis) anda dapat mengupgrade versi TeaLinuxOS anda dengan cara mengunduhnya di [pinguin](http://pinguin.dinus.ac.id/iso/tealinuxos/). 
+TeaLinuxOS diluncurkan setahun sekali biasanya pada bulan april (diputuskan oleh tim rilis) anda dapat mengupgrade versi TeaLinuxOS anda dengan cara mengunduhnya di [pinguin](http://pinguin.dinus.ac.id/iso/tealinuxos/).
