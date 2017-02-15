@@ -10,8 +10,8 @@
     transition background-color .3s ease-in-out
 
 .content
-    &.lebar
-        max-width: 80%
+    &.contrib-width
+        max-width: 70%
     position relative
     padding 2.2em 0
     max-width 600px
@@ -25,15 +25,6 @@
             line-height 1.4em
             ul, p
                 margin .6em 0
-    a.button
-        font-size .9em
-        color #fff
-        margin .2em 0
-        width 180px
-        text-align center
-        padding 12px 24px
-        display inline-block
-        vertical-align middle
     img
         max-width 100%
     span.light
@@ -45,9 +36,8 @@
         width 280px
         margin-left 20px
     h1
-        margin 0 0 1em
-        &.tengah
-            text-align: center
+        margin 1em 0
+
     h2, h3
         &:before
             content ''
@@ -157,14 +147,36 @@
         height: 2px
         background-color: #FF4081
         content: ""
-    .tombol
-        color: #000
-        margin 1em 0
-        font-size 1.05em
-        font-weight 600
-        letter-spacing .1em
-        &:first-child
-            margin-right 1em
+
+.tea-center-block
+    display: block
+    margin-right: auto
+    margin-left: auto
+
+.tea-center
+    text-align: center
+    text-align-last: center
+
+.tea-center-button
+    text-align: center
+    text-align-last: center
+    display: flex
+    flex-wrap: wrap
+    margin-bottom: 2em
+    // display: table
+    // content: " "
+
+
+.contrib-button
+    white-space: normal
+    margin: 0.4em 0.3%
+    position: relative
+    min-height: 1px
+    padding-right: 15px
+    padding-left: 15px
+    width: 24.1%
+    float: left
+
 // end
 
 .guide-links
@@ -187,8 +199,6 @@
         background-color rgba(255,255,255,.4)
 
 @media screen and (max-width: 1300px)
-    .content.with-sidebar
-        margin-left 290px
     #ad
         z-index 7
         position relative
@@ -229,8 +239,13 @@
     .footer
         margin-left 0
         text-align center
+    .contrib-button
+        width: 33.33333333%
 
 @media screen and (max-width: 560px)
+    .content
+        &.contrib-width
+            max-width: 100%
     #downloads
         text-align center
         margin-bottom 25px
@@ -239,3 +254,5 @@
             margin-left 0
     iframe
         margin: 0 !important
+    .contrib-button
+        width: 50%

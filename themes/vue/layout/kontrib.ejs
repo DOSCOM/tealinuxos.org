@@ -1,23 +1,43 @@
-<!-- <div class="content <%- page.type ? page.type + ' with-sidebar' : '' %> <%- page.type === 'guide' ? page.path.replace(/.+\//, '').replace('.html', '') + '-guide' : '' %>"> -->
-<div class="content lebar">
-    <% if (page.type) { %>
-      <%- partial('partials/ad') %>
-    <% } %>
-    <% if (page.title.trim()) { %>
-      <h1 class="tengah"><%- page.title %><%- page.type === 'examples' ? ' Example' : '' %></h1>
-    <% } %>
-    <%- page.content %>
+<% if (page.type) { %>
+    <div class="sidebar">
+      <ul class="main-menu">
+        <%- partial('partials/main_menu', { context: 'sidebar' }) %>
+      </ul>
+    </div>
+<% } else { %>
+
+<% } %>
+<div id="hero" class="content <%- page.type ? page.type + ' with-sidebar' : '' %> <%- page.type === 'panduan' ? page.path.replace(/.+\//, '').replace('.html', '') + '-panduan' : '' %> contrib-width">
+
+    <h1 class="tea-center"><%- page.title %></h1>
+    <p class="tea-center">
+        <%- page.subtitle %>
+    </p>
     <span class="breathe"></span>
 
-    <p>
-        <a class="tombol white" href="/download/">Download TeaLinuxOS</a>
-        <a class="tombol white" href="/panduan/">Lihat Panduan</a>
-    </p>
+    <div class="tea-center-button">
+        <a class="button white contrib-button" href="#Konten-Panduan">Konten Panduan</a>
+        <a class="button white contrib-button" href="#Web-Development">Web</a>
+        <a class="button white contrib-button" href="#">Tim Pengembang</a>
+        <a class="button white contrib-button" href="#">putih</a>
+    </div>
 
+    <%- page.content %>
+
+    <% if (page.type === 'panduan') { %>
+      <div class="guide-links">
+        <% site.pages.find({ type: page.type, order: page.order - 1 }).each(function (page) { %>
+          <span>← <a href="<%- url_for(page.path) %>"><%- page.title %></a></span>
+        <% }) %>
+        <% site.pages.find({ type: page.type, order: page.order + 1 }).each(function (page) { %>
+          <span style="float:right"><a href="<%- url_for(page.path) %>"><%- page.title %></a> →</span>
+        <% }) %>
+      </div>
+    <% } %>
 
     <div class="footer">
       Menemukan kesahalan atau ingin berkontribusi pada dokumentasi ini ?
-      <a href="https://github.com/tealinuxos/tealinuxos.org/blob/master/src/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank"><br>
+      <a href="https://github.com/doscom/tealinuxos.org/blob/master/src/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank"><br>
         Sunting halaman ini secara langsung di Github
       </a>
     </div>
