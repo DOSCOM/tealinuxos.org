@@ -7,7 +7,7 @@
     </ul>
   </div>
 <% } %>
-<div class="content <%- page.type ? page.type + ' with-sidebar' : '' %> <%- page.type === 'guide' ? page.path.replace(/.+\//, '').replace('.html', '') + '-guide' : '' %>">
+<div class="content <%- page.type ? page.type + ' with-sidebar' : '' %> <%- page.type === 'panduan' ? page.path.replace(/.+\//, '').replace('.html', '') + '-panduan' : '' %>">
     <% if (page.type) { %>
       <%- partial('partials/ad') %>
     <% } %>
@@ -15,7 +15,8 @@
       <h1><%- page.title %><%- page.type === 'examples' ? ' Example' : '' %></h1>
     <% } %>
     <%- page.content %>
-    <% if (page.type === 'guide') { %>
+
+    <% if (page.type === 'panduan') { %>
       <div class="guide-links">
         <% site.pages.find({ type: page.type, order: page.order - 1 }).each(function (page) { %>
           <span>← <a href="<%- url_for(page.path) %>"><%- page.title %></a></span>
@@ -25,6 +26,7 @@
         <% }) %>
       </div>
     <% } %>
+
     <div class="footer">
       Menemukan kesahalan atau ingin berkontribusi pada dokumentasi ini ?
       <a href="https://github.com/doscom/tealinuxos.org/blob/master/src/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank"><br>
