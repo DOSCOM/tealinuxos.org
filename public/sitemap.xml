@@ -3,16 +3,12 @@
 
     <sitemap>
         <loc>https://tealinuxos.github.io/post-sitemap.xml</loc>
-        <lastmod>2017-01-27T17:57:37.030Z</lastmod>
+        <lastmod>2017-02-07T00:54:15.341Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://tealinuxos.github.io/page-sitemap.xml</loc>
-<<<<<<< HEAD
-        <lastmod>2017-02-14T03:53:41.686Z</lastmod>
-=======
-        <lastmod>2017-02-09T13:40:43.486Z</lastmod>
->>>>>>> a4339021da7b3c676763372012433399eaae4568
+        <lastmod>2017-02-15T05:57:54.205Z</lastmod>
     </sitemap>
 
 </sitemapindex>

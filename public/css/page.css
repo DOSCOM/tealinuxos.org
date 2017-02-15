@@ -662,6 +662,14 @@ ul.demo li {
   box-shadow: 0 0 1px rgba(0,0,0,0.25);
   transition: background-color 0.3s ease-in-out;
 }
+.tea-center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tea-center {
+  text-align: center;
+}
 .content {
   position: relative;
   padding: 2.2em 0;
@@ -669,7 +677,7 @@ ul.demo li {
   margin: 0 auto;
 }
 .content.lebar {
-  max-width: 80%;
+  max-width: 70%;
 }
 .content.api > a:first-of-type > h2 {
   margin-top: 0;
@@ -682,16 +690,6 @@ ul.demo li {
 .content.api ul ul,
 .content.api ul p {
   margin: 0.6em 0;
-}
-.content a.button {
-  font-size: 0.9em;
-  color: #fff;
-  margin: 0.2em 0;
-  width: 180px;
-  text-align: center;
-  padding: 12px 24px;
-  display: inline-block;
-  vertical-align: middle;
 }
 .content img {
   max-width: 100%;
@@ -708,9 +706,6 @@ ul.demo li {
 }
 .content h1 {
   margin: 0 0 1em;
-}
-.content h1.tengah {
-  text-align: center;
 }
 .content h2:before,
 .content h3:before {
@@ -837,16 +832,6 @@ span.breathe {
   height: 2px;
   background-color: #ff4081;
   content: "";
-}
-.tombol {
-  color: #000;
-  margin: 1em 0;
-  font-size: 1.05em;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-}
-.tombol:first-child {
-  margin-right: 1em;
 }
 .guide-links {
   margin-top: 2em;
