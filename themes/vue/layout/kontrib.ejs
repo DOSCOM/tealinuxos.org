@@ -1,21 +1,26 @@
+<% if (page.type) { %>
+    <div class="sidebar">
+      <ul class="main-menu">
+        <%- partial('partials/main_menu', { context: 'sidebar' }) %>
+      </ul>
+    </div>
+<% } else { %>
 
-<div class="content <%- page.type ? page.type + ' with-sidebar' : '' %> <%- page.type === 'panduan' ? page.path.replace(/.+\//, '').replace('.html', '') + '-panduan' : '' %>">
-    <% if (page.type) { %>
-      <%- partial('partials/ad') %>
-    <% } %>
-    <% if (page.title.trim()) { %>
-      <h1 class="tengah"><%- page.title %><%- page.type === 'examples' ? ' Example' : '' %></h1>
-    <% } %>
+<% } %>
+<div id="hero" class="content <%- page.type ? page.type + ' with-sidebar' : '' %> <%- page.type === 'panduan' ? page.path.replace(/.+\//, '').replace('.html', '') + '-panduan' : '' %> contrib-width">
 
-    <p>
+    <h1 class="tea-center"><%- page.title %></h1>
+    <p class="tea-center">
         <%- page.subtitle %>
     </p>
     <span class="breathe"></span>
 
-    <p class="">
-        <a class="button white tombol" href="/download/">ijo</a>
-        <a class="button white tombol" href="/panduan/">putih</a>
-    </p>
+    <div class="tea-center-button">
+        <a class="button white contrib-button" href="#Konten-Panduan">Konten Panduan</a>
+        <a class="button white contrib-button" href="#Web-Development">Web</a>
+        <a class="button white contrib-button" href="#">Tim Pengembang</a>
+        <a class="button white contrib-button" href="#">putih</a>
+    </div>
 
     <%- page.content %>
 

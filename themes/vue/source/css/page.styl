@@ -10,7 +10,7 @@
     transition background-color .3s ease-in-out
 
 .content
-    &.lebar
+    &.contrib-width
         max-width: 70%
     position relative
     padding 2.2em 0
@@ -36,9 +36,8 @@
         width 280px
         margin-left 20px
     h1
-        margin 0 0 1em
-        &.tengah
-            text-align: center
+        margin 1em 0
+
     h2, h3
         &:before
             content ''
@@ -148,14 +147,35 @@
         height: 2px
         background-color: #FF4081
         content: ""
-    p
-        text-align: center
-        padding-left: auto
-        padding-right: auto
-        .tombol
-            width: 20%
-            display: inline-block
-            margin:2em
+
+.tea-center-block
+    display: block
+    margin-right: auto
+    margin-left: auto
+
+.tea-center
+    text-align: center
+    text-align-last: center
+
+.tea-center-button
+    text-align: center
+    text-align-last: center
+    display: flex
+    flex-wrap: wrap
+    margin-bottom: 2em
+    // display: table
+    // content: " "
+
+
+.contrib-button
+    white-space: normal
+    margin: 0.4em 0.3%
+    position: relative
+    min-height: 1px
+    padding-right: 15px
+    padding-left: 15px
+    width: 24.1%
+    float: left
 
 // end
 
@@ -179,8 +199,6 @@
         background-color rgba(255,255,255,.4)
 
 @media screen and (max-width: 1300px)
-    .content.with-sidebar
-        margin-left 290px
     #ad
         z-index 7
         position relative
@@ -221,8 +239,13 @@
     .footer
         margin-left 0
         text-align center
+    .contrib-button
+        width: 33.33333333%
 
 @media screen and (max-width: 560px)
+    .content
+        &.contrib-width
+            max-width: 100%
     #downloads
         text-align center
         margin-bottom 25px
@@ -231,3 +254,5 @@
             margin-left 0
     iframe
         margin: 0 !important
+    .contrib-button
+        width: 50%
