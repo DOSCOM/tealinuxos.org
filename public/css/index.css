@@ -149,6 +149,7 @@ a.button {
   transition: all 0.15s ease;
   box-sizing: border-box;
   border: 1px solid #0d9d57;
+  text-align: center;
 }
 a.button.white {
   background-color: #fff;
@@ -648,6 +649,10 @@ body {
 #highlights .point p {
   color: #7f8c8d;
 }
+#highlights .point span {
+  font-size: 30px;
+  color: #0d9d57;
+}
 #highlights .description {
   width: 75%;
   display: inline-block;
@@ -657,6 +662,40 @@ body {
 }
 #highlights .description p {
   font-size: 16px;
+}
+#feature {
+  background: #02b875;
+  color: #fff;
+}
+#feature .box-nested {
+  padding: 2rem;
+  text-align: center;
+}
+#feature .left-side {
+  text-align: left;
+  padding-left: 12rem;
+}
+#feature .right-side {
+  text-align: left;
+  padding-right: 8rem;
+}
+#feature img,
+#feature video {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#feature h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.2vw;
+}
+#feature h2 {
+  color: #fff;
+  font-size: 1.9vw;
+}
+#feature p {
+  font-size: 1.1vw;
 }
 #sponsors {
   text-align: center;
@@ -756,8 +795,39 @@ body {
     width: 300px;
     padding: 0 40px 30px;
   }
-  #highlights .point:before {
-    content: "—";
+  #highlights .point span {
+    font-size: 30px;
     color: #0d9d57;
+  }
+  #feature {
+    background: #02b875;
+    color: #fff;
+  }
+  #feature .box-nested {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  #feature .left-side {
+    text-align: left;
+  }
+  #feature .right-side {
+    text-align: left;
+  }
+  #feature img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  #feature h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 4.5vmax;
+  }
+  #feature h2 {
+    color: #fff;
+    font-size: 4vmax;
+  }
+  #feature p {
+    font-size: 3vmax;
   }
 }
