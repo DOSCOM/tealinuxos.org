@@ -4,16 +4,16 @@
     <head>
         <title>Perintah Baris - TeaLinuxOS</title>
         <meta charset="utf-8">
-        <meta name="description" content="Slogan TeaLinuxOS">
+        <meta name="description" content="Operating System for Your Development Environment">
         <meta name="viewport" con tent="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta property="og:type" content="article">
         <meta property="og:title" content="Perintah Baris - TeaLinuxOS">
-        <meta property="og:description" content="Slogan TeaLinuxOS">
+        <meta property="og:description" content="Operating System for Your Development Environment">
         <meta property="og:image" content="https://tealinuxos.org/images/tealinuxos.png">
 
         <meta name="twitter:card" content="summary">
         <meta name="twitter:title" content="Perintah Baris - TeaLinuxOS">
-        <meta name="twitter:description" content="Slogan TeaLinuxOS">
+        <meta name="twitter:description" content="Operating System for Your Development Environment">
         <meta name="twitter:image" content="https://tealinuxos.org/images/tealinuxos.png">
 
         <link rel="icon" href="/images/tealinuxos-logos/favicon.ico" type="image/x-icon">
@@ -21,6 +21,12 @@
 
         <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'>
         <link href='//fonts.googleapis.com/css?family=Dosis:500&text=Vue.js' rel='stylesheet' type='text/css'>
+
+        <!-- Simple Line Icon    -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+
+        <!-- CSS GRID -->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
 
         <!-- main page styles -->
         <link rel="stylesheet" href="/css/page.css">
@@ -285,8 +291,41 @@
     
       <h1>Perintah Baris</h1>
     
-    <h2 id="Daftar-Perintah-Umum"><a href="#Daftar-Perintah-Umum" class="headerlink" title="Daftar Perintah Umum"></a>Daftar Perintah Umum</h2><p>text</p>
-<h2 id="Menjalankan-Perintah-dengan-Hak-Administrasi"><a href="#Menjalankan-Perintah-dengan-Hak-Administrasi" class="headerlink" title="Menjalankan Perintah dengan Hak Administrasi"></a>Menjalankan Perintah dengan Hak Administrasi</h2>
+    <h2 id="Daftar-Perintah-Umum"><a href="#Daftar-Perintah-Umum" class="headerlink" title="Daftar Perintah Umum"></a>Daftar Perintah Umum</h2><p>Untuk menjelajah atau beraktivitas di TealinuxOS atau distro linux lainya selain menggunakan Graphical User Interface (GUI) anda juga dapat menggunakan Command Line Interface(CLI). Berikut ini merupakan beberapa perintah yang umum digunakan dalam CLI.</p>
+<ul>
+<li><p>Melihat direktori kita berada</p>
+<p>Perintah <code>pwd</code> atau print working directory digunakan untuk mengetahui posisi direktori dimana kita berada.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ pwd</div></pre></td></tr></table></figure>
+</li>
+<li><p>Pindah Direktori</p>
+<p>Perintah <code>cd</code> digunakan untuk mengubah direktori dimana kita berada. cd [nama_direktori] Untuk kembali kedirekroti satu level sebelumnya perintah yang digunakan sebagai berikut.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ cd .</div></pre></td></tr></table></figure>
+<p>Untuk kembali kedirektori root perintahnya sebagai berikut.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ cd ..</div></pre></td></tr></table></figure>
+</li>
+<li><p>List</p>
+<p>Perintah <code>ls</code> digunakan untuk menampilkan daftar file yang ada di direktori. ls Untuk menampilkan list file yang ada didirektori tertentu</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ ls [nama_direktori]</div></pre></td></tr></table></figure>
+</li>
+<li><p>Copy File</p>
+<p>Perintah <code>cp</code> digunakan untuk mengopi file atau direktori ke direktori lain.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ cp [nama_file] [nama_direktori]</div></pre></td></tr></table></figure>
+</li>
+<li><p>Pindah File</p>
+<p>Perintah <code>mv</code> digunakan untuk memindah file atau direktori ke direktori lain.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ mv [nama_file] [nama_direktori]</div></pre></td></tr></table></figure>
+</li>
+<li><p>Hapus File</p>
+<p>Perintah <code>rm</code> digunakan untuk menghapus file atau direktori ke direktori lain.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ rm [nama_file]</div></pre></td></tr></table></figure>
+</li>
+<li><p>Penggunaan perintah</p>
+<p>Perintah <code>man</code> digunakan untuk menampilkan cara penggunaan suatu perintah.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ man [nama_perintah] man rm</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="Menjalankan-Perintah-dengan-Hak-Administrasi"><a href="#Menjalankan-Perintah-dengan-Hak-Administrasi" class="headerlink" title="Menjalankan Perintah dengan Hak Administrasi"></a>Menjalankan Perintah dengan Hak Administrasi</h2><p>Ketika anda bekerja dengan perintah-perintah baris, beberapa perintah tidak bisa dilakukan tanpa hak administrator, sehingga butuh perintah sudo di awal setiap perintah tersebut. Sesaat setelah anda memberi perintah sudo sistem akan meminta password lalu akan mengingatnya selama 15 menit. Dalam waktu 15 menit ini anda dapat menjalankan perintah sudo tanpa harus mengetik password setiap kali menjalankan perintahnya. <figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ sudo apt-get update</div></pre></td></tr></table></figure></p>
+
 
     
       <div class="guide-links">
