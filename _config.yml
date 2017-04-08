@@ -8,11 +8,10 @@ subtitle: Nikmatnya Sebuah Racikan
 description: Nikmatnya Sebuah Racikan
 author: Doscom - Dinus Open Source Community
 email: sekretariat@doscom.org
-language: [id, en]
+language: [id]
 i18n:
   type: [page, post]
   generator: [index]
-i18n_dir: :lang
 
 timezone: Asia/Jakarta
 
