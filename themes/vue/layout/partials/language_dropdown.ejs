@@ -1,6 +1,11 @@
 <li class="nav-dropdown-container language">
-  <a class="nav-link">Translation</a><span class="arrow"></span>
-  <ul class="nav-dropdown">
-    <li><a href="https://en.tealinuxos.org/" class="nav-link" target="_blank">English</a></li>
-  </ul>
-</li>
+    <a class="nav-link"><span class="icon-globe"></span> Translation</a><span class="arrow"></span>
+    <ul class="nav-dropdown">
+        <% if (config.language == 'id') { %>
+            <li><a href="https://en.tealinuxos.org/" class="nav-link" target="_blank">English</a></li>
+        <% } else { %>
+            <li><a href="https://tealinuxos.org/" class="nav-link" target="_blank">Indonesia</a></li>
+        <% } %>
+
+            </ul>
+        </li>

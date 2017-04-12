@@ -6,5 +6,4 @@ index:
     slogan: Operating System for Your Development Environment
     tombol-download: Download TealinuxOS
     tombol-lihat: Lihat Panduan
-page:
-    footer: Menemukan kesahalan atau ingin berkontribusi pada dokumentasi ini ?  <a href="https://github.com/doscom/tealinuxos.org/blob/master/src/" target="_blank"><br> Sunting halaman ini secara langsung di Github  </a>
+    adalah: TeaLinuxOS adalah distro Linux turunan Ubuntu yang dikembangkan oleh Dinus Open Source Community (DOSCOM) dan kawan-kawan yang berorientasi pemrograman. Dengan menghadirkan filosofi, “Nikmatnya sebuah racikan”, TeaLinuxOS dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distro Linux pemrograman yang dikhususkan untuk dunia pendidikan.
