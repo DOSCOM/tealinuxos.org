@@ -667,6 +667,9 @@ body {
   background: #02b875;
   color: #fff;
 }
+#feature .row {
+  margin: 0;
+}
 #feature .box-nested {
   padding: 2rem;
   text-align: center;
