@@ -29,7 +29,12 @@
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
 
         <!-- main page styles -->
-        <%- css(isIndex ? 'css/index' : 'css/page') %>
+        <!-- <%- css(isIndex ? 'css/index' : 'css/page') %> -->
+        <% if (page.layout == 'index' || isIndex) { %>
+            <link rel="stylesheet" href="/css/index.css">
+        <% } else { %>
+            <link rel="stylesheet" href="/css/page.css">
+         <% } %>
 
         <!-- this needs to be loaded before guide's inline scripts -->
         <!-- <script src="/js/vue.js"></script> -->
