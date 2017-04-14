@@ -115,7 +115,6 @@ feed:
   limit: 20
 
 alias:
-  api/index.html: v2/api/index.html
 
 sitemap:
     path: sitemap.xml
