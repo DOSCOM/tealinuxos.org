@@ -622,6 +622,11 @@ body {
   vertical-align: middle;
   margin-right: 15px;
 }
+.tea-hero {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
 #highlights {
   background-color: #fff;
   padding-bottom: 70px;
