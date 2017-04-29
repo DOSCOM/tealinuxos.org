@@ -1,6 +1,7 @@
 ---
 title: Tugas-tugas administratif
 type: panduan
+lang: id
 order: 112
 ---
 
@@ -41,6 +42,3 @@ order: 112
     Klik tombol `Manage Groups`
     Pilih Grup yang akan dihapus
     Klik tombol `delete`
-
-
-

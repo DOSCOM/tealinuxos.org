@@ -18,10 +18,10 @@
 
     <% if (page.type === 'panduan') { %>
       <div class="guide-links">
-        <% site.pages.find({ type: page.type, order: page.order - 1 }).each(function (page) { %>
+        <% site.pages.find({ type: page.type, lang: page.lang, order: page.order - 1 }).each(function (page) { %>
           <span>← <a href="<%- url_for_lang(page.path) %>"><%- page.title %></a></span>
         <% }) %>
-        <% site.pages.find({ type: page.type, order: page.order + 1 }).each(function (page) { %>
+        <% site.pages.find({ type: page.type, lang: page.lang, order: page.order + 1 }).each(function (page) { %>
           <span style="float:right"><a href="<%- url_for_lang(page.path) %>"><%- page.title %></a> →</span>
         <% }) %>
       </div>
