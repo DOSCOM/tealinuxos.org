@@ -87,7 +87,7 @@ pre .xml .cdata {
   opacity: 0.5;
 }
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 15px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -140,10 +140,11 @@ p {
   word-spacing: 0.05em;
   line-height: 1.5em;
 }
-a.button {
+.button {
   padding: 0.75em 2em;
   border-radius: 2em;
   display: inline-block;
+  margin-bottom: 1em;
   color: #fff;
   background-color: #0d9d57;
   transition: all 0.15s ease;
@@ -151,9 +152,12 @@ a.button {
   border: 1px solid #0d9d57;
   text-align: center;
 }
-a.button.white {
+.button.white {
   background-color: #fff;
   color: #0d9d57;
+}
+.responsive {
+  width: 100%;
 }
 .highlight {
   overflow-x: auto;
@@ -420,7 +424,7 @@ body.docs #nav {
   position: absolute;
   width: 30px;
   height: 30px;
-  background: url("../images/tealinuxos-logos/tealinuxos-logo-192x192.png") center center no-repeat;
+  background: url("../images/hexa-logo.png") center center no-repeat;
   top: 5px;
   left: 50%;
   margin-left: -15px;
@@ -835,11 +839,7 @@ span.breathe {
   text-align: center;
   text-align-last: center;
 }
-.tea-center-button {
-  text-align: center;
-  text-align-last: center;
-  display: flex;
-  flex-wrap: wrap;
+.tea-button-group {
   margin-bottom: 2em;
 }
 .contrib-button {
