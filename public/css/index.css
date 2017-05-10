@@ -570,6 +570,12 @@ body {
 #mobile-bar.top .logo {
   display: none;
 }
+#header {
+  background-color: #9ad6b5;
+}
+#nav li a {
+  color: #2c3e50;
+}
 #hero {
   padding: 50px 40px;
   background-color: #fff;
@@ -597,6 +603,7 @@ body {
   margin-top: 50px;
 }
 #hero h1 {
+  color: #0a5230;
   font-weight: 300;
   margin: 0;
   font-size: 3em;
