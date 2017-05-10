@@ -1,0 +1,19 @@
+language: node_js
+branches:
+  only:
+  - master
+before_install:
+- npm install -g hexo
+- npm install
+before_script:
+- git config --global user.name 'tealinuxos via Travis CI'
+- git config --global user.email 'mailpakgasing@gmail.com'
+- sed -i'' "s~git@github.com:tealinuxos/tealinuxos.github.io.git~https://${GH_TOKEN}:x-oauth-basic@github.com/tealinuxos/tealinuxos.github.io.git~" _config.yml
+install:
+- hexo clean
+- hexo generate
+script:
+- hexo deploy --silent
+env:
+  global:
+    secure: aSgohf90DL7DN0jiORg1/Ilbn+HX1Zq53iVejEpJPzGvjeoPEQbfmFJ+hq+eXcW5+wfWaUr6Hibp66wOxoLv9N/+CenGzi+1UdK4AAGX5Yy75R2Lv6hpB1YiL/W6jiFwtan4XQi2TUM89gtoRIefoGqhbSG9k7grWleXvG8qoF1WrZQJ8A7YXy7K3DnqOEJNgypoQ/w5kAZUolvjYBfaQo+HrbaK7Q6jcoehFHBYWW5yBg53FJmSIA+Re03tSaRDniV1rl9kJwJ8VtvPK8R+18SV32eRecs1JO7TvNxSV4epM16oE17Y4qfuiwBj4HfJSF1JJLCx5X4rbP6fbZbtwlAnAcLWrxzcmZ+AtnJY3lzK6WPBnFmlsg4mPTI098K+tY6BNq+PALlXL/yp4CpWpNGZyvpYme9cYB99RWby3EJSo3zSYhjK828bPLGdMdyAIAO+jNX8Gqtkdw5AV0BfsaXp9KuMhGad0OAv4qKaohhCJjubxApWOzT4Wspvzk7OZleonG0/LOn4lIW8trzDPpHphrF6zSSJODPFJoFtvF7NmRX/XjICeDqzrX52I69uNB55lFoPyHS0motO1m1zui+KUHvMeTjhB2SX09c4SWvkFkDlssRQzvy24Q738KUtFcRkXrgDgfIyJQyVTFRrEdUh/7XMBzimJZYYz0/XGxc=
