@@ -819,9 +819,6 @@ ul.demo li {
 .content p.tip em {
   color: #34495e;
 }
-.lebar {
-  max-width: 80%;
-}
 span.breathe {
   margin: 20px auto;
   display: block;
@@ -840,7 +837,7 @@ span.breathe {
   text-align-last: center;
 }
 .tea-button-group {
-  margin-bottom: 2em;
+  margin: 2em 0;
 }
 .contrib-button {
   white-space: normal;

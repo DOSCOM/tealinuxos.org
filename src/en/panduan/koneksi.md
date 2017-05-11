@@ -1,5 +1,5 @@
 ---
-title: Koneksi Jaringan dan Internet
+title: Network and Internet Connection
 type: panduan
 order: 107
 ---
@@ -13,10 +13,10 @@ atau klik icon ![networkmanager](https://cloud.githubusercontent.com/assets/2614
 Koneksi jaringan di TealinuxOS Pappermint menggunakan network connection untuk mengatur jaringan menggunakan kabel, jaringan wireless, mobile broadband, VPN dan koneksi DSL. Network connection akan menghubungkan komputer anda secara otomatis dengan jaringan, namun jika penyambungan pertama kali biasanya memerlukan informasi keamanan untuk terhubung ke jaringan.
 
 Untuk memutuskan (disconnect) jaringan klik pada icon ![networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
- `NetworkManager` yang berada di panel lalu klik `disconnect.` 
+ `NetworkManager` yang berada di panel lalu klik `disconnect.`
 
 ## Konfigurasi koneksi
- 
+
  Jika anda menginginkan untuk mengkonfigurasi jaringan anda, Pada kotak dialog Netwok Connection anda akan melihat koneksi-koneksi jaringan yang ada. Pilih salah satu untuk mengatur konfigurasi atau anda dapat menambahkan koneksi jaringan baru dengan memilih `Add.`
 
 ## Berbagi koneksi ke komputer lain
@@ -44,11 +44,10 @@ Jika koneksi jaringan anda tidak bekerja secara sempurna anda dapat menggunakan 
 Untuk mengecek apakah koksi anda bekerja atau tidak anda dapat mengetesnya melalui ping.
 
 -    Buka terminal
--    ketikkan perintah 
-           
+-    ketikkan perintah
+
            ping tealinuxos.org
 
 -   lalu enter.
 
 Jika koneksi berhasil anda akan menerima pesan berupa jumlah statistik paket yang di transmisikan. Jika anda mendapat pasan `ping: unknown host tealinuxos.org` maka komputer anda mungkin tidak terhubung ke internet dan tidak dapat menjangkau Domine Name System (DNS) server.
-

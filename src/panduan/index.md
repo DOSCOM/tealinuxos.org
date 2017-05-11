@@ -9,7 +9,7 @@ order: 101
 [TeaLinuxOS](http://tealinuxos.org/) adalah distro Linux turunan Ubuntu yang dikembangkan oleh [Dinus Open Source Community (DOSCOM)](http://doscom.org/) yang berorientasi pemrograman. Dengan menghadirkan filosofi,
 
 > Nikmatnya sebuah racikan
-[@tealinuxos](https://twitter.com/tealinuxos)
+[@tealinuxos](https://www.instagram.com/doscomedia/)
 
 TeaLinuxOS dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distro Linux pemrograman yang dikhususkan untuk dunia pendidikan.
 
