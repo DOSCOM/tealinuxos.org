@@ -7,6 +7,48 @@
     </url>
     
     <url>
+        <loc>https://tealinuxos.github.io/en/panduan/aplikasi-tea.html</loc>
+        <lastmod>2017-05-11T18:08:15.749Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://tealinuxos.github.io/en/panduan/koneksi.html</loc>
+        <lastmod>2017-05-11T18:07:52.808Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://tealinuxos.github.io/en/panduan/install.html</loc>
+        <lastmod>2017-05-11T18:06:05.154Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://tealinuxos.github.io/en/panduan/</loc>
+        <lastmod>2017-05-11T18:03:05.993Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://tealinuxos.github.io/panduan/</loc>
+        <lastmod>2017-05-11T17:58:10.156Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://tealinuxos.github.io/kontribusi/</loc>
+        <lastmod>2017-05-11T16:44:06.780Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://tealinuxos.github.io/panduan/administrasi.html</loc>
         <lastmod>2017-04-29T13:11:16.909Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -56,14 +98,14 @@
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/perintah-baris.html</loc>
+        <loc>https://tealinuxos.github.io/en/panduan/print-dan-scan.html</loc>
         <lastmod>2017-04-29T12:51:29.089Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/print-dan-scan.html</loc>
+        <loc>https://tealinuxos.github.io/en/panduan/perintah-baris.html</loc>
         <lastmod>2017-04-29T12:51:29.089Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -77,13 +119,6 @@
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/kontribusi/</loc>
-        <lastmod>2017-04-29T12:51:29.085Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>https://tealinuxos.github.io/en/panduan/administrasi.html</loc>
         <lastmod>2017-04-29T12:51:29.085Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -91,28 +126,7 @@
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/aplikasi-tea.html</loc>
-        <lastmod>2017-04-29T12:51:29.085Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://tealinuxos.github.io/en/panduan/</loc>
-        <lastmod>2017-04-29T12:51:29.085Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://tealinuxos.github.io/en/panduan/install.html</loc>
-        <lastmod>2017-04-29T12:51:29.085Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://tealinuxos.github.io/en/panduan/koneksi.html</loc>
+        <loc>https://tealinuxos.github.io/en/kontribusi/</loc>
         <lastmod>2017-04-29T12:51:29.085Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -126,21 +140,7 @@
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/kontribusi/</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>https://tealinuxos.github.io/panduan/aplikasi-tea.html</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://tealinuxos.github.io/panduan/</loc>
         <lastmod>2017-04-29T12:48:43.899Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -182,13 +182,6 @@
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/pengenalan-de.html</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>https://tealinuxos.github.io/panduan/pengaturan.html</loc>
         <lastmod>2017-04-29T12:48:43.899Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -196,7 +189,7 @@
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/perangkat-keras.html</loc>
+        <loc>https://tealinuxos.github.io/panduan/pengenalan-de.html</loc>
         <lastmod>2017-04-29T12:48:43.899Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -204,6 +197,13 @@
     
     <url>
         <loc>https://tealinuxos.github.io/panduan/perintah-baris.html</loc>
+        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://tealinuxos.github.io/panduan/perangkat-keras.html</loc>
         <lastmod>2017-04-29T12:48:43.899Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>

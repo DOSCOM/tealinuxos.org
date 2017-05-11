@@ -6,21 +6,21 @@ order: 101
 
 ## What is Tealinuxos?
 
-[TeaLinuxOS](http://tealinuxos.org/) adalah distro Linux turunan Ubuntu yang dikembangkan oleh [Dinus Open Source Community (DOSCOM)](http://doscom.org/) yang berorientasi pemrograman. Dengan menghadirkan filosofi,
+[TeaLinuxOS](http://tealinuxos.org/) s a Linux distro oriented programming derived from Ubuntu developed by doscom. By presenting the philosophy,
 
-> Nikmatnya sebuah racikan
-[@tealinuxos](https://twitter.com/tealinuxos)
+> The Joy of Blend
+[@tealinuxos](https://www.instagram.com/doscomedia/)
 
-TeaLinuxOS dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distro Linux pemrograman yang dikhususkan untuk dunia pendidikan.
+TeaLinuxOS was developed openly and together to produce a Linux programming distro devoted to education.
 
-### Nama
+### Name
 
-TeaLinuxOS – Nikmatnya Sebuah Racikan!
-Kami menggunakan nama distro TeaLinuxOS karena beberapa alasan, yaitu tea yang dalam bahasa Indonesia berarti teh, merupakan minuman khas rakyat Indonesia yang merakyat dan dapat dikonsumsi semua orang. Kami berharap TeaLinuxOS dapat mencukupi kebutuhan penggunanya, terutama para programmer.
+TeaLinuxOS – The Joy of Blend!
+We use the name TeaLinuxOS distro for several reasons, namely tea which in the Indonesian language means tea, is a typical drink of the people of Indonesia populist and can be consumed by everyone. We hope TeaLinuxOS can meet the needs of its users, especially programmers.
 
-### Versi
+### Version
 
-TealinuxOS telah diluncurkan sebanyak 8 versi diantaranya adalah :
+TealinuxOS has been launched as many as 8 versions of which are:
 
 * TeaLinuxOS ver 1.0 Code Name : Green Tea, based on Ubuntu 8.04
 * TeaLinuxOS ver 2.0 Code Name : Black Tea, based on Ubuntu 9.10
@@ -31,18 +31,18 @@ TealinuxOS telah diluncurkan sebanyak 8 versi diantaranya adalah :
 * TeaLinuxOS ver 7.0 Code Name : Rosella Tea, based on Xubuntu 14.04
 * TeaLinuxOS ver 8.0 Code Name : Pappermint Tea, based on Xubuntu 16.04
 
-## Resep TealinuxOS
+## TealinuxOS Recipe
 
-Versi terakhir dari TealinuxOS adalah TealinuxOS 8 Pappermint yang dibuat dari core Xbuntu 16.04, Xfce dan FOSS.
+The latest version of TealinuxOS is TealinuxOS 8 Peppermint made from Xbuntu 16.04, Xfce and FOSS cores.
 
 ### Xubuntu 16.04 LTS
 
-Xubuntu merupakan sistem operasi elegan yang mudah digunakan dan dengan edisi LTS “Long Term Support” ini membuat TeaLinuxOS yang berbasis Xubuntu versi ini mendapat dukungan jangka panjang selama 5 tahun sehingga senantiasa stabil, handal dan aman. Untuk informasi lebih lanjut mengenai Xubuntu anda dapat berkunjung di webseite resmi [Xubuntu](http://xubuntu.org/).
+Xubuntu is an easy-to-use, elegant operating system and with the LTS "Long Term Support" edition this TeaLinuxOS Xubuntu-based version gets long-term support for 5 years so it's always stable, reliable and secure. For more information about Xubuntu you can visit the official webseite [Xubuntu](http://xubuntu.org/).
 
 ### XFCE
 
-Xfce merupakan dekstop environment yang ringan yang digunakan di TeaLinuxOS Pappermint. Dengan menggunakan Xfce pemakaian resource sistem lebih sedikit sehingga sistem operasi akan lebih ringan namum tanpa meninggalkan sisi user interface yang ramah pengguna. Untuk informasi lebih lanjut tentang xfce silahkan berkunjung di website resmi [Xfce](http://xfce.org/).
+Xfce is a lightweight desktop environment used in TeaLinuxOS Pappermint. By using Xfce less system resource usage so that the operating system will be lighter without leaving the user-friendly user interface. For more information about xfce please visit the official website [Xfce](http://xfce.org/).
 
 ### FOSS
 
-Semua software yang digunakan dalam sistem operasi TeaLinuxOS berlisensi bebas dan kode sumber yang terbuka semua orang dapat melihat kode sumbernya, berkontribusi memperbaiki atau membuatnya lebih baik. Untuk megetahui lebih tentang FOSS (Free Open Source Software) bisa dilihat di [GNU website](http://gnu.org/).
+All software used in the free licensed TeaLinuxOS operating system and open source code everyone can see the source code, contribute to improving or making it better. To know more about FOSS (Free Open Source Software) can be seen on [GNU website](http://gnu.org/).

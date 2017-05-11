@@ -1,5 +1,5 @@
 ---
-title: Pengenalan Aplikasi Bawaan
+title: Default App Introduction
 type: panduan
 order: 106
 ---
@@ -20,12 +20,12 @@ Multimedia Codec library yang memudahkan anda dapat memutar video-video dan musi
 ## Aplikasi Perkantoran
 
 ### LibreOffice 5
-TeaLinuxOS Pappermint telah menyediakan paket software perkantoran yaitu LibreOffice yang terdiri dari LibreOffice writer untuk pengolahan dokumen, LibreOffice Impress untuk pengolahan presentasi, LibreOffice Calc untuk pengolahan data spreadsheet dan banyak paket LibreOffice lainnya. Informas lebih lanjut silahkan kunjungi website resmi [LibreOffice](http://tealinuxos.org/dukungan/libreoffice.org). 
+TeaLinuxOS Pappermint telah menyediakan paket software perkantoran yaitu LibreOffice yang terdiri dari LibreOffice writer untuk pengolahan dokumen, LibreOffice Impress untuk pengolahan presentasi, LibreOffice Calc untuk pengolahan data spreadsheet dan banyak paket LibreOffice lainnya. Informas lebih lanjut silahkan kunjungi website resmi [LibreOffice](http://tealinuxos.org/dukungan/libreoffice.org).
 
 ## Browser
 
 ### Firefox
-Firefox merupakan browser yang sudah cukup tua sehingga stabil dan aman. TeaLinuxOS Pappermint menghadirkan browser Firefox sebagai deffault browser untuk menunjang produktifitas pengguna. Untuk mengetahui tentang Firefox dan berbagai fitur yang disediaannya anda dapat berkunjung ke website resmi [Firefox] (https://www.mozilla.org/id/firefox). 
+Firefox merupakan browser yang sudah cukup tua sehingga stabil dan aman. TeaLinuxOS Pappermint menghadirkan browser Firefox sebagai deffault browser untuk menunjang produktifitas pengguna. Untuk mengetahui tentang Firefox dan berbagai fitur yang disediaannya anda dapat berkunjung ke website resmi [Firefox] (https://www.mozilla.org/id/firefox).
 
 ## Sistem
 
@@ -51,5 +51,3 @@ Modul-modul ini dapat anda install dengan memasukkan DVD TealinuxOS lalu klik  !
 
 Lapor hama adalah aplikasi untuk melaporkan hama (bugs) atau saran untuk sistem operasi TeaLinuxOS dengan mudah, dengan demikian kami harap dapat mengetahui celah celah pada TeaLinux OS untuk TeaLinuxOS yang lebih baik.
 Selain melalui aplikasi ini, Anda juga dapat melaporkan hama TeaLinux OS di [tealinuxos.org/lapor](http://tealinuxos.org/lapor)
-
-

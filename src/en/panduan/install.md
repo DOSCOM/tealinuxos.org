@@ -1,5 +1,5 @@
 ---
-title: Instalasi TealinuxOS
+title: TealinuxOS Installation
 type: panduan
 order: 102
 ---
