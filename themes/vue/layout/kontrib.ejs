@@ -9,13 +9,18 @@
 <% } %>
 <div id="hero" class="content <%- page.type ? page.type + ' with-sidebar' : '' %> <%- page.type === 'panduan' ? page.path.replace(/.+\//, '').replace('.html', '') + '-panduan' : '' %> contrib-width">
 
-    <h1 class="tea-center"><%- page.title %></h1>
-    <p class="tea-center">
-        <%- page.subtitle %>
-    </p>
+    <div class="row center-xs">
+        <div class="col-xs-12 col-md-8">
+            <h1 class="tea-center"><%- page.title %></h1>
+            <p class="tea-center">
+                <%- page.subtitle %>
+            </p>
+
+        </div>
+    </div>
     <span class="breathe"></span>
 
-    <div class="">
+    <div class="tea-button-group">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <a class="button responsive white" href="#Konten-Panduan">Panduan</a>
@@ -27,12 +32,14 @@
                 <a class="button responsive white" href="#">Pengembang</a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <a class="button responsive white" href="#">putih</a>
+                <a class="button responsive white" href="#">Donasi</a>
             </div>
         </div>
     </div>
 
-    <%- page.content %>
+    <div class="isi-panduan">
+        <%- page.content %>
+    </div>
 
     <% if (page.type === 'panduan') { %>
       <div class="guide-links">

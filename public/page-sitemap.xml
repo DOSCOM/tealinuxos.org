@@ -7,6 +7,13 @@
     </url>
     
     <url>
+        <loc>https://tealinuxos.github.io/kontribusi/</loc>
+        <lastmod>2017-05-11T20:03:16.470Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://tealinuxos.github.io/en/panduan/aplikasi-tea.html</loc>
         <lastmod>2017-05-11T18:08:15.749Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -37,13 +44,6 @@
     <url>
         <loc>https://tealinuxos.github.io/panduan/</loc>
         <lastmod>2017-05-11T17:58:10.156Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://tealinuxos.github.io/kontribusi/</loc>
-        <lastmod>2017-05-11T16:44:06.780Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
