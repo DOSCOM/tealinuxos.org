@@ -107,7 +107,7 @@ deploy:
   repo: git@github.com:tealinuxos/tealinuxos.github.io.git
   message: "Website terakhir diperbaharui pada : {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
-cname: tea.wkwk.web.id
+cname: tealinuxos.org
 
 feed:
   type: atom
