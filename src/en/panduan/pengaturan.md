@@ -1,53 +1,58 @@
 ---
-title: Pengaturan dan Pilihan
-type: panduan
+title: Settings and Options
+type: Guide
 order: 105
 ---
 
-## Pengubahan Menu
+## Changing Menu
  
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  → Settings → Settings Manager → Menu Editor
-Pada menu editor ini anda dapat sepenuhnya dapat mengatur baik hirarkhi menu anda, menambahkan perintah-perintah, mengelompokkan aplikas-aplikasi favorit anda, maupun membuat launcher baru. 
 
-## Pengubahan Informasi Personal
+  In this menu editor you can fully manage your menu hierarchy, add commands, group your favorite apps, or create new launchers. 
+
+## Personal Information Changes
 
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png) 
  → Settings → User and Groups
-User and Gorups ini digunakan untuk mengubah informasi pengguna, diantaranya nama, username, password, jenis user apakan administrator atau user biasa. Pada pengaturan ini juga dapat ditambahkan user baru maupun menghapus user lama. Pengaturan Goups dapat menambahkan group baru, menambahkan user dan mengatur privileges user pada groub tersebut. Pada advance setting anda dapat menambahkan inforamsi contact, mengatur user privileges, dan pengaturan mendalam lainnya. 
 
-## Pengubahan Tampilan
+User and Groups is used to change user information, including name, username, password, user type whether administrator or normal user. In this setting you can also add a new user and delete the old user. Groups settings can add new groups, add users and manage user privileges on the groub. In advanced settings you can add contact information, manage user privileges, and other in-depth settings.
+
+## Changing Interface
  
- ### Menganti wallpaper
+ ### Wallpaper
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  → Settings → Dekstop
-Pada bagian wallpaper anda dapat memilih wallpaper yang telah kami sediakan ini terletak di /usr/share/xfce4/backdrops/ jika anda ingin menambahkan wallpaper yang lain, pada bagian Folder anda dapat memilih direktori anda meletakkan gambar wallpaper anda lalu memilihnya.
 
-### Merubah tampilan tema
+In the wallpaper section you can select the wallpaper we have provided it is located in /usr/share/xfce4/backdrops/ if you want to add another wallpaper, in the Folder you can choose your directory to put your wallpaper image then choose it.
+
+### Changing the display theme
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  → Settings → Appearance → Style
-Anda dapat mengubah tampilan TeaLinuxOS Pappermint sesuai dengan selera anda, tema deffault yang digunakan oleh TeaLinuxOS Pappermint adalah Tea-Mint-Light , jika anda kurang nyaman dengan tema ini anda dapat menggantinya dengan tema lain dari TeaLinuxOS yaitu Tea-Mint-Dark melalui aplikasi Theme-switcher atau jika tidak berkenan anda bisa mengubah ketema tampilan yang dapat anda unduh sendiri misalnya Orion, Numix atau yang lainnya.
 
-Jika anda menginginkan tema-tema yang lain, anda dapat menginstallnya lalu mengaturnya pada pengaturan Appearance ini.
+You can change the interface of TeaLinuxOS Peppermint to your taste. Deffault theme used by TeaLinuxOS Pappermint is Tea-Mint-Light, if you are not comfortable with this theme you can replace it with another theme from TeaLinuxOS like Tea-Mint-Dark via Theme- Switcher or otherwise you may change the display that you can download yourself such as Orion, Numix or others.
 
-### Merubah tampilan icon
+If you want other themes, you can install them and set them in the Appearance settings.
+
+### Change the icon display
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  → Settings → Appearance → Icons
-Icons deffault yang digunakan oleh TeaLinuxOS Pappermint adalah Tea-Mint-Light jika anda kurang menyukainya anda dapat menginstall icon lain pada sistem TeaLinuxOS Pappermint anda akan menemukan pengaturannya di Appearance. Jika anda mengunduh icon anda harus menginstallnya terlebih dahulu atau anda bisa meletakkannya di /usr/share/icons/ jika anda hanya user anda saja yang memiliki icon tersebut (user lain di komputer anda tidak) icon bisa diletakkan di /home/username/.icons/ jika folder ini belum ada, anda bisa membuatnya sendiri.
+
+Default icons used by TeaLinuxOS Pappermint is Tea-Mint-Light if yo
+Icons deffault yang digunakan oleh TeaLinuxOS Pappermint adalah Tea-Mint-Light if you do not like it you can install other icon on TeaLinuxOS Pappermint system and you will find the settings in Apperance. If you download icon you have to install it first or you can place it in /usr/share/icons/ if you are the only user who have that icon (other user in the same computer not) that icon can be placed in /home/username/.icons/ id this folder does not exist, you can create one.
 
 ### Theme Switcher
  
  ![theme-switcher](https://cloud.githubusercontent.com/assets/26142091/23577696/a5647cc4-00f8-11e7-84eb-13bdef4a8464.png)
 
-TeaLinuxOS 8 telah dilengkapi dengan Theme Switcher Tray, sebuah aplikasi yang memungkinkan anda untuk mengganti tema dengan cepat. Aplikasi ini berupa sebuah icon kecil yang muncul di area indikator pada panel. Klik untuk mengganti tema, dan klik kanan pada icon untuk melihat pengaturan dan about.
+TeaLinuxOS 8 is completed with Theme Switcher Tray, an application that make you possible to change themes swiftly. This application is a small icon that appears in the indicator area of the panel. Click ton change theme, and right click on icon to see settings and about.
 
-### Konfigurasi panel
+### Panel Configuration
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  → Settings → Panel
-atau
-Klik kanan pada bagian panel yang kosong lalu pilih Panel → Panel preferences
-Dalam pengaturan panel ini ada tiga tabs yaitu Display , Appearance dan Item . Dalam Pengaturan panel Display anda dapat mengatur apakah panel anda akan horizontal, vertikal ataupun deksbar dan juga pengaturan ukuran panjang lebar panel. Pada tabs Appearance mengatur bagaimana panel anda terlihat, misalnya saja kita buat Background Alphanya 0 maka panel anda tidak akan memiliki background. Atau coba mengatur Leave Opacitynya menjadi 0 maka panel anda akan terlihat hanya ketika anda mendekatkan pointer ke panel anda. Tab ketiga adalah Item yang berisi item-item apa saja yang berada di panel anda dapat menambahkan maupun menghapus item yang telah ada. Dengan pengaturan ini anda dapat merubah panel deffault menjadi panel anda sendiri sesuai yang anda sukai. 
 
+  or
 
+  Right click on empty panel and choose Panel → Panel preferences
 
-
+  In panel settings there are 3 tabs and that is Display, Appearance and Item. In Display panel setting you can configure whether the panel will be horizontal, vertical or deskbar and also the panel length size setting. The appearance tabs sets how panel will be seen, such as we make Aplha Background to 0 then your panel does not have a background, or sets Leave Opacity to 0 then your panel will be seen only when you moving pointer closer to your panel. The third tab is an Item that contains any items in the panel you can add or delete items that already exist. With this setting you can change the deffault panel to your own panel as you like.
