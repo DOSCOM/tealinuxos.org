@@ -1,12 +1,12 @@
 ---
-title: Migrasi dan Upgrade
-type: panduan
+title: Migration and Upgrade
+type: Guide
 order: 103
 ---
 
-## Migrasi dari Windows
+## Migrate from Windows
 
-Jika anda sebelumnya hanya menggunakan sistem operasi windows maka selamat datang di dunia open source. Jika anda yang sudah familiar dengan sistem operasi linux anda dapat melanjutkan ketahap selanjutnya. Bagi anda yang masih baru bermigrasi, jangan cepat menyerah ketika menghadapi kesulitan, anda dapat bertanya di [group doscom](https://www.facebook.com/groups/doscomedia/) atau di [fan page TeaLinuxOS](https://www.facebook.com/tealinuxos) para developer dan pengguna lain akan membantu anda. Ini beberapa kata kunci yang sering digunakan di windows dan dapat ditemukan di TeaLinuxOS.
+If previously you only use Windows as operating system then welcome to open source world. If you already familiar with linux operating system you can continue to the next step. For the new one here, don't give up when facing a problem, you can ask in [Doscom Group](https://www.facebook.com/groups/doscomedia/) or in [TeaLinuxOS Fanpage](https://www.facebook.com/tealinuxos) all the developer and other users will assist you. This is some keyword often used in windows and can be found in TeaLinuxOS.
 
 - Windows Explorer : ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  → Accesories → File Manager
@@ -15,8 +15,8 @@ Jika anda sebelumnya hanya menggunakan sistem operasi windows maka selamat datan
 - Control Panel : ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
 → Settings → Settings Manager
 
-Jika anda masih sulit bermigrasi ke linux karena ada beberapa software yang sering anda gunakan hanya dapat berjalan di sistem operasi windows anda dapat menggunakan aplikasi [wine](http://tealinuxos.org/dukungan/winehq.org) atau [virtualbox](http://tealinuxos.org/dukungan/virtualbox.org) (sudah tersedia di TeaLinuxOS Pappermint) walaupun ini tidak disarankan mengingat tidak semua software yang berjalan di sistem operasi windows dapat berjalan di wine atau virtualbox. Solusi lain anda dapat menggunakan free open source software alternatif yang memiliki fungsi yang sama dengan software tersebut.
+If you still hard to migrate to linux because there are few software you often use and can only run in windows you can use application [wine](http://tealinuxos.org/dukungan/winehq.org) or [virtualbox](http://tealinuxos.org/dukungan/virtualbox.org)(Available in TeaLinuxOS PapperMint) although it is not reccomended because not all the software that run in windows can also run in wine or virtualbox. Another solution is you can use free open source software that have the same function like the software you use.
 
-## Cara mengupgrade
+## How to Upgrade
 
-TeaLinuxOS diluncurkan setahun sekali biasanya pada bulan april (diputuskan oleh tim rilis) anda dapat mengupgrade versi TeaLinuxOS anda dengan cara mengunduhnya di [pinguin](http://pinguin.dinus.ac.id/iso/tealinuxos/).
+TeaLinuxOS launched once a year on April (decided by release team) you can upgrade TeaLinuxOS version by download in [pinguin](http://pinguin.dinus.ac.id/iso/tealinuxos/).
