@@ -15,21 +15,21 @@
             <p class="tea-center">
                 <%- page.subtitle %>
             </p>
-
         </div>
     </div>
+
     <span class="breathe"></span>
 
     <div class="tea-button-group">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-3">
+                <a class="button responsive white" href="#Tim-Pengembang">Tim Pengembang</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
                 <a class="button responsive white" href="#Konten-Panduan">Panduan</a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <a class="button responsive white" href="#Web-Development">Web</a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <a class="button responsive white" href="#">Pengembang</a>
+                <a class="button responsive white" href="#Pelaporan">Laporan</a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <a class="button responsive white" href="#">Donasi</a>
@@ -37,25 +37,17 @@
         </div>
     </div>
 
-    <div class="isi-panduan">
-        <%- page.content %>
+    <div class="row">
+        <div class="col-xs-12 col-md-10 col-md-offset-1">
+            <div class="isi-panduan">
+                <%- page.content %>
+            </div>
+        </div>
     </div>
 
-    <% if (page.type === 'panduan') { %>
-      <div class="guide-links">
-        <% site.pages.find({ type: page.type, order: page.order - 1 }).each(function (page) { %>
-          <span>← <a href="<%- url_for_lang(page.path) %>"><%- page.title %></a></span>
-        <% }) %>
-        <% site.pages.find({ type: page.type, order: page.order + 1 }).each(function (page) { %>
-          <span style="float:right"><a href="<%- url_for_lang(page.path) %>"><%- page.title %></a> →</span>
-        <% }) %>
-      </div>
-    <% } %>
+</div>
 
-    <div class="footer">
-      Menemukan kesahalan atau ingin berkontribusi pada dokumentasi ini ?
-      <a href="https://github.com/doscom/tealinuxos.org/blob/master/src/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank"><br>
-        Sunting halaman ini secara langsung di Github cek travis
-      </a>
-    </div>
+<div id="footer-page">
+  Released under the <a href="https://opensource.org/licenses/MIT" href="_blank">MIT License</a><br>
+  2009-<%- new Date().getFullYear() %> Maintenance by <a href="http://doscom.org">Doscom</a>
 </div>
