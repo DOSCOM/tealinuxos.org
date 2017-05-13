@@ -1,6 +1,6 @@
 ---
 title: TealinuxOS Installation
-type: Guide
+type: panduan
 order: 102
 ---
 
@@ -41,7 +41,7 @@ There are 2 kinds of partition for TealinuxOS :
 5. Save your settings and restart.
 6. Wait a moment until it appears the menu as the following :
    ![menu-install](https://cloud.githubusercontent.com/assets/22718275/23685947/5be6f430-03d9-11e7-89c0-d55cfb593f9e.png)
-7. Choose `Try TealinuxOS` to try or Install TealinuxOS` to install directly. If you choose install TealinuxOS then you can skip step 6 and 7 
+7. Choose `Try TealinuxOS` to try or Install TealinuxOS` to install directly. If you choose install TealinuxOS then you can skip step 6 and 7
 8. Wait for a while until TealinuxOS Desktop appears as follows :
    ![try-install](https://cloud.githubusercontent.com/assets/22718275/23685964/736151be-03d9-11e7-9b11-23af4063ab3b.png)
    If you agree, you can try all the features on TealinuxOS before installing. Then choose Install TealinuxOS icon on the desktop to install
@@ -50,13 +50,13 @@ There are 2 kinds of partition for TealinuxOS :
    You are asked to choose the language to further use, choose OK to continue.
 11. Next you are asked to choose to download third party software or not. Click ok to go on.
     ![preparing](https://cloud.githubusercontent.com/assets/22718275/23685998/a811ae18-03d9-11e7-8c6f-1900f9a85b7d.png)
-12. Next you are prompted to select the installation procedure as follows : 
+12. Next you are prompted to select the installation procedure as follows :
     - Install TeaLinuxOS Alongside Them
       This option can save file like document, etc.
     - Erase disk and Install TeaLinuxOS
-      This option will erase all data on disk. (This option  is reserved for those of you who do not want dual boot, because this option will delete all the existing OS and data.) 
+      This option will erase all data on disk. (This option  is reserved for those of you who do not want dual boot, because this option will delete all the existing OS and data.)
     - Something else
-      This option is for you who want dual boot. Because in this option you can set the partition that we created earlier. Pilihan ini dikhususkan bagi anda yang ingin dualboot. 
+      This option is for you who want dual boot. Because in this option you can set the partition that we created earlier. Pilihan ini dikhususkan bagi anda yang ingin dualboot.
     ![instalaltion](https://cloud.githubusercontent.com/assets/22718275/23686028/cd308aac-03d9-11e7-9fa7-217fd1f7ac08.png)
     Pilih something else lalu klik ok.
 13. You will get an interface like the following :

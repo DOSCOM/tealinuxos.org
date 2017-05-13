@@ -1,6 +1,6 @@
 ---
 title: Migration and Upgrade
-type: Guide
+type: panduan
 order: 103
 ---
 

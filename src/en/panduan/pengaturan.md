@@ -1,25 +1,25 @@
 ---
 title: Settings and Options
-type: Guide
+type: panduan
 order: 105
 ---
 
 ## Changing Menu
- 
+
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  → Settings → Settings Manager → Menu Editor
 
-  In this menu editor you can fully manage your menu hierarchy, add commands, group your favorite apps, or create new launchers. 
+  In this menu editor you can fully manage your menu hierarchy, add commands, group your favorite apps, or create new launchers.
 
 ## Personal Information Changes
 
- ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png) 
+ ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  → Settings → User and Groups
 
 User and Groups is used to change user information, including name, username, password, user type whether administrator or normal user. In this setting you can also add a new user and delete the old user. Groups settings can add new groups, add users and manage user privileges on the groub. In advanced settings you can add contact information, manage user privileges, and other in-depth settings.
 
 ## Changing Interface
- 
+
  ### Wallpaper
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  → Settings → Dekstop
@@ -42,7 +42,7 @@ Default icons used by TeaLinuxOS Pappermint is Tea-Mint-Light if yo
 Icons deffault yang digunakan oleh TeaLinuxOS Pappermint adalah Tea-Mint-Light if you do not like it you can install other icon on TeaLinuxOS Pappermint system and you will find the settings in Apperance. If you download icon you have to install it first or you can place it in /usr/share/icons/ if you are the only user who have that icon (other user in the same computer not) that icon can be placed in /home/username/.icons/ id this folder does not exist, you can create one.
 
 ### Theme Switcher
- 
+
  ![theme-switcher](https://cloud.githubusercontent.com/assets/26142091/23577696/a5647cc4-00f8-11e7-84eb-13bdef4a8464.png)
 
 TeaLinuxOS 8 is completed with Theme Switcher Tray, an application that make you possible to change themes swiftly. This application is a small icon that appears in the indicator area of the panel. Click ton change theme, and right click on icon to see settings and about.

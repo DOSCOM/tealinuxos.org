@@ -1,6 +1,6 @@
 ---
 title: Introducing Desktop Environment
-type: Guide
+type: panduan
 order: 104
 ---
 
@@ -20,7 +20,7 @@ For the middle panel contains the window menu of active applications or that are
 
 ![dekstop](https://cloud.githubusercontent.com/assets/26142091/23577631/e41eff86-00f6-11e7-8359-c21b5e649e5d.png)
 
-In the desktop there is only a wallpaper view, you can add folders. Shortcut, change the wallpaper or icon on your desktop. You can do this by right-clicking around your desktop area. 
+In the desktop there is only a wallpaper view, you can add folders. Shortcut, change the wallpaper or icon on your desktop. You can do this by right-clicking around your desktop area.
 
 ## File and Directory
 
@@ -49,7 +49,7 @@ Create new folder
     Choose file or destination folder or file you want to paste
     Right click → Paste
     or using Shortcut Ctrl + v
-    
+
 ### Deleting file (delete)
 
     Choose folder or file you want to delete

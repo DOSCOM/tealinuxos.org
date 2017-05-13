@@ -188,18 +188,25 @@
 
     <div class="tea-button-group">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="col-xs-12 col-sm-12 col-md-4">
                 <a class="button responsive white" href="#Tim-Pengembang">Tim Pengembang</a>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <a class="button responsive white" href="#Konten-Panduan">Panduan</a>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <a class="button responsive white" href="#Pelaporan">Laporan</a>
             </div>
+
+            <!-- !!!!!!!!!!!!!!
+            !
+            !
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <a class="button responsive white" href="#">Donasi</a>
-            </div>
+            <a class="button responsive white" href="#">Donasi</a>
+        </div>
+            !
+            !
+            !!!!!!!!!!!!!!!!!!!! -->
         </div>
     </div>
 
@@ -243,7 +250,7 @@
         <!-- search -->
         <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/search.css">
-        <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+        <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>
         [
           '#search-query-nav',
@@ -255,13 +262,23 @@
           var version = match ? match[1] : 'v2'
           docsearch({
             appId: '4HHIOVQW5D',
-            apiKey: '3be51475658c2d725d76142b1001c3d0',
+            apiKey: '81a2df272c14cc262c8b38f6a3afd683',
             indexName: 'tealinuxos',
             inputSelector: selector,
             algoliaOptions: { facetFilters: ["version:" + version] }
           })
         })
+        </script> -->
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+        <script type="text/javascript"> docsearch({
+        apiKey: '81a2df272c14cc262c8b38f6a3afd683',
+        indexName: 'tealinuxos',
+        inputSelector: '#search-query-nav',
+        debug: false // Set debug to true if you want to inspect the dropdown
+        });
         </script>
+
 
         <!-- fastclick -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
