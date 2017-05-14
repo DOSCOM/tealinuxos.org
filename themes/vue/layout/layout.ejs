@@ -36,6 +36,7 @@
             <link rel="stylesheet" href="/css/page.css">
          <% } %>
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('<%- url_for('/images/bg-hero2.png') %>') no-repeat bottom;
@@ -81,7 +82,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <%- css('css/search') %>
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>
@@ -107,7 +108,7 @@
         <script type="text/javascript"> docsearch({
         apiKey: '81a2df272c14cc262c8b38f6a3afd683',
         indexName: 'tealinuxos',
-        inputSelector: '#search-query-sidebar',
+        inputSelector: '#search-query-nav',
         debug: false // Set debug to true if you want to inspect the dropdown
         });
         </script>
