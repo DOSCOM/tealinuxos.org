@@ -41,7 +41,7 @@ Xubuntu merupakan sistem operasi elegan yang mudah digunakan dan dengan edisi LT
 
 ### XFCE
 
-Xfce merupakan dekstop environment yang ringan yang digunakan di TeaLinuxOS Pappermint. Dengan menggunakan Xfce pemakaian resource sistem lebih sedikit sehingga sistem operasi akan lebih ringan namum tanpa meninggalkan sisi user interface yang ramah pengguna. Untuk informasi lebih lanjut tentang xfce silahkan berkunjung di website resmi [Xfce](http://xfce.org/).
+Xfce merupakan _dekstop environment_ yang ringan yang digunakan di TeaLinuxOS Pappermint. Dengan menggunakan Xfce pemakaian _resource_ sistem lebih sedikit sehingga sistem operasi akan lebih ringan namum tanpa meninggalkan sisi _user interface_ yang ramah pengguna. Untuk informasi lebih lanjut tentang xfce silahkan berkunjung di website resmi [Xfce](http://xfce.org/).
 
 ### FOSS
 
