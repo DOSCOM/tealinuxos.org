@@ -1,5 +1,5 @@
 ---
-title: Print dan Scan
+title: Print and Scan
 type: panduan
 order: 108
 ---
