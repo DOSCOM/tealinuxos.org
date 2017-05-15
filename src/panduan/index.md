@@ -16,7 +16,7 @@ TeaLinuxOS dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distr
 ### Nama
 
 TeaLinuxOS – Nikmatnya Sebuah Racikan!
-Kami menggunakan nama distro TeaLinuxOS karena beberapa alasan, yaitu tea yang dalam bahasa Indonesia berarti teh, merupakan minuman khas rakyat Indonesia yang merakyat dan dapat dikonsumsi semua orang. Kami berharap TeaLinuxOS dapat mencukupi kebutuhan penggunanya, terutama para programmer.
+Kami menggunakan nama distro TeaLinuxOS karena beberapa alasan, yaitu _tea_ yang dalam bahasa Indonesia berarti teh, merupakan minuman khas masyarakat Indonesia yang merakyat dan dapat dikonsumsi semua orang. Kami berharap TeaLinuxOS dapat memenuhi kebutuhan penggunanya, terutama para programmer.
 
 ### Versi
 
@@ -37,7 +37,7 @@ Versi terakhir dari TealinuxOS adalah TealinuxOS 8 Pappermint yang dibuat dari c
 
 ### Xubuntu 16.04 LTS
 
-Xubuntu merupakan sistem operasi elegan yang mudah digunakan dan dengan edisi LTS “Long Term Support” ini membuat TeaLinuxOS yang berbasis Xubuntu versi ini mendapat dukungan jangka panjang selama 5 tahun sehingga senantiasa stabil, handal dan aman. Untuk informasi lebih lanjut mengenai Xubuntu anda dapat berkunjung di webseite resmi [Xubuntu](http://xubuntu.org/).
+Xubuntu merupakan sistem operasi elegan yang mudah digunakan dan dengan edisi LTS “_Long Term Support_” ini membuat TeaLinuxOS yang berbasis Xubuntu versi ini mendapat dukungan jangka panjang selama 5 tahun sehingga senantiasa stabil, handal dan aman. Untuk informasi lebih lanjut mengenai Xubuntu anda dapat berkunjung di website resmi [Xubuntu](http://xubuntu.org/).
 
 ### XFCE
 
@@ -45,4 +45,4 @@ Xfce merupakan _dekstop environment_ yang ringan yang digunakan di TeaLinuxOS Pa
 
 ### FOSS
 
-Semua software yang digunakan dalam sistem operasi TeaLinuxOS berlisensi bebas dan kode sumber yang terbuka semua orang dapat melihat kode sumbernya, berkontribusi memperbaiki atau membuatnya lebih baik. Untuk megetahui lebih tentang FOSS (Free Open Source Software) bisa dilihat di [GNU website](http://gnu.org/).
+Semua software yang digunakan dalam sistem operasi TeaLinuxOS berlisensi bebas dan kode sumber yang terbuka, artinya semua orang dapat melihat kode sumbernya, berkontribusi memperbaiki atau membuatnya lebih baik. Untuk megetahui lebih tentang FOSS (Free Open Source Software) bisa dilihat di [GNU website](http://gnu.org/).
