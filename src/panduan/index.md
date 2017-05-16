@@ -20,7 +20,7 @@ Kami menggunakan nama distro TeaLinuxOS karena beberapa alasan, yaitu _tea_ yang
 
 ### Versi
 
-TealinuxOS telah diluncurkan sebanyak 8 versi diantaranya adalah :
+TealinuxOS telah diluncurkan sebanyak 9 versi diantaranya adalah :
 
 * TeaLinuxOS ver 1.0 Code Name : Green Tea, based on Ubuntu 8.04
 * TeaLinuxOS ver 2.0 Code Name : Black Tea, based on Ubuntu 9.10
@@ -30,10 +30,11 @@ TealinuxOS telah diluncurkan sebanyak 8 versi diantaranya adalah :
 * TeaLinuxOS ver 6.0 Code Name : Jasmine Tea, based on Lubuntu 13.10
 * TeaLinuxOS ver 7.0 Code Name : Rosella Tea, based on Xubuntu 14.04
 * TeaLinuxOS ver 8.0 Code Name : Pappermint Tea, based on Xubuntu 16.04
+* TeaLinuxOS ver 9.0 Code Name : Chamomile Tea, based on Xubuntu 16.04
 
 ## Resep TealinuxOS
 
-Versi terakhir dari TealinuxOS adalah TealinuxOS 8 Pappermint yang dibuat dari core Xbuntu 16.04, Xfce dan FOSS.
+Versi terakhir dari TealinuxOS adalah TealinuxOS 9 Chamomile yang dibuat dari core Xbuntu 16.04, Xfce dan FOSS.
 
 ### Xubuntu 16.04 LTS
 
