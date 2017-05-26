@@ -6,58 +6,59 @@ order: 102
 
 
 ## Panduan Instalasi TealinuxOS
+Ada 2 cara yang bisa Anda lakukan untuk instalisasi TealinuxOS pada perangkat Anda,yaitu:
 Untuk menginstall TealinuxOS pada perangkat anda dapat mengikuti 2 cara yaitu :
-- Menginstall dengan bootable flashdisk
-- Menginstall dengan bootable CD
-Apabila anda menggunakan CD anda dapat melewatkan bagian mengunduh ISO TealinuxOS dan membuat bootable flashdisk.
+- Melalui _bootable_ flashdisk
+- Melalui _bootable_ CD
+Jika Anda menggunakan CD, Anda dapat melewatkan bagian **Unduh ISO TealinuxOS** dan **Membuat bootable ISO TealinuxOS ke Flashdisk**.
 
 ### Unduh TealinuxOS
 ISO tealinux dapat diunduh [di sini](http://pinguin.dinus.ac.id/iso/tealinuxos/).
 
 ### Membuat Bootable ISO TealinuxOS ke Flashdisk
-Untuk membuat bootable ke flashdisk anda dapat menggunakan software Third Party seperti [Universal USB Installer](https://universal-usb-installer.en.uptodown.com), [Unetbootin](http://unetbootin.github.io) atau [Rufus](https://rufus.akeo.ie/). Berikut adalah langkah langkah untuk membuat bootable ISO TealinuxOS ke flashdisk menggunakan Universal USB Installer.
+Untuk membuat bootable ke flashdisk anda dapat menggunakan software _Third Party_ seperti [Universal USB Installer](https://universal-usb-installer.en.uptodown.com), [Unetbootin](http://unetbootin.github.io) atau [Rufus](https://rufus.akeo.ie/). Berikut adalah langkah-langkah untuk membuat bootable ISO TealinuxOS ke flashdisk menggunakan Universal USB Installer.
 ![Bootable_1](https://cloud.githubusercontent.com/assets/22718275/23578142/c4eae682-0102-11e7-9d76-69cd286a4406.png)
 
 ![Bootable_2](https://cloud.githubusercontent.com/assets/22718275/23578146/d6ebc932-0102-11e7-94c9-993dee8bcbe2.png)
-Mengenai cara pemakaian, instalasi dan keterangan lebih lanjut dapat anda lihat di offical masing masing software.
+Mengenai cara penggunaan, instalasi dan keterangan lainya dapat Anda lihat di Website resmi dari masing-masing software tersebut.
 
 ### Membuat partisi hardisk untuk TealinuxOS
-Untuk membuat partisi hardisk anda dapat menggunakan `Create and format hard disk partition` memiliki Windows, `GParted` milik Linux, atau tools lain yang biasa anda gunakan untuk membuat partisi.
+Untuk membuat partisi hardisk Anda dapat menggunakan `Create and format hard disk partition` milik Windows, `GParted` milik Linux, atau _tools_ lain yang biasa Anda gunakan untuk membuat partisi.
 Ada 2 Macam partisi yang dibutuhkan oleh TealinuxOS yaitu :
-- Partisi dengan format `ext4`. Partisi ini berfungsi sebagai tempat setiap file system tealinuxos.
-  Sebagai contoh kami membuat partisi sebesar 50GB atau 50000Mb. Klik kanan pada disk yang ingin di shrink / dipecah. Kenapa harus 50GB ?, karena ukuran 50GB itu ukuran yang ideal, ukuran minimalnya untuk linux ialah 20GB.
+- Partisi dengan format `ext4`. Partisi ini berfungsi sebagai tempat setiap file system TealinuxOS.
+  Sebagai contoh kami membuat partisi sebesar 50GB atau 50000Mb. Klik kanan pada disk yang ingin di _shrink_ (dipecah). Kenapa harus 50GB ?, karena ukuran 50GB itu ukuran yang ideal untuk sistem operasi linux. ukuran minimalnya untuk linux ialah 20GB.
   ![Partition_1](https://cloud.githubusercontent.com/assets/22718275/23578147/e2c49112-0102-11e7-868e-611db63be0a2.png)
 
   ![Partition_2](https://cloud.githubusercontent.com/assets/22718275/23578150/f11bd6d0-0102-11e7-815c-b4648866def9.png)
 
-- Partisi dengan format `linux-swap`. Partisi ini berfungsi untuk membantu kerja RAM dalam memanajemen memory.
-  Untuk partisi swap kami merekon
+- Partisi dengan format `linux-swap`. Partisi ini berfungsi untuk membantu kerja RAM dalam memanajemen memori.
+  Untuk ukuran partisi `linux-swap` kami merekomendasikan 2GB.
 
 
 ### Proses Instalasi TealinuxOS
-1. Setelah anda memiliki bootable, pastikan anda menghubungkan bootable tersebut ke perangkat anda.
-2. Restart perangkat anda untuk memulai proses instalasi TealinuxOS.
-3. Arahkan booting option ke bootable anda. Anda dapat masuk ke BIOS lalu ubah mode BIOS ke Legacy (jika sebelumnya menggunakan mode UEFI/EFI).
-4. Selanjutnya ubah boot priority USB HDD(): ke urutan pertama jika anda menggunakan flashdisk atau ubah boot priority CD(): ke urutan pertama jika anda menggunakan CD.
-5. Simpan pengaturan anda dan restart.
+1. Setelah Anda memiliki _bootable_ TealinuxOS, pastikan Anda menghubungkan _bootable_ tersebut ke perangkat anda.
+2. Restart perangkat Anda untuk memulai proses instalasi TealinuxOS.
+3. Arahkan _booting option_ ke perangkat _bootable_. Anda dapat masuk ke BIOS kemudian ubah mode BIOS ke `Legacy` (jika sebelumnya menggunakan mode `UEFI/EFI`).
+4. Selanjutnya ubah boot priority USB HDD(): ke urutan pertama jika anda menggunakan flashdisk atau ubah boot priority CD(): ke urutan pertama jika Anda menggunakan CD.
+5. Simpan pengaturan pada BIOS Anda kemudian restart.
 6. Tunggu beberapa saat sampai muncul menu seperti berikut :
    ![menu-install](https://cloud.githubusercontent.com/assets/22718275/23685947/5be6f430-03d9-11e7-89c0-d55cfb593f9e.png)
-7. Pilih `Try TealinuxOS` untuk mencoba atau `Install TealinuxOS` untuk langsung menginstall. Apabila anda memilih Install TealinuxOS anda dapat melewati langkah ke 6 dan 7.
-8. Tunggu beberapa saat sampai muncul desktop TealinuxOS sepertin berikut :
+7. Pilih `Try TealinuxOS` untuk mencoba atau `Install TealinuxOS` untuk langsung menginstall. Apabila Anda memilih Install TealinuxOS Anda dapat melewati langkah ke 6 dan 7.
+8. Tunggu beberapa saat sampai muncul desktop TealinuxOS seperti berikut :
    ![try-install](https://cloud.githubusercontent.com/assets/22718275/23685964/736151be-03d9-11e7-9b11-23af4063ab3b.png)
-   Jika menghendaki, anda dapat mencoba terlebih dahulu fitur-fitur yang terdapat pada TealinuxOS sebelum menginstallnya. Jika menghendaki untuk menginstall TealinuxOS, klik icon Install TealinuxOS pada desktop.
+   Anda dapat mencoba terlebih dahulu fitur-fitur yang terdapat pada TealinuxOS sebelum menginstallnya. Tetapi jika Anda langsung ingin memasang TealinuxOS, klik icon _Install TealinuxOS_ pada desktop.
 9. Selanjutnya akan muncul antarmuka sebagai berikut.
    ![language](https://cloud.githubusercontent.com/assets/22718275/23685988/96e996fa-03d9-11e7-9cc0-b5664ed27a17.png)
    Anda diminta untuk memilih bahasa yang akan digunakan dalam TealinuxOS. Klik ok untuk lanjut.
-11. Selanjutnya anda diminta untuk memilih untuk mendownload software third party atau tidak. Klik ok untuk lanjut.
+11. Selanjutnya Anda diminta untuk memilih untuk mendownload _software third party_ atau tidak. Klik ok untuk lanjut.
     ![preparing](https://cloud.githubusercontent.com/assets/22718275/23685998/a811ae18-03d9-11e7-8c6f-1900f9a85b7d.png)
 12. Selanjutnya anda diminta untuk memilih prosedur penginstalan sebagai berikut :
-    - Install TeaLinuxOS Alongside Them
-      Pilihan ini dapat menyimpan berkas anda seperti document, dll.
-    - Erase disk and Install TeaLinuxOS
-      Pilihan ini menghapus semua Disk anda pilihan ini dikhususkan bagi anda yang tidak ingin dualboot, karena pilihan ini akan menghapus semua OS dan data yang ada.
-    - Something else
-      Pilihan ini dikhususkan bagi anda yang ingin dualboot. Karena didalam pilihan ini anda dapat mengatur partisi yang telah kita buat diawal tadi.
+    - _Install TeaLinuxOS Alongside Them_
+      Pilihan ini dapat menyimpan berkas anda seperti dokumen, dll.
+    - _Erase disk and Install TeaLinuxOS_
+      Pilihan ini menghapus semua Disk Anda. Pilihan ini dikhususkan bagi Anda yang tidak ingin dualboot, karena pilihan ini akan menghapus semua OS dan data yang ada.
+    - _Something else_
+      Pilihan ini dikhususkan bagi anda yang ingin dualboot. Karena didalam pilihan ini Anda dapat mengatur partisi yang telah kita buat diawal tadi.
     ![instalaltion](https://cloud.githubusercontent.com/assets/22718275/23686028/cd308aac-03d9-11e7-9fa7-217fd1f7ac08.png)
     Pilih something else lalu klik ok.
 13. Anda akan mendapatkan antarmuka seperti berikut :
@@ -72,11 +73,11 @@ Ada 2 Macam partisi yang dibutuhkan oleh TealinuxOS yaitu :
 16. Selanjutnya akan tampil persetujuan sebagai berikut :
     ![Partition_6](https://cloud.githubusercontent.com/assets/22718275/23686161/857a51e2-03da-11e7-8011-a9fb063761b4.png)
     Klik continue untuk lanjut.
-17. Selanjutnya anda diminta untuk memilih waktu dan tempat
+17. Selanjutnya Anda diminta untuk memilih waktu dan tempat.
     ![time-and-region](https://cloud.githubusercontent.com/assets/22718275/23686187/a58ca03e-03da-11e7-827a-01f86abe8ec3.png)
-18. Selanjutnya anda diminta untuk memilih tipe keyboard
+18. Selanjutnya Anda diminta untuk memilih tipe keyboard.
     ![keyboard](https://cloud.githubusercontent.com/assets/22718275/23686208/b682f4ce-03da-11e7-8dcb-85c8ef2cbbad.png)
-19. Selanjutnya anda diminta untuk mengisi data diri
+19. Selanjutnya Anda diminta untuk mengisi data diri.
     ![whoru](https://cloud.githubusercontent.com/assets/22718275/23686238/d5fdd5e4-03da-11e7-8387-626587c4ede8.png)
 20. Tunggu beberapa saat proses sampai proses instalasi tealinuxos selesai.
     ![installaltion](https://cloud.githubusercontent.com/assets/22718275/23686286/31ab73ec-03db-11e7-8292-173401c6851a.png)
