@@ -1,67 +1,65 @@
 ---
-title: Perintah Baris
+title: Command Line
 type: panduan
 order: 113
 ---
 
-## Daftar Perintah Umum ##
-Untuk menjelajah atau beraktivitas di TealinuxOS atau distro linux lainya selain menggunakan Graphical User Interface (GUI) anda juga dapat menggunakan Command Line Interface(CLI). Berikut ini merupakan beberapa perintah yang umum digunakan dalam CLI.
+## General Commands List ##
+To explore or move on TealinuxOS or other linux distro in addition to using Graphical User Interface (GUI) you can also use Command Line Interface (CLI). The following are some commonly used commands in the CLI.
 
-- Melihat direktori kita berada
-
-  Perintah `pwd` atau print working directory digunakan untuk mengetahui posisi direktori dimana kita berada.
-  ```
+- See the directory we are on
+  The `pwd` or print working directory command is used to determine the position of the directory to which we belong.
+  `` `
     $ pwd
-  ```
+  `` `
 
-- Pindah Direktori
+- Move Directory
 
-  Perintah `cd` digunakan untuk mengubah direktori dimana kita berada. cd [nama_direktori] Untuk kembali kedirekroti satu level sebelumnya perintah yang digunakan sebagai berikut.
-  ```
-    $ cd .
-  ```
-  Untuk kembali kedirektori root perintahnya sebagai berikut.
-  ```
+  The `cd` command is used to change the directory where we are. cd [directory_name] To return to the level one prior level command is used as follows.
+  `` `
+    $ cd.
+  `` `
+  To return to the root directory the command is as follows.
+  `` `
     $ cd ..
-  ```
+  `` `
 
 - List
 
-  Perintah `ls` digunakan untuk menampilkan daftar file yang ada di direktori. ls Untuk menampilkan list file yang ada didirektori tertentu
-  ```
-    $ ls [nama_direktori]
-  ```
+  The `ls` command is used to display a list of files in the directory. ls To display a list of files in a particular directory
+  `` `
+    $ ls [directory_name]
+  `` `
 
-- Copy File
+- Copying File
+  
+  The `cp` command is used to copy a file or directory to another directory.
+  `` `
+    $ cp [filename] [directory_name]
+  `` `
 
-  Perintah `cp` digunakan untuk mengopi file atau direktori ke direktori lain.
-  ```
-    $ cp [nama_file] [nama_direktori]
-  ```
+- Moving Files
 
-- Pindah File
+  The `mv` command is used to move files or directories to another directory.
+  `` `
+    $ mv [filename] [directory_name]
+  `` `
 
-  Perintah `mv` digunakan untuk memindah file atau direktori ke direktori lain.
-  ```
-    $ mv [nama_file] [nama_direktori]
-  ```
+- Deleting Files
+  
+  The `rm` command is used to delete files or directories to another directory.
+  `` `
+    $ rm [filename]
+  `` `
 
-- Hapus File
-
-  Perintah `rm` digunakan untuk menghapus file atau direktori ke direktori lain.
-  ```
-    $ rm [nama_file]
-  ```
-
-- Penggunaan perintah
-
-  Perintah `man` digunakan untuk menampilkan cara penggunaan suatu perintah.
-  ```
-    $ man [nama_perintah] man rm
-  ```
+- Commands usage
+  The `man` command is used to display how to use a command.
+  `` `
+    $ man [name_perintah] man rm
+  `` `
 
 
-## Menjalankan Perintah dengan Hak Administrasi
-Ketika anda bekerja dengan perintah-perintah baris, beberapa perintah tidak bisa dilakukan tanpa hak administrator, sehingga butuh perintah sudo di awal setiap perintah tersebut. Sesaat setelah anda memberi perintah sudo sistem akan meminta password lalu akan mengingatnya selama 15 menit. Dalam waktu 15 menit ini anda dapat menjalankan perintah sudo tanpa harus mengetik password setiap kali menjalankan perintahnya. ```
+## Running Commands with Administrative Rights
+When you work with line commands, some commands can not be performed without administrator privileges, so it takes the sudo command at the start of each command. Shortly after you give the sudo command the system will ask for a password and will remember it for 15 minutes. Within these 15 minutes you can run the sudo command without typing a password every time you run the command. `` ` 
   $ sudo apt-get update
-```
+`` `

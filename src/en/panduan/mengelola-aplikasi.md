@@ -1,127 +1,124 @@
 ---
-title: Mengelola Aplikasi Terinstall
+title: Managing Installed Apps
 type: panduan
 order: 109
 ---
 
-## Menginstall Software
+## Installing Software
 
 
-### Menginstall aplikasi dengan menggunakan internet
+### Installing applications using the internet
 
-Pastikan komputer anda terkoneksi dengan jaringan komputer karena penginstalan akan langsung mengunduh paket aplikasi yang ingin di install dari repository ubuntu. Cara paling mudah adalah melalui Software Center.
+Make sure your computer is connected to a computer network because the installation will directly download the application package you want to install from ubuntu repository. The easiest way is through the Software Center.
 
-Klik ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+Click ![menu] (https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  `→ Software`
- 
  ![software-center](https://cloud.githubusercontent.com/assets/26142091/23578129/6d894e06-0102-11e7-8672-2a7212299881.png)
 
 
-Atau lewat terminal, Buka terminal
-Ketikan perintah: 
+Or through terminal, Open terminal and
+Type command:
 
-    sudo apt-get install nama_paket 
+    sudo apt-get install name_of_the_package
 
-Masukkan password komputer anda
-Ketika ada dialog `“Do you want to continue? (Y/n)”` ketik `“y”`
-Tunggu hingga proses pengunduhan dan pemasangan selesai.
-Jalankan aplikasi dengan memanggil nama_paket di terminal atau anda dapat mencarinya di menu.
+Enter your computer password.
+When there is dialog `" Do you want to continue? (Y / n) "` type `" y "`
+Wait until the download and installation process is complete.
+Run the app by calling the package_name in the terminal or you can look it up in the menu.
 
-### Menginstall aplikasi tanpa internet
-Jika anda memiliki aplikasi dengan ekstensi .tar.gz, .deb ataupun .tea anda dapat menginstalnya tanpa koneksi internet.
+### Installing applications without internet
+If you have an application with extension .tar.gz, .deb or .tea you can install it without an internet connection.
 
--    Menginstall aplikasi .tar.gz
-    Buka terminal anda lalu ketikkan perintah 
-    
+-    Installing .tar.gz apps
+    Open your terminal then type the command
+
         tar xzvf nama_file.tar.gz
-    
-    (perintah untuk mengekstrak file)
-    Masuk ke folder yang telah di ekstrak 
-    
-        cd nama_file 
-    
-        ./configure 
-    
-        make 
-    
-        sudo su 
-    
-        #make install
-    
-    Pada umumnya penginstalan file tar.gz menggunakan perintah diatas namun jika aplikasi tidak terinstall atau terjadi error, sebaiknya anda membaca file README atau INSTALL yang biasanya disertakan dalam file aplikasi tersebut untuk panduan penginstalan.
-
--    Menginstall aplikasi .deb
-    Jika anda ingin menginstall aplikasi berekstensi .deb yang merupakan debian paket ada dua langkah.
-     -  Menggunakan Package Installer
-        kliknya dua kali pada file .deb
-        klik tombol Install Package
-        Masukkan password anda
-        Tunggu hingga muncul pesan Installation finished.
-
-     -  Menggunakan Terminal
-        Buka teminal ketikkan perintah 
         
+    (command to extract the file)
+    Go to the extracted folder
+    
+        cd file_name
+        
+        ./configure
+
+        make
+        
+        sudo su
+            
+        #make install
+    Generally tar.gz files are installed using the above commands but if the application is not installed or an error occurs, you should read the README or INSTALL file which is usually included in the application file for installation guide.
+
+-    Installing .deb apps
+    If you want to install an application with extension .deb which is a debian package there are two steps.
+     - Using Package Installer
+       Double click on the .deb file
+       click the Install Package button
+       Enter your password
+       Wait until the Installation finished message appears.
+     - Using Terminal
+       Open the terminal type command
+
             sudo dpkg -i nama_file.deb
 
--    Menginstall aplikasi .tea
-    Penginstalan paket aplikasi .tea dengan menggunakan Tea Package Installer
-
+- Installing the .tea app
+    Installing the .tea app package using the Tea Package Installer
+    
     ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
     `→ System → Tea Package Installer`
-    Pilih `Cari`
-    Lakukan pencarian dimana anda meletakkan file .tea
-    Pilih `Install`
-    Pilih `Lanjut` hingga selesai.
+    Select `Find`
+    Do a search where you put the .tea file
+    Select `Install`
+    Select `Continue` to finish.
 
--    Menginstall melalui Tea Module Installer
-    Untuk mengistall aplikasi melalui Tea Module Installer anda dapat melihatnya [disini](http://tealinuxos.org/dukungan/tea-mudule-installer).
+- Installing via the Tea Module Installer
+    To install the application via the Tea Module Installer you can view it [here](http://tealinuxos.org/support/tea-mudule-installer).
 
-## Uninstall Software
+## Uninstalling Software
 
- Untuk menguinstall software tertentu anda dapat melakukannya dengan cara berikut:
-Buka terminal, pastikan terlebih dahulu nama paket yang ingin anda uninstall denganmenggunakan perintah: 
+ To install certain software you can do it in the following way:
+ Open the terminal and make sure first the package name you want to uninstall by using the command:
+ 
+    dpkg -list
 
-    dpkg –list
+After you're certain with the package that you want to uninstall type command:
 
-Setelah mamastikan paket yang ingin ada uninstall ketikkan perintah 
+    sudo apt-get remove package_name
 
-    sudo apt-get remove nama_paket 
+Enter password
+Wait until the uninstall process is complete.
 
-Masukan password
-Tunggu hingga proses uninstall selesai.
+## Adding a Repository
+Repository is a set of application packages or programs for an operating system (Linux) that is used to support the performance of an application, program and so forth obtained from the mirror server website packages. There are two ways to add the repository to the system.
+ 
+  - Via Terminal
+    Open a terminal, then type the command:
 
-## Menambah Repository
-Repository merupakan sekumpulan paket-paket aplikasi atau program untuk sebuah sistem operasi (Linux) yang digunakan untuk menunjang kinerja dari sebuah aplikasi, program dan sebagainya yang didapatkan dari server mirror website paket-paket tersebut. Ada dua cara untuk menambahkan repository ke sistem.
+        sudo add-apt-repository ppa:creator_name/package_name
 
-  -  Melalui Terminal
-    Buka terminal, lalu ketikkan perintah: 
-    
-        sudo add-apt-repository ppa:nama_pembuat/nama_paket 
-    
-        sudo apt-get update 
-    
+        sudo apt-get update
+
         sudo apt-get install nama_paket
 
-  - Melalui Sistem
-    ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+  - Through the System
+  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
     `→ Settings → Software & Updaters`
-    Pada jendela Software & Updaters pilih tab `Other Software`
-    Klik tombol `Add`
-    Isikan repository yang ingin ditambahkan
-    Klik tombol `Add Source`
+    In the Software & Updaters window select the `Other Software` tab
+    Click the `Add` button
+    Fill in the repository you want to add
+    Click the `Add Source` button
 
-## Menginstall melalui Tealinuxos IDE Installer
- 
-Penginstallan paket menggunakan TeaLinux IDE Installer sebagai berikut:
+## Installing via Tealinuxos IDE Installer
+ 
+You can install your package using the TeaLinux IDE Installer as follows:
 
--    Masukkan CD IDE Installer
--    Jalankan TeaLinux IDE Installer ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
- `→ Accessories → tealinux-ide-installer`
--    Pilih paket yang ingin di Install
--    Klik tombol `Install`
+- Insert IDE Installer CD
+- Run TeaLinux IDE Installer ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+ `→ Accessories → tealinux-idea-installer`
+- Select the package you want to install
+- Click the `Install` button
 
-## Mengupdate software
+## Updating software
 
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
- `→ Settings → Software Updater`
-Mengupdate software dapat melalui layanan Software updater, sistem akan mengecek update software lalu akan mengunduh dari internet dan memasang update-update dari software. 
+ `Settings → Software Updater`
+Updating the software can be done through Software Updater service, the system will check the software update and will download from internet and install the updates for the software.

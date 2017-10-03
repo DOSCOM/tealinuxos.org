@@ -1,176 +1,175 @@
 ---
-title: Perangkat Keras
+title: Hardwares
 type: panduan
 order: 111
 ---
 
-## Pembatasan Beberapa Driver
+## Multiple Driver Restrictions
 
-### Mengapa beberapa driver dibatasi?
+### Why are some drivers limited?
 
-Pembatasan Driver (Restricted Driver) adalah keterbatasan driver untuk sebuah perangkat hardware karena tidak tersedia secara bebas atau open source.
+Restricted Drivers are driver limitations for a hardware device because they are not available freely or open source.
 
-Kebanyakan device (hardware) yang terpasang di komputer anda bisa berfungsi secara normal di TeaLinuxOS. Device ini cenderung tidak memiliki keterbatasan driver, yang artinya driver dapat dimodifikasi dan masalah dengan device dapat dibetulkan.
+Most devices (hardware) installed on your computer can function normally in TeaLinuxOS. These devices tend not to have driver limitations, which means drivers can be modified and problems with devices can be corrected.
 
-Ketika beberapa hardware tidak dapat berjalan lancar di TeaLinuxOS bisa dikarenakan device tersebut memiliki Restricted Driver (Pembatasan Driver). Biasanya pembuat hardware belum merilis detail dari hardware itu sendiri yang memungkinkan untuk developer membuat semacam driver sendiri. Device yang seperti ini mempunyai fungsi yang terbatas atau mungkin tidak bisa berkerja sama sekali
+When some hardware can not run smoothly in TeaLinuxOS it can be because the device has Restricted Driver. Usually hardware makers have not released the details of the hardware itself that allows for developers to create drivers of their own. Devices like this have limited functionality or may not work at all.
 
-### Mengaktifkan Pembatasan Driver
+### Enabling Driver Restrictions
 
-Jika Pembatasan Driver tersedia untuk beberapa device, anda dapat menginstalnya untuk memungkinkan perangkat anda berfungsi dengan baik.
+If Driver Restrictions are available for multiple devices, you can install them to enable your device to work properly.
 
-Jika beberapa driver tersedia untuk perangkat anda dapat diinstal dari Software Source dialog:
-
--  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
-   `→ Settings Manager → Software & Updates`
--    Driver yang tersedia akan muncul di tab Additional Drivers, pilih dan Apply Changes
--    Anda akan, jika perlu, memasukan password administration
--    Anda mungkin akan diminta untuk reboot komputer anda setelah proses instalasi selesai
-
-### Menonaktifkan Pembatasan Driver
-
-Jika Pembatasan Driver menyebabkan masalah, anda bisa menonaktifkan, ikuti langkah berikut
+If multiple drivers available for your device can be installed from the Software Source dialog:
 
 -  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
-   `→ Settings Manager → Software & Updates`
--    Klik Additional Drivers
--    Cari driver yang akan dinonaktifkan dan tekan tombol Deactivate
--    Anda akan diminta memasukan password administration
+ `→ Settings Manager → Software & Updates`
+- Available drivers will appear in the Additional Drivers tab, select and Apply Changes
+- You will, if necessary, enter the administration password
+- You may be prompted to reboot your computer after the installation process is complete
 
+### Disabling Driver Restrictions
 
-
-## Disk dan Partition
-
-
-### Memeriksa berapa ruang disk yang tersisa
-
-Cara mudah untuk memeriksa ruang disk yang tersedia adalah menggunakan File Manager. Berikut beberapa langkah yang harus dilakukan
+If Driver Restrictions cause problems, you can disable, follow these steps
 
 -  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
-   `→ Accessories → File Manager`
--    Double-click di File System atau icon Home di Desktop
--    Klik folder home di Lancher Panel
+    `→ Settings Manager → Software & Updates`
+- Click Additional Drivers
+- Find the drivers to disable and press the Deactivate button
+- You will be asked to enter a password administration
 
-Status bar di bagian bawah jendela memperlihatkan ruang tersedia dari drive atau disk yang terpilih. Jika anda memiliki lebih dari satu drive tepasang atau terhubung, anda dapat click di side pane dan anda akan melihat ruang kosong pada drive atau disk tersebut.
 
-### Menambah ruang disk
 
-Beberapa cara mudah untuk meberikan ruang kosong lebih:
+## Disk and Partition
 
--    Kosongkan trash dengan cara klik kanan di Trash icon pada Desktop atau Launcher Panel dan pilih Empty Trash
--    Hapus software package yang tidak digunakan lagi.
--    Hapus file yang tidak dibutuhkan.
 
-### Mempartisi Perangkat
+### Check how much disk space is left
 
-Anda dapat menggunakan GParted (GNOME Partition Editor) untuk mempartisi perangkat penyimpanan. Klik ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
- `→ Settings Manager → GParted` untuk memulai editor partisi
+An easy way to check the available disk space is to use File Manager. Here are some steps to take
 
-### Membebaskan ruang untuk partisi baru
+-  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+    `→ Accessories → File Manager`
+-   Double-click in File System or Home icon on Desktop
+-   Click the home folder in Lancher Panel
 
-Untuk membuat partisi baru di perangkat yang sudah terpatisi, Anda harus mengubah ukuran partisi yang tersedia. Jika Anda sudah mempunyai ruang kosong, lewati langkah ini dan menuju kebagian Membuat partisi baru. Jika tidak, ikuti langkah dibawah:
+The status bar at the bottom of the window shows the available space of the selected drive or disk. If you have more than one drive installed or connected, you can click on the side pane and you will see the free space on the drive or disk.
 
--    Pilih perangkat yang akan dipartisi dari list drop-down yang terdapat di kanan-atas dari jendela utama
--    List partisi akan muncul di jendela utama. Pilih partisi yang akan anda rubah ukurannya dan dari menu pilih `Partition → Unmount`
--    Untuk merubah partisi pilih `Partition → Resize /Move.` Resize/Move dialog akan muncul. Anda dapat menggunakan Free Space Following (MiB) box untuk memilih berapa banyak ruang yang akan dikosongkan setelah partisi, atau Free Space Preceding (MiB) untuk mengosongkan ruang sebelum partisi ini.
--    Klik `Resize / Move`
--    Untuk menerapkan perubahan, klik `Edit → Apply All Operations`
+### Increasing disk space
 
-### Membuat Partisi baru
+Some easy ways to give more space:
 
-Untuk membuat partisi baru:
+- Empty the trash by right clicking on Trash icon on Desktop or Launcher Panel and select Empty Trash
+- Remove the unused software package again.
+- Delete unneeded files.
 
--    Pilih perangkat yang akan dipartisi dari list drop-down di bagian kanan-atas dari jendela utama.
--    List dari partisi akan muncul. Pilih unallocated, klik kanan dan click New
--    Dari File system: pick list, pilih type dari filesystem yang akan digunakan.
--    Jika dibutuhkan, masukkan deskripsi partisi di Label : field
--    Click tombol Add
--    Untuk menerapkan perubahan, klik `Edit → Apply All Operation`
+### Partitioning your Device
 
-### Memformat Partisi
+You can use GParted (GNOME Partition Editor) to partition the storage device. Click ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+ `→ Settings Manager → GParted` to start the partition editor
 
-Untuk menghapus partisi, lakukan langkah berikut:
+### Free the space for the new partition
 
--    Pilih perangkat dari list drop-down di bagian kanan-atas dari jendela utama
--    List partisi akan muncul. Pilih partisi dan pilih `Partition → Unmount`
--    Pilih partisi yang akan diformat dan pilih `Partition → Format to` dan pilih tipe file system dari list untuk dirubah ke tipe tersebut
--    Untuk menerapkan perubahan, klik `Edit → Apply All Operations`
+To create a new partition on a device that has been partitioned, you must resize the available partitions. If you already have an empty space, skip this step and go to Create a new partition. If not, follow the steps below:
 
-### Mount dan Unmount perangkat
+-   Select the device to be partitioned from the drop-down list located at the top right of the main window
+-   The partition list will appear in the main window. Select the partition you want to resize and from the menu select `Partition → Unmount`
+-   To change the partition select `Partition → Resize / Move.` Resize / Move dialog will appear. You can use the Free Space Following (MiB) box to choose how much space will be emptied after the partition, or Free Space Preceding (MiB) to empty space before this partition.
+-   Click `Resize / Move`
+-   To apply the changes, click `Edit → Apply All Operations`
 
-Ketika anda memasang sebuah perangakat removable storage (ex : Flashdisk) ke komputer anda, harusnya perangkat tersebut akan tersambung (mounted) oleh operating system yang memperbolehkan anda untuk mengakses file di perangkat tersebut
+### Creating a new Partition
 
-Untuk mencari bagaimana cara mount dan unmount perangkat penyimpanan secara manual dan/atau otomatis, liat di halaman Ubuntu community wiki untuk [perintah mount](https://help.ubuntu.com/community/Mount).
+To create a new partition:
 
-Ketika anda mengcopy files dari perangkat penyimpanan removable, perangkat tersebut tidak selalu tertulis di perangkat secara langsung. Sebaliknya perangkat tersebut akan disimpan dalam antrian sehingga mereka semua dapat ditransfer ke perangkat pada saat yang sama (untuk alasan efisiensi).
+-   Select the device to be partitioned from the drop-down list at the top-right of the main window.
+-   List of partitions will appear. Select unallocated, right click and click New
+-   From File system: pick list, choose the type of filesystem to use.
+-   If required, enter the partition description in the Label: field
+-   Click the Add button
+-   To apply the changes, click `Edit → Apply All Operation`
+
+### Formatting Partitions
+
+To delete a partition, do the following:
+
+-   Select a device from the drop-down list at the top right of the main window
+-   List partition will appear. Select the partition and select `Partition → Unmount`
+-   Select the partition to be formatted and select `Partition → Format to` and select fil type
+-   To apply the changes, click `Edit → Apply All Operations`
+
+### Mounting and Unmounting devices
+
+When you install a removable storage (ex: Flashdisk) to your computer, the device should be mounted by the operating system that allows you to access files on that device
+
+To find how to mount and unmount storage devices manually and/or automatically, see the Ubuntu community wiki page for [mount command](https://help.ubuntu.com/community/Mount).
+
+When you copy files from removable storage devices, they are not always written on the device directly. Instead the device will be stored in a queue so that they can all be transferred to the device at the same time (for efficiency reasons).
 
 ## Laptop
 
-### Pengaturan manajemen daya
+### Power management settings
 
-Anda mungkin ingin mengubah pengaturan manajemen daya laptop Anda untuk membantu menghemat baterai.
+You may want to change your laptop's power management settings to help conserve battery life.
 
--  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
-   `→ Settings Manager → Power Manager`
--    Mengubah pengaturan yang sesuai
--    Perubahan yang diterapkan dapat langsung dilihat
+- ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+    `→ Settings Manager → Power Manager`
+-   Change the settings accordingly
+-   Changes applied can be directly viewed
 
 ### Touchpads
 
-Sebagian besar laptop terdapat touchpad, yang digunakan untuk mengontrol pointer mouse. Ada banyak cara untuk mengubah cara touchpad berkerja; pengaturan touchpad dasar dapat dikonfigurasi dengan cara berikut:
+Most laptops have a touchpad, which is used to control the mouse pointer. There are many ways to change how the touchpad works; basic touchpad settings can be configured in the following ways:
 
-- ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
-    `→ Settings Manager → Mouse dan Touchpad`
--    Pada tab  `Device` : pilih `touchpad`
--    Anda dapat mengubah pengaturan touchpad sesuai dengan keinginan Anda.
+- ![menu] (https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+    `→ Settings Manager → Mouse and Touchpad`
+- On the `Device` tab: select` touchpad`
+- You can change the touchpad settings to your liking.
 
-## Suspend dan Hibernate
+## Suspending and Hibernating
 
-Untuk menghemat daya, Anda dapat mengalihkan komputer ke salah satu dari sejumlah mode hemat daya ketika Anda tidak menggunakannya:
+To save power, you can switch your computer to one of a number of power-saving modes when you are not using it:
 
-`Suspend` adalah perintah untuk membuat komputer anda seperti tertidur. Komputer masih akan diaktifkan dan semua pekerjaan akan dibiarkan terbuka, dengan menggunakan daya yang lebih sedikit. Anda dapat membangunkan komputer dengan menekan tombol atau mengklik mouse.
+`Suspend` is a command to make your computer asleep. The computer will still be activated and all work will be left open, using less power. You can wake the computer by pressing the button or clicking the mouse.
 
-`Hibernate` adalah mematikan komputer sepenuhnya sambil menyimpan keadaan saat komputer (seperti menjaga semua dokumen yang terbuka). Ketika Anda menghidupkan kembali komputer setelah Hibernate, semua pekerjaan Anda harus dikembalikan seperti sebelum Hibernate. Tidak ada daya yang digunakan saat komputer hibernate.
+`Hibernate` is shutting down the computer completely while saving the state of the computer (like keeping all open documents). When you restart the computer after Hibernate, all your work must be restored as it was before Hibernate. No power is used when the computer hibernate.
 
-`Shutting Down` adalah mematikan komputer sepenuhnya tanpa menyimpan keadaan saat komputer masih hidup. Tidak ada daya yang digunakan saat komputer dimatikan.
+`Shutting Down` is shutting down the computer completely without saving the state while the computer is still alive. No power is used when the computer is turned off.
 
-`Resumming` membawa komputer keluar dari mode hemat daya dan kembali ke operasi normal.
+`Resumming` takes the computer out of the power saving mode and returns to normal operation.
 
-Anda dapat secara manual mengalihkan komputer ke mode hemat daya dengan menekan `Menu → logout` dan kemudian pilih tombol mode yang sesuai.
+You can manually switch the computer to power saving mode by pressing `Menu → logout` and then select the appropriate mode button.
 
-### Komputer saya tidak Suspend atau hibernasi dengan benar
+### My computer is not suspended or hibernated correctly
 
-Beberapa komputer tidak dapat Suspend atau hibernate denga benar di TeaLinuxOS. Anda mungkin melihat beberapa gejala seperti berikut:
+Some computers can not Suspend or hibernate properly in TeaLinuxOS. You may notice some of the following symptoms:
 
--    Komputer tidak mati setelah Anda klik untuk hibernate itu.
--    Ketika Anda menghidupkan komputer setelah hibernate itu, program yang sebelumnya terbuka Anda tidak hidup.
--    Komputer tidak bangun setelah proses suspend.
--    Program tertentu atau perangkat keras berhenti bekerja dengan benar setelah melanjutkan dari hibernate atau suspend.
+- The computer does not die after you click to hibernate it.
+- When you turn on the computer after hibernating it, your previously open programs are not live.
+- The computer does not wake up after the suspend process.
+- Certain programs or hardware stops working correctly after resuming from hibernate or suspend.
 
-Jika Anda mengalami masalah ini, Anda harus [melaporkan bug](http://tealinuxos.org/dukungan/bug.tealinuxos.org). Masalah mudah-mudahan akan diperbaiki dalam versi berikutnya dari TeaLinuxOS. Jika hardware Anda tidak bekerja dengan benar setelah suspend atau hibernate komputer, restart komputer Anda. Jika program tidak bekerja dengan benar, cobalah menutup program dan kemudian mulai lagi.
+If you encounter this problem, you must [report the bug](http://tealinuxos.org/support/bug.tealinuxos.org). The problem will hopefully be fixed in the next version of TeaLinuxOS. If your hardware does not work properly after suspend or hibernate the computer, restart your computer. If the program is not working correctly, try closing the program and then starting again.
 
-## Mouse dan keyboard
+## Mouse and keyboard
 
-Ketika Anda menginstal TeaLinuxOS Anda diberi pilihan untuk memilih jenis keyboard dan bahasa. Selama instalasi, perangkat penunjuk harus secara otomatis terdeteksi dan dikonfigurasi. Jika Anda ingin atau perlu mengubah pengaturan dari setiap perangkat ini setelah instalasi, Anda dapat melakukannya dengan klik ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
-   `→ Settings Manager → Mouse dan Touchpad` atau ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
- `→ Settings Manager → Keyboard.`
+When you install TeaLinuxOS you are given the option to choose the keyboard type and language. During installation, the pointing device must be automatically detected and configured. If you want or need to change the settings of each of these devices after installation, you can do so by clicking ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13. png)
+    `→ Settings Manager → Mouse and Touchpad` or ![menu] (https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+ `→ Settings Manager → Keyboard .`
 
-Pilihan untuk mouse dan touchpad meliputi:
+Options for mouse and touchpad include:
 
--    Orientasi tombol
--    Kecepatan pointer dan sensitivitas
--    Sensitivitas double-click
--    Tema Kursor
+-   Key orientation
+-   Speed ​​of pointer and sensitivity
+-   Double-click sensitivity
+-   Cursor Theme
 
 
 
-Beberapa pilihan untuk mengkonfigurasi keyboard Anda meliputi:
+Some options for configuring your keyboard include:
 
--    State of the Num Lock key on startup
--    Key repeat speed and delay
--    Cursor blinking speed
--    Application keyboard shortcuts
--    Keyboard layout and language
-
+-   State of the Num Lock key on startup
+-   Key repeat speed and delay
+-   Cursor blinking speed
+-   Application keyboard shortcuts
+-   Keyboard layout and language
 
 
 

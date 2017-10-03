@@ -4,50 +4,50 @@ type: panduan
 order: 107
 ---
 
-## Menyambung dan Memutuskan jaringan
+## Connecting and Disconnecting networks
 
- ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
- `→ Settings → Network Connection`
-atau klik icon ![networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
- `NetworkManager` yang berada di panel `→ Edit.`
-Koneksi jaringan di TealinuxOS Pappermint menggunakan network connection untuk mengatur jaringan menggunakan kabel, jaringan wireless, mobile broadband, VPN dan koneksi DSL. Network connection akan menghubungkan komputer anda secara otomatis dengan jaringan, namun jika penyambungan pertama kali biasanya memerlukan informasi keamanan untuk terhubung ke jaringan.
+ ![menu] (https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+`→ Settings → Network Connection`
+or click the ![networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
+ `NetworkManager` icon located in panel` → Edit.`
+The network connection in TealinuxOS Pappermint uses a network connection to manage networks using wired, wireless networks, mobile broadband, VPN and DSL connections. Network connection will connect your computer automatically with the network, but the first connection usually requires security information to connect to the network.
 
-Untuk memutuskan (disconnect) jaringan klik pada icon ![networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
- `NetworkManager` yang berada di panel lalu klik `disconnect.`
+To disconnect the network click on the ![Networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
+`NetworkManager` icon located on the panel then click` disconnect.`
 
-## Konfigurasi koneksi
+## Configuring the connection
 
- Jika anda menginginkan untuk mengkonfigurasi jaringan anda, Pada kotak dialog Netwok Connection anda akan melihat koneksi-koneksi jaringan yang ada. Pilih salah satu untuk mengatur konfigurasi atau anda dapat menambahkan koneksi jaringan baru dengan memilih `Add.`
+ If you want to configure your network, In the Netwok Connection dialog box you will see the existing network connections. Choose either to set the configuration or you can add a new network connection by selecting `Add.`
 
-## Berbagi koneksi ke komputer lain
+## Sharing the connection to another computer
 
-Anda dapat berbagi koneksi ke komputer lain dengan menggunakan kabel Ethernet. Untuk pengaturannya klik icon ![networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
- `NetworkManager → Edit` lalu pilih `Add` pada kotak dialog pilih jenis koneksi yang anda inginkan, Setelah create pada bagian tab `IPv4 Setting` pilih metode yang digunakan.
+ You can share a connection to another computer using an Ethernet cable. For the setting click the icon ![Networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
+ `NetworkManager → Edit` then select` Add` in the dialog box select the type of connection you want, After clicking the create button on the tab `IPv4 Settings` select the method used.
 
-## Troubleshooting pada jaringan
+## Troubleshooting on the network
 
-Jika koneksi jaringan anda tidak bekerja secara sempurna anda dapat menggunakan beberapa cara untuk menemukan kesalahan koneksi anda.
+If your network connection is not working perfectly you can use some way to find your connection error.
 
-### Mengecek informasi koneksi
+### Checking connection information
 
-- Menggunakan icon NetworkManager
-   ![networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
- `NetworkManager → Information`. Jika information di disable ini kemungkinan karena komputer anda tidak terkoneksi dengan  jaringan.
--    Menggunakan ifconfig
-    buka terminal (short cut terminal guake : F12)
-    ketikkan perintah ifconfig lalu enter.
-    ifconfig ini akan menunjukkan informasi koneksi anda meliputi nama koneksi, IP address di inet addr , dan MAC address di Hwaddr.
+- Using the NetworkManager icon
+ ![networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
+ `NetworkManager → Information`. If the information is disabled it is probably because your computer is not connected to the network.
+-    Using ifconfig
+    Open terminal (short cut terminal guake: F12)
+    Type the ifconfig command then enter.
+    This ifconfig will show your connection information includes the connection name, IP address in inet addr, and MAC address in Hwaddr.
 
 
-### Mengecek koneksi bekerja
+### Checking if the connection works
 
-Untuk mengecek apakah koksi anda bekerja atau tidak anda dapat mengetesnya melalui ping.
+To check whether your chef is working or not you can test it through ping.
 
--    Buka terminal
--    ketikkan perintah
+-    Open the terminal
+-    type the command
 
-           ping tealinuxos.org
+            ping tealinuxos.org
 
--   lalu enter.
+-    then enter.
 
-Jika koneksi berhasil anda akan menerima pesan berupa jumlah statistik paket yang di transmisikan. Jika anda mendapat pasan `ping: unknown host tealinuxos.org` maka komputer anda mungkin tidak terhubung ke internet dan tidak dapat menjangkau Domine Name System (DNS) server.
+If the connection is successful you will receive a message in the form of the number of packet statistics transmitted. If you get the `ping: unknown host tealinuxos.org` then your computer may not be connected to the internet and can not reach the Domain Name System (DNS) server.

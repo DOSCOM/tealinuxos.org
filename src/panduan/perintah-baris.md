@@ -32,21 +32,21 @@ Untuk menjelajah atau beraktivitas di TealinuxOS atau distro linux lainya selain
     $ ls [nama_direktori]
   ```
 
-- Copy File
+- Menyalin File
 
   Perintah `cp` digunakan untuk mengopi file atau direktori ke direktori lain.
   ```
     $ cp [nama_file] [nama_direktori]
   ```
 
-- Pindah File
+- Memindah File
 
   Perintah `mv` digunakan untuk memindah file atau direktori ke direktori lain.
   ```
     $ mv [nama_file] [nama_direktori]
   ```
 
-- Hapus File
+- Menghapus File
 
   Perintah `rm` digunakan untuk menghapus file atau direktori ke direktori lain.
   ```
