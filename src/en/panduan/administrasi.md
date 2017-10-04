@@ -1,46 +1,45 @@
 ---
-title: Tugas-tugas administratif
+title: Administrative Tasks
 type: panduan
 order: 112
 ---
 
-## User dan Grub
+## User dan Group
 
-### Mengelola User
+### Managing User
 
--    Menambah user baru
+-    Adding a new user
+    
+    Click the `Add` button
+    Enter your password
+    Fill in the Name and Username to use
+    Click the `Ok` button
 
-    Klik tombol `Add`
-    Masukkan password anda
-    Isikan Name dan Username yang akan digunakan
-    Klik tombol `Ok`
+-    Granting user rights as super user or administrator
 
--    Memberikan user hak sebagai super user atau administrator
+    Select the User whose account type will be changed, then click the `Change` button
+    Select the Administrator type (select Desktop Users to return as before)
+    Click the `Ok` button
 
-    pilih User yang tipe akunnya akan diubah, lalu tekan tombol `Change`
-    Pilih tipe Administrator (pilih Dekstop User untuk kembali seperti semula)
-    Klik tombol `Ok`
+-    Deleting user
 
--    Menghapus user
+    Select user to delete
+    Click the `delete` button
 
-    Pilih User yang akan dihapus
-    Klik tombol `delete`
+### Managing Groups
 
-### Mengelola Grup
+-    Adding a group
 
--    Menambah grup
+    Click the `Manage Groups` button
+    Click the `Add` button
+    Fill in the name of the group you want, if you want you can also change Group ID
+    Select the Users to be added to the group
+    Click the `Ok` button
 
-    Klik tombol `Manage Groups`
-    Klik tombol `Add`
-    Isikan Nama grup yang anda inginkan, kalau mau anda juga dapat mengubah Group ID.
-    Pilih User yang akan dimasukkan ke grup tersebut.
-    Klik tombol `Ok`
+-    Deleting a group
 
--    Menghapus Grup
-
-    Klik tombol `Manage Groups`
-    Pilih Grup yang akan dihapus
-    Klik tombol `delete`
-
+    Click the `Manage Groups` button
+    Select group to delete
+    Click the `delete` button
 
 

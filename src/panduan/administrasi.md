@@ -18,13 +18,13 @@ order: 112
 
 -    Memberikan user hak sebagai super user atau administrator
 
-    pilih User yang tipe akunnya akan diubah, lalu tekan tombol `Change`
+    pilih User yang tipe akunnya akan diubah, lalu klik tombol `Change`
     Pilih tipe Administrator (pilih Dekstop User untuk kembali seperti semula)
     Klik tombol `Ok`
 
 -    Menghapus user
 
-    Pilih User yang akan dihapus
+    Pilih user yang akan dihapus
     Klik tombol `delete`
 
 ### Mengelola Grup
@@ -37,7 +37,7 @@ order: 112
     Pilih User yang akan dimasukkan ke grup tersebut.
     Klik tombol `Ok`
 
--    Menghapus Grup
+-    Menghapus grup
 
     Klik tombol `Manage Groups`
     Pilih Grup yang akan dihapus

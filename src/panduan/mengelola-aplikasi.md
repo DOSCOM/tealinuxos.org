@@ -17,12 +17,12 @@ Klik ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a
  ![software-center](https://cloud.githubusercontent.com/assets/26142091/23578129/6d894e06-0102-11e7-8672-2a7212299881.png)
 
 
-Atau lewat terminal, Buka terminal
+Atau lewat terminal, Buka terminal dan
 Ketikan perintah: 
 
     sudo apt-get install nama_paket 
 
-Masukkan password komputer anda
+Masukkan password komputer anda.
 Ketika ada dialog `“Do you want to continue? (Y/n)”` ketik `“y”`
 Tunggu hingga proses pengunduhan dan pemasangan selesai.
 Jalankan aplikasi dengan memanggil nama_paket di terminal atau anda dapat mencarinya di menu.
@@ -79,7 +79,7 @@ Jika anda memiliki aplikasi dengan ekstensi .tar.gz, .deb ataupun .tea anda dapa
 ## Uninstall Software
 
  Untuk menguinstall software tertentu anda dapat melakukannya dengan cara berikut:
-Buka terminal, pastikan terlebih dahulu nama paket yang ingin anda uninstall denganmenggunakan perintah: 
+Buka terminal dan pastikan terlebih dahulu nama paket yang ingin anda uninstall denganmenggunakan perintah: 
 
     dpkg –list
 
@@ -112,7 +112,7 @@ Repository merupakan sekumpulan paket-paket aplikasi atau program untuk sebuah s
 
 ## Menginstall melalui Tealinuxos IDE Installer
  
-Penginstallan paket menggunakan TeaLinux IDE Installer sebagai berikut:
+Anda dapat menginstall paket menggunakan TeaLinux IDE Installer sebagai berikut:
 
 -    Masukkan CD IDE Installer
 -    Jalankan TeaLinux IDE Installer ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
@@ -124,4 +124,4 @@ Penginstallan paket menggunakan TeaLinux IDE Installer sebagai berikut:
 
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  `→ Settings → Software Updater`
-Mengupdate software dapat melalui layanan Software updater, sistem akan mengecek update software lalu akan mengunduh dari internet dan memasang update-update dari software. 
+Mengupdate software dapat dilakukan melalui layanan Software Updater, sistem akan mengecek update software lalu akan mengunduh dari internet dan memasang update-update untuk software. 

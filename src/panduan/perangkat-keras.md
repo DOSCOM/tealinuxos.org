@@ -12,7 +12,7 @@ Pembatasan Driver (Restricted Driver) adalah keterbatasan driver untuk sebuah pe
 
 Kebanyakan device (hardware) yang terpasang di komputer anda bisa berfungsi secara normal di TeaLinuxOS. Device ini cenderung tidak memiliki keterbatasan driver, yang artinya driver dapat dimodifikasi dan masalah dengan device dapat dibetulkan.
 
-Ketika beberapa hardware tidak dapat berjalan lancar di TeaLinuxOS bisa dikarenakan device tersebut memiliki Restricted Driver (Pembatasan Driver). Biasanya pembuat hardware belum merilis detail dari hardware itu sendiri yang memungkinkan untuk developer membuat semacam driver sendiri. Device yang seperti ini mempunyai fungsi yang terbatas atau mungkin tidak bisa berkerja sama sekali
+Ketika beberapa hardware tidak dapat berjalan lancar di TeaLinuxOS bisa dikarenakan device tersebut memiliki Restricted Driver (Pembatasan Driver). Biasanya pembuat hardware belum merilis detail dari hardware itu sendiri yang memungkinkan untuk developer membuat semacam driver sendiri. Device yang seperti ini mempunyai fungsi yang terbatas atau mungkin tidak bisa berkerja sama sekali.
 
 ### Mengaktifkan Pembatasan Driver
 

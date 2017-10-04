@@ -15,8 +15,8 @@ Meskipun anda memiliki password yang sangat sulit dipecahkan alangkah baiknya un
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  `→ Setting → User and Groups`
 Klik username anda pada list
-Klik `Change`, pada pengaturan Password
-Anda dapat memilih `set password by hand` yaitu anda memasukkan password anda sendiri atau memilih `Generate random password` untuk memilih password secara acak.
+Klik `Change` pada pengaturan Password
+Anda dapat memilih `set password by hand` dengan memasukkan password anda sendiri atau memilih `Generate random password` untuk memilih password secara acak.
 Terakhir pilih `Ok`
 
 ### Kunci layar ketika meninggalkan komputer
@@ -50,5 +50,5 @@ Tips saat membuat backup data:
 
 -    Buat cadangan secara teratur
 -    Pastikan sudah terbuat dengan benar
--    Beri label backup dengan jelas dan simpan di tempat yang aman.
+-    Beri label backup dengan jelas dan simpan di tempat yang aman
 

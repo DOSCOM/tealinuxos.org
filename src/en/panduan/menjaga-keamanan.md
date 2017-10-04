@@ -1,54 +1,53 @@
 ---
-title: Menjaga Keamanan Komputer
+title: Maintaining Computer Securoty
 type: panduan
 order: 110
 ---
 
-## Tips Menjaga Keamanan Komputer
+## Tips on Maintaining Computer Security
 
-Beberapa tips menjaga keamanan komputer anda diantaranya :
+Some tips to keep your computer safe are:
 
-### Mengubah password komputer secara berkala
+### Change the computer password periodically
 
-Meskipun anda memiliki password yang sangat sulit dipecahkan alangkah baiknya untuk tetap waspada dengan mengganti password komputer anda secara berkala, langkah-langkahnya sebagai berikut:
+Even if you have a very difficult password to solve it would be nice to stay alert by changing your computer password periodically, the steps are as follows:
 
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
- `→ Setting → User and Groups`
-Klik username anda pada list
-Klik `Change`, pada pengaturan Password
-Anda dapat memilih `set password by hand` yaitu anda memasukkan password anda sendiri atau memilih `Generate random password` untuk memilih password secara acak.
-Terakhir pilih `Ok`
+ `→ Settings → User and Groups`
+Click your username in the list
+Click `Change` in Password settings
+You can choose `set password by hand` if you want to enter your own password or choose` Generate random password` to choose password randomly.
+Finally select `Ok`
 
-### Kunci layar ketika meninggalkan komputer
+### Lock your screen when leaving the computer
 
-Mengunci layar saat hendak meninggalkan komputer sangat penting untuk menghindari seseorang mengakses komputer anda. Untuk mengunci ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
- `→ Lock Screen` atau Klik `nama user` pada panel `→ Lock Screen.`
+Locking the screen when about to leave the computer is very important to avoid someone accessing your computer. To lock ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+ `→ Lock Screen` or Click` user name` on panel `→ Lock Screen .`
 
-### Mengatur Firewall
+### Set up Firewall
 
-Firewall membantu mencegah pelanggaran keamanan dengan memblokir koneksi dari sumber yang tidak diketahui. Pada kondisi awal Firewall tidak dijalankan namun anda dapat menginstall aplikasi seperti Firestarter atau yang lainnya.
+Firewalls help prevent security breaches by blocking connections from unknown sources. In the initial conditions Firewall is not running but you can install applications like Firestarter or others.
 
-### Waspada saat mengakses internet
+### Be wary of accessing the internet
 
-Berikut adalah beberapa tips untuk menjaga aman secara online:
+Here are some tips for keeping safe online:
 
--    Jangan pernah membalas email yang tidak diminta (spam, penipuan atau email phishing) atau mengklik link di email. Biasanya anda akan dikirimin lebih banyak email spam jika mengklik link di email.
--    Jangan pernah mengklik link dalam email yang meminta password Anda atau informasi rahasia lainnya. Hal ini memungkinkan anda di arahkan untuk membuka alamat (mungkin berbahaya). Sebaliknya, ketik link langsung ke browser web Anda sendiri dan melanjutkan dari sana.
--    Jika sebuah situs web meminta rincian keuangan Anda, pastikan bahwa itu adalah aman. Dalam web browser Firefox, situs aman memiliki ikon gembok di sebelah kiri alamat. Klik pada gembok untuk membaca informasi lebih lanjut tentang keamanan website.
--    Hanya men-download dan menjalankan software dari sumber yang Anda percaya.
+-    Never reply to unsolicited email (spam, fraud or phishing email) or click on a link in an email. Usually you will be sent more spam email if clicking link in email.
+-    Never click on links in emails asking for your password or other confidential information. This allows you to point to open addresses (possibly dangerous). Instead, type a link directly into your own web browser and proceed from there.
+-    If a website asks for your financial details, make sure that it is secure. In the Firefox web browser, the secure site has a lock icon to the left of the address. Click on the padlock to read more information about website security.
+-    Just download and run software from sources you trust.
 
 
-### Backup data secara teratur
+### Backup data regularly
 
-Masalah yang mungkin terjadi adalah hilangnya file atau data karena pengaturan untuk satu atau alasan lain. Penyebab kehilangan data tersebut banyak dan beragam; misalnya saat kegagalan daya untuk sengaja menghapus file. Hal ini sangat disarankan agar Anda membuat cadangan pada file-file penting anda, jika Anda menghadapi masalah tersebut, Anda masih memiliki cadangannya.
+Possible problems are loss of files or data due to settings for one reason or another. The causes of data loss are numerous and varied; eg during a power failure to accidentally delete a file. It is strongly recommended that you backup your important files, if you encounter the problem, you still have the backup.
 
-Sebaiknya menyimpan cadangan file secara terpisah dari komputer Anda; seperti CD dan DVD, hard disk eksternal, disk USB maupun komputer lain.
+We recommend storing backups of files separately from your computer; such as CDs and DVDs, external hard disks, USB disks or other computers.
 
-Cara yang paling mudah membuat cadangan file adalah secara manual menyalinnya ke lokasi yang aman dengan menggunakan File Browser serta Archive Manager untuk mengompres file dan membungkus file-file tersebut. Atau, anda dapat menggunakan aplikasi backup khusus.
+The easiest way to back up files is to manually copy them to a secure location using File Browser and Archive Manager to compress files and wrap those files. Alternatively, you can use a special backup application.
 
-Tips saat membuat backup data:
+Tips when backing up data:
 
--    Buat cadangan secara teratur
--    Pastikan sudah terbuat dengan benar
--    Beri label backup dengan jelas dan simpan di tempat yang aman.
-
+-   Back up regularly
+-   Make sure it's made correctly
+-   Label the backup clearly and keep it in a safe place

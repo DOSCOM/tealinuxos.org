@@ -1,55 +1,55 @@
 ---
-title: Print and Scan
+title: Printing and Scanning
 type: panduan
 order: 108
 ---
 
-## Penggunaan Printer
+## Using the Printer
+ 
+ Most printers are automatically supported by TeaLinuxOS Pappermint. The Printer Configuration application allows you to add printers, as well as change their settings. You can also use this app to share the printer with other computers on the network, disable the printer or restart.
 
- Kebanyakan printer secara otomatis didukung oleh TeaLinuxOS Pappermint. Aplikasi Konfigurasi Printer memungkinkan Anda untuk menambahkan printer, serta mengubah pengaturan mereka. Anda juga dapat menggunakan aplikasi ini untuk berbagi printer dengan komputer lain di jaringan, menonaktifkan printer atau restart.
+### Local Printing
 
-### Print Lokal
+-   Get the name of your printer model
+-   Make sure the printer is on
+- ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+  `→ Settings → Settings Manager → Printers`
+-   Click `→ Server → New → Printer`
+-   Your printer must be automatically detected and displayed in the Devices window
+-   Select your printer and click Forward
+-   Your computer will locate and install drivers for your printer
+-   You can enter description and location for your printer
+-   Press `Apply`
+-   Your printer must be configured correctly at this time and you will be prompted if you want to print a test page
+-   If you press the Print Test Page button, the test page will print and you can verify whether it is printing correctly, or you can press Cancel.
+-   If you're still having trouble, try using CUPS browser-based interface. It can be accessed at http: // localhost: 631 /.
 
--    Dapatkan nama model printer Anda
--    Pastikan printer sudah hidup
--    ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
- `→ Setting → Setting Manager → Printers`
--    Klik `→ Server → New → Printer`
--    Printer Anda harus secara otomatis terdeteksi dan ditampilkan dalam jendela Devices
--    Pilih printer Anda dan klik Forward
--    Komputer Anda akan mencari dan menginstal driver untuk printer Anda
--    Anda dapat memasukkan deskripsi dan lokasi untuk printer Anda
--    Tekan `Apply`
--    Printer Anda harus dikonfigurasi dengan benar pada saat ini dan Anda akan diminta jika Anda ingin mencetak halaman uji
--    Jika Anda menekan tombol Print Test Page, halaman uji akan mencetak dan Anda dapat memverifikasi apakah itu dicetak dengan benar, atau Anda dapat menekan Batal.
--    Jika Anda masih mengalami masalah, cobalah menggunakan antarmuka berbasis browser CUPS. Hal ini dapat diakses di http: // localhost: 631 /.
+### Printing using the network
 
-### Print menggunakan jaringan
+-   Get the name of your printer model
+-   Make sure the printer is on
+- ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+  `→ Settings → Settings Manager → Printers`
+-   Click `→ Server → New → Printer`
+-   Click on Network Printer in the Devices window
+-   If your printer is directly connected to a Windows machine on your network, choose Windows Printer via SAMBA. If not, select the protocol your printer uses to communicate.
+-   Enter network printer details and press Forward
+-   Select the printer manufacturer and then press Forward
+-   Select the printer model and the driver then press Forward
+-   You can enter a description and location for your printer in the appropriate fields
+-   Press `Apply`
+-   Your printer is configured correctly at this time and you will be prompted to print a test page, press Cancel or Print Test Page depending on your preference
 
--    Dapatkan nama model printer Anda
--    Pastikan printer sudah hidup
--   ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
- `→ Setting → Setting Manager → Printers`
--    Klik `→ Server → New → Printer`
--    Klik pada Network Printer di jendela Devices
--    Jika printer Anda terhubung langsung ke mesin Windows di jaringan Anda, pilih Windows Printer via SAMBA. Jika tidak, pilih protokol printer Anda menggunakan untuk berkomunikasi.
--    Masukkan rincian printer jaringan dan tekan Teruskan
--    Pilih produsen printer dan kemudian tekan Teruskan
--    Pilih model printer dan driver kemudian tekan Teruskan
--    nda dapat memasukkan deskripsi dan lokasi untuk printer Anda di bidang yang sesuai
--    Tekan `Apply`
--    Printer Anda dikonfigurasi dengan benar pada saat ini dan Anda akan diminta untuk mencetak halaman uji, tekan Batal atau Print Test Page tergantung pada preferensi Anda
+## Using the Scanner
+ Many scanners have been supported by TeaLinuxOS Pappermint, making it easy to install and operate.
 
-## Penggunaan Scanner
+Scanning the document
 
- Banyak scanner telah didukung oleh TeaLinuxOS Pappermint, sehingga mudah dalam penginstallan dan pengoperasiannya.
-Scan dokumen
-
--    Tempatkan dokumen yang ingin di scan ke scanner
--  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+-   Place the document you want to scan to scanner
+- ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
   `→ Graphics → Simple Scan`
--    Klik `Document → Scan`
--    Pilih media yang ingin anda scan: Single Page, All Pages From Feeder, Text or Photo. Bergantian, tekan tombol Scan pada pemindai cara ini seharusnya bisa berhasil.
+-   Click `Document → Scan`
+-   Select the media you want to scan: Single Page, All Pages From Feeder, Text or Photo. Alternately, press the Scan button on the scanner this way should work.
 
 
 

@@ -43,6 +43,7 @@ order: 108
 ## Penggunaan Scanner
 
  Banyak scanner telah didukung oleh TeaLinuxOS Pappermint, sehingga mudah dalam penginstallan dan pengoperasiannya.
+ 
 Scan dokumen
 
 -    Tempatkan dokumen yang ingin di scan ke scanner

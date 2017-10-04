@@ -22,7 +22,7 @@ Untuk memutuskan (disconnect) jaringan klik pada icon ![networkmanager](https://
 ## Berbagi koneksi ke komputer lain
 
 Anda dapat berbagi koneksi ke komputer lain dengan menggunakan kabel Ethernet. Untuk pengaturannya klik icon ![networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
- `NetworkManager → Edit` lalu pilih `Add` pada kotak dialog pilih jenis koneksi yang anda inginkan, Setelah create pada bagian tab `IPv4 Setting` pilih metode yang digunakan.
+ `NetworkManager → Edit` lalu pilih `Add` pada kotak dialog pilih jenis koneksi yang anda inginkan, Setelah mengklik tombol create pada bagian tab `IPv4 Setting` pilih metode yang digunakan.
 
 ## Troubleshooting pada jaringan
 
@@ -50,5 +50,5 @@ Untuk mengecek apakah koksi anda bekerja atau tidak anda dapat mengetesnya melal
 
 -   lalu enter.
 
-Jika koneksi berhasil anda akan menerima pesan berupa jumlah statistik paket yang di transmisikan. Jika anda mendapat pasan `ping: unknown host tealinuxos.org` maka komputer anda mungkin tidak terhubung ke internet dan tidak dapat menjangkau Domine Name System (DNS) server.
+Jika koneksi berhasil anda akan menerima pesan berupa jumlah statistik paket yang di transmisikan. Jika anda mendapat pasan `ping: unknown host tealinuxos.org` maka komputer anda mungkin tidak terhubung ke internet dan tidak dapat menjangkau Domain Name System (DNS) server.
 
