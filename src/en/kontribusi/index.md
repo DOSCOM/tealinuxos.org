@@ -1,18 +1,18 @@
 ---
 layout: kontrib
 title: Chatime
-subtitle: Kami butuh kamu. Jadilah bagian dari developer-developer TeaLinuxOS untuk berkontribusi dan terlibat melakukan perubahan pada pengembangan TeaLinuxOS.
+subtitle: We need you. Be part of the TeaLinuxOS developers to contribute and engage in making changes to the development of TeaLinuxOS.
 type: Kontribusi
 ---
 
 # Guide Content
 
-Untuk teman-teman yang mau kontribusi pada konten panduan, bisa langsung menuju ke halaman [panduan tealinuxos](https://tealinuxos.github.io/panduan).
+For those who want to contribute to the content of the guide, can go directly to the page [TealinuxOS Guide](https://tealinuxos.github.io/guide).
 
-Ada beberapa halaman untuk konten panduan, bisa diakses lewat side bar sebelah kiri,
-terus di footer ada link buat ngedit halamannya melalui github.
+There are several pages for the guide content, accessible via the left side bar,
+In the footer there is a link to edit the page through Github.
 
 
 # Web Development
 
-untuk memudahkan berkontribusi, web ini dibangun menggunakan [hexo](https://hexo.io/). Untuk berkontribusi dalam pengembangan website TealinuxOS, bisa fork ke repositori github [DOSCOM](https://github.com/DOSCOM/tealinuxos.org)
+To make it easier to contribute, this web is built using [hexo](https://hexo.io/). To contribute to the TealinuxOS website, you can fork this repository [DOSCOM](https://github.com/DOSCOM/tealinuxos.org).
