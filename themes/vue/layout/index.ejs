@@ -7,7 +7,7 @@
 <div id="hero" class="tea-hero">
   <div class="inner">
     <div class="left">
-      <img class="hero-logo" src="<%- url_for('/images/logo-tealinuxos.png') %>">
+      <img class="hero-logo zoom-in-out" src="<%- url_for('/images/logo-tealinuxos.png') %>">
     </div><div class="right">
       <!-- <h2 class="vue" style="color:white;">TealinuxOS</h2> -->
       <h1>
@@ -98,24 +98,25 @@
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div class="box-nested left-side">
-        <h2>Tea Theme Switcher</h2>
-        <p>
-          Beralih tema dengan sekali klik!
-          <br/>
-          Secara bawaan, TeaLinuxOS memiliki dua mode tema, Developer mode (Dark) dan Normal mode (Light). Dengan Theme Switcher ini bergonta-ganti tema semakin cepat dan mudah.
-        </p>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-      <div class="box-nested right-side">
         <video autoplay loop>
-  <source src="<%- url_for('/videos/theme-switcher.webm') %>" type="video/webm">
-  I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
-  <!-- You can embed a Flash player here, to play your mp4 video in older browsers -->
-</video>
-        <!-- <img src="<%- url_for_lang('/images/feature/tea-module-installer.png') %>" alt="Tea Module Installer"/> -->
+          <source src="<%- url_for('/videos/theme-switcher.webm') %>" type="video/webm">
+            I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+            <!-- You can embed a Flash player here, to play your mp4 video in older browsers -->
+          </video>
+          <!-- <img src="<%- url_for_lang('/images/feature/tea-module-installer.png') %>" alt="Tea Module Installer"/> -->
+        </div>
       </div>
-    </div>
+      
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="box-nested right-side">
+          <h2>Tea Theme Switcher</h2>
+          <p>
+            Beralih tema dengan sekali klik!
+            <br/>
+            Secara bawaan, TeaLinuxOS memiliki dua mode tema, Developer mode (Dark) dan Normal mode (Light). Dengan Theme Switcher ini bergonta-ganti tema semakin cepat dan mudah.
+          </p>
+        </div>
+      </div>
   </div>
 </div>
 
