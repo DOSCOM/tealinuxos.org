@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -248,42 +268,42 @@
                 
                 
                 <li>
-                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Print dan Scan</a>
+                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Printing and Scanning</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Mengelola Aplikasi Terinstall</a>
+                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Managing Installed Apps</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Menjaga Keamanan Komputer</a>
+                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Maintaining Computer Securoty</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Perangkat Keras</a>
+                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Hardwares</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Tugas-tugas administratif</a>
+                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Administrative Tasks</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Perintah Baris</a>
+                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Command Line</a>
                 </li>
             
             
@@ -307,25 +327,25 @@
     
       <h1>Network and Internet Connection</h1>
     
-    <h2 id="Menyambung-dan-Memutuskan-jaringan"><a href="#Menyambung-dan-Memutuskan-jaringan" class="headerlink" title="Menyambung dan Memutuskan jaringan"></a>Menyambung dan Memutuskan jaringan</h2><p> <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Settings → Network Connection</code><br>atau klik icon <img src="https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png" alt="networkmanager"><br> <code>NetworkManager</code> yang berada di panel <code>→ Edit.</code><br>Koneksi jaringan di TealinuxOS Pappermint menggunakan network connection untuk mengatur jaringan menggunakan kabel, jaringan wireless, mobile broadband, VPN dan koneksi DSL. Network connection akan menghubungkan komputer anda secara otomatis dengan jaringan, namun jika penyambungan pertama kali biasanya memerlukan informasi keamanan untuk terhubung ke jaringan.</p>
-<p>Untuk memutuskan (disconnect) jaringan klik pada icon <img src="https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png" alt="networkmanager"><br> <code>NetworkManager</code> yang berada di panel lalu klik <code>disconnect.</code></p>
-<h2 id="Konfigurasi-koneksi"><a href="#Konfigurasi-koneksi" class="headerlink" title="Konfigurasi koneksi"></a>Konfigurasi koneksi</h2><p> Jika anda menginginkan untuk mengkonfigurasi jaringan anda, Pada kotak dialog Netwok Connection anda akan melihat koneksi-koneksi jaringan yang ada. Pilih salah satu untuk mengatur konfigurasi atau anda dapat menambahkan koneksi jaringan baru dengan memilih <code>Add.</code></p>
-<h2 id="Berbagi-koneksi-ke-komputer-lain"><a href="#Berbagi-koneksi-ke-komputer-lain" class="headerlink" title="Berbagi koneksi ke komputer lain"></a>Berbagi koneksi ke komputer lain</h2><p>Anda dapat berbagi koneksi ke komputer lain dengan menggunakan kabel Ethernet. Untuk pengaturannya klik icon <img src="https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png" alt="networkmanager"><br> <code>NetworkManager → Edit</code> lalu pilih <code>Add</code> pada kotak dialog pilih jenis koneksi yang anda inginkan, Setelah create pada bagian tab <code>IPv4 Setting</code> pilih metode yang digunakan.</p>
-<h2 id="Troubleshooting-pada-jaringan"><a href="#Troubleshooting-pada-jaringan" class="headerlink" title="Troubleshooting pada jaringan"></a>Troubleshooting pada jaringan</h2><p>Jika koneksi jaringan anda tidak bekerja secara sempurna anda dapat menggunakan beberapa cara untuk menemukan kesalahan koneksi anda.</p>
-<h3 id="Mengecek-informasi-koneksi"><a href="#Mengecek-informasi-koneksi" class="headerlink" title="Mengecek informasi koneksi"></a>Mengecek informasi koneksi</h3><ul>
-<li>Menggunakan icon NetworkManager<br> <img src="https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png" alt="networkmanager"><br><code>NetworkManager → Information</code>. Jika information di disable ini kemungkinan karena komputer anda tidak terkoneksi dengan  jaringan.</li>
-<li>Menggunakan ifconfig<br>buka terminal (short cut terminal guake : F12)<br>ketikkan perintah ifconfig lalu enter.<br>ifconfig ini akan menunjukkan informasi koneksi anda meliputi nama koneksi, IP address di inet addr , dan MAC address di Hwaddr.</li>
+    <h2 id="Connecting-and-Disconnecting-networks"><a href="#Connecting-and-Disconnecting-networks" class="headerlink" title="Connecting and Disconnecting networks"></a>Connecting and Disconnecting networks</h2><p> ![menu] (<a href="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" target="_blank" rel="noopener">https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png</a>)<br><code>→ Settings → Network Connection</code><br>or click the <img src="https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png" alt="networkmanager"><br> <code>NetworkManager</code> icon located in panel<code>→ Edit.</code><br>The network connection in TealinuxOS Pappermint uses a network connection to manage networks using wired, wireless networks, mobile broadband, VPN and DSL connections. Network connection will connect your computer automatically with the network, but the first connection usually requires security information to connect to the network.</p>
+<p>To disconnect the network click on the <img src="https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png" alt="Networkmanager"><br><code>NetworkManager</code> icon located on the panel then click<code>disconnect.</code></p>
+<h2 id="Configuring-the-connection"><a href="#Configuring-the-connection" class="headerlink" title="Configuring the connection"></a>Configuring the connection</h2><p> If you want to configure your network, In the Netwok Connection dialog box you will see the existing network connections. Choose either to set the configuration or you can add a new network connection by selecting <code>Add.</code></p>
+<h2 id="Sharing-the-connection-to-another-computer"><a href="#Sharing-the-connection-to-another-computer" class="headerlink" title="Sharing the connection to another computer"></a>Sharing the connection to another computer</h2><p> You can share a connection to another computer using an Ethernet cable. For the setting click the icon <img src="https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png" alt="Networkmanager"><br> <code>NetworkManager → Edit</code> then select<code>Add</code> in the dialog box select the type of connection you want, After clicking the create button on the tab <code>IPv4 Settings</code> select the method used.</p>
+<h2 id="Troubleshooting-on-the-network"><a href="#Troubleshooting-on-the-network" class="headerlink" title="Troubleshooting on the network"></a>Troubleshooting on the network</h2><p>If your network connection is not working perfectly you can use some way to find your connection error.</p>
+<h3 id="Checking-connection-information"><a href="#Checking-connection-information" class="headerlink" title="Checking connection information"></a>Checking connection information</h3><ul>
+<li>Using the NetworkManager icon<br><img src="https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png" alt="networkmanager"><br><code>NetworkManager → Information</code>. If the information is disabled it is probably because your computer is not connected to the network.</li>
+<li>Using ifconfig<br>Open terminal (short cut terminal guake: F12)<br>Type the ifconfig command then enter.<br>This ifconfig will show your connection information includes the connection name, IP address in inet addr, and MAC address in Hwaddr.</li>
 </ul>
-<h3 id="Mengecek-koneksi-bekerja"><a href="#Mengecek-koneksi-bekerja" class="headerlink" title="Mengecek koneksi bekerja"></a>Mengecek koneksi bekerja</h3><p>Untuk mengecek apakah koksi anda bekerja atau tidak anda dapat mengetesnya melalui ping.</p>
+<h3 id="Checking-if-the-connection-works"><a href="#Checking-if-the-connection-works" class="headerlink" title="Checking if the connection works"></a>Checking if the connection works</h3><p>To check whether your chef is working or not you can test it through ping.</p>
 <ul>
-<li>Buka terminal</li>
-<li><p>ketikkan perintah</p>
+<li>Open the terminal</li>
+<li><p>type the command</p>
 <pre><code>ping tealinuxos.org
 </code></pre></li>
-<li><p>lalu enter.</p>
+<li><p>then enter.</p>
 </li>
 </ul>
-<p>Jika koneksi berhasil anda akan menerima pesan berupa jumlah statistik paket yang di transmisikan. Jika anda mendapat pasan <code>ping: unknown host tealinuxos.org</code> maka komputer anda mungkin tidak terhubung ke internet dan tidak dapat menjangkau Domine Name System (DNS) server.</p>
+<p>If the connection is successful you will receive a message in the form of the number of packet statistics transmitted. If you get the <code>ping: unknown host tealinuxos.org</code> then your computer may not be connected to the internet and can not reach the Domain Name System (DNS) server.</p>
 
 
     
@@ -334,7 +354,7 @@
           <span>← <a href="/en/panduan/aplikasi-tea.html">Default App Introduction</a></span>
         
         
-          <span style="float:right"><a href="/en/panduan/print-dan-scan.html">Print dan Scan</a> →</span>
+          <span style="float:right"><a href="/en/panduan/print-dan-scan.html">Printing and Scanning</a> →</span>
         
       </div>
     
@@ -368,7 +388,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -213,7 +233,7 @@
                 
                 
                 <li>
-                    <a href="/panduan/migrasi.html" class="sidebar-link">Migrasi dan Upgrade</a>
+                    <a href="/panduan/migrasi.html" class="sidebar-link">Migration and Upgrade</a>
                 </li>
             
                 
@@ -307,13 +327,13 @@
     
       <h1>Kenalan dengan TealinuxOS</h1>
     
-    <h2 id="Apa-itu-Tealinuxos"><a href="#Apa-itu-Tealinuxos" class="headerlink" title="Apa itu Tealinuxos?"></a>Apa itu Tealinuxos?</h2><p><a href="http://tealinuxos.org/" target="_blank" rel="external">TeaLinuxOS</a> adalah distro Linux turunan Ubuntu yang dikembangkan oleh <a href="http://doscom.org/" target="_blank" rel="external">Dinus Open Source Community (DOSCOM)</a> yang berorientasi pemrograman. Dengan menghadirkan filosofi,</p>
+    <h2 id="Apa-itu-Tealinuxos"><a href="#Apa-itu-Tealinuxos" class="headerlink" title="Apa itu Tealinuxos?"></a>Apa itu Tealinuxos?</h2><p><a href="http://tealinuxos.org/" target="_blank" rel="noopener">TeaLinuxOS</a> adalah distro Linux turunan Ubuntu yang dikembangkan oleh <a href="http://doscom.org/" target="_blank" rel="noopener">Dinus Open Source Community (DOSCOM)</a> yang berorientasi pemrograman. Dengan menghadirkan filosofi,</p>
 <blockquote>
-<p>Nikmatnya sebuah racikan<br><a href="https://www.instagram.com/doscomedia/" target="_blank" rel="external">@tealinuxos</a></p>
+<p>Nikmatnya sebuah racikan<br><a href="https://www.instagram.com/doscomedia/" target="_blank" rel="noopener">@tealinuxos</a></p>
 </blockquote>
 <p>TeaLinuxOS dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distro Linux pemrograman yang dikhususkan untuk dunia pendidikan.</p>
-<h3 id="Nama"><a href="#Nama" class="headerlink" title="Nama"></a>Nama</h3><p>TeaLinuxOS – Nikmatnya Sebuah Racikan!<br>Kami menggunakan nama distro TeaLinuxOS karena beberapa alasan, yaitu tea yang dalam bahasa Indonesia berarti teh, merupakan minuman khas rakyat Indonesia yang merakyat dan dapat dikonsumsi semua orang. Kami berharap TeaLinuxOS dapat mencukupi kebutuhan penggunanya, terutama para programmer.</p>
-<h3 id="Versi"><a href="#Versi" class="headerlink" title="Versi"></a>Versi</h3><p>TealinuxOS telah diluncurkan sebanyak 8 versi diantaranya adalah :</p>
+<h3 id="Nama"><a href="#Nama" class="headerlink" title="Nama"></a>Nama</h3><p>TeaLinuxOS – Nikmatnya Sebuah Racikan!<br>Kami menggunakan nama distro TeaLinuxOS karena beberapa alasan, yaitu <em>tea</em> yang dalam bahasa Indonesia berarti teh, merupakan minuman khas masyarakat Indonesia yang merakyat dan dapat dikonsumsi semua orang. Kami berharap TeaLinuxOS dapat memenuhi kebutuhan penggunanya, terutama para programmer.</p>
+<h3 id="Versi"><a href="#Versi" class="headerlink" title="Versi"></a>Versi</h3><p>TealinuxOS telah diluncurkan sebanyak 9 versi diantaranya adalah :</p>
 <ul>
 <li>TeaLinuxOS ver 1.0 Code Name : Green Tea, based on Ubuntu 8.04</li>
 <li>TeaLinuxOS ver 2.0 Code Name : Black Tea, based on Ubuntu 9.10</li>
@@ -323,11 +343,12 @@
 <li>TeaLinuxOS ver 6.0 Code Name : Jasmine Tea, based on Lubuntu 13.10</li>
 <li>TeaLinuxOS ver 7.0 Code Name : Rosella Tea, based on Xubuntu 14.04</li>
 <li>TeaLinuxOS ver 8.0 Code Name : Pappermint Tea, based on Xubuntu 16.04</li>
+<li>TeaLinuxOS ver 9.0 Code Name : Chamomile Tea, based on Xubuntu 16.04</li>
 </ul>
-<h2 id="Resep-TealinuxOS"><a href="#Resep-TealinuxOS" class="headerlink" title="Resep TealinuxOS"></a>Resep TealinuxOS</h2><p>Versi terakhir dari TealinuxOS adalah TealinuxOS 8 Pappermint yang dibuat dari core Xbuntu 16.04, Xfce dan FOSS.</p>
-<h3 id="Xubuntu-16-04-LTS"><a href="#Xubuntu-16-04-LTS" class="headerlink" title="Xubuntu 16.04 LTS"></a>Xubuntu 16.04 LTS</h3><p>Xubuntu merupakan sistem operasi elegan yang mudah digunakan dan dengan edisi LTS “Long Term Support” ini membuat TeaLinuxOS yang berbasis Xubuntu versi ini mendapat dukungan jangka panjang selama 5 tahun sehingga senantiasa stabil, handal dan aman. Untuk informasi lebih lanjut mengenai Xubuntu anda dapat berkunjung di webseite resmi <a href="http://xubuntu.org/" target="_blank" rel="external">Xubuntu</a>.</p>
-<h3 id="XFCE"><a href="#XFCE" class="headerlink" title="XFCE"></a>XFCE</h3><p>Xfce merupakan dekstop environment yang ringan yang digunakan di TeaLinuxOS Pappermint. Dengan menggunakan Xfce pemakaian resource sistem lebih sedikit sehingga sistem operasi akan lebih ringan namum tanpa meninggalkan sisi user interface yang ramah pengguna. Untuk informasi lebih lanjut tentang xfce silahkan berkunjung di website resmi <a href="http://xfce.org/" target="_blank" rel="external">Xfce</a>.</p>
-<h3 id="FOSS"><a href="#FOSS" class="headerlink" title="FOSS"></a>FOSS</h3><p>Semua software yang digunakan dalam sistem operasi TeaLinuxOS berlisensi bebas dan kode sumber yang terbuka semua orang dapat melihat kode sumbernya, berkontribusi memperbaiki atau membuatnya lebih baik. Untuk megetahui lebih tentang FOSS (Free Open Source Software) bisa dilihat di <a href="http://gnu.org/" target="_blank" rel="external">GNU website</a>.</p>
+<h2 id="Resep-TealinuxOS"><a href="#Resep-TealinuxOS" class="headerlink" title="Resep TealinuxOS"></a>Resep TealinuxOS</h2><p>Versi terakhir dari TealinuxOS adalah TealinuxOS 9 Chamomile yang dibuat dari core Xbuntu 16.04, Xfce dan FOSS.</p>
+<h3 id="Xubuntu-16-04-LTS"><a href="#Xubuntu-16-04-LTS" class="headerlink" title="Xubuntu 16.04 LTS"></a>Xubuntu 16.04 LTS</h3><p>Xubuntu merupakan sistem operasi elegan yang mudah digunakan dan dengan edisi LTS “<em>Long Term Support</em>” ini membuat TeaLinuxOS yang berbasis Xubuntu versi ini mendapat dukungan jangka panjang selama 5 tahun sehingga senantiasa stabil, handal dan aman. Untuk informasi lebih lanjut mengenai Xubuntu anda dapat berkunjung di website resmi <a href="http://xubuntu.org/" target="_blank" rel="noopener">Xubuntu</a>.</p>
+<h3 id="XFCE"><a href="#XFCE" class="headerlink" title="XFCE"></a>XFCE</h3><p>Xfce merupakan <em>dekstop environment</em> yang ringan yang digunakan di TeaLinuxOS Pappermint. Dengan menggunakan Xfce pemakaian <em>resource</em> sistem lebih sedikit sehingga sistem operasi akan lebih ringan namum tanpa meninggalkan sisi <em>user interface</em> yang ramah pengguna. Untuk informasi lebih lanjut tentang xfce silahkan berkunjung di website resmi <a href="http://xfce.org/" target="_blank" rel="noopener">Xfce</a>.</p>
+<h3 id="FOSS"><a href="#FOSS" class="headerlink" title="FOSS"></a>FOSS</h3><p>Semua software yang digunakan dalam sistem operasi TeaLinuxOS berlisensi bebas dan kode sumber yang terbuka, artinya semua orang dapat melihat kode sumbernya, berkontribusi memperbaiki atau membuatnya lebih baik. Untuk megetahui lebih tentang FOSS (Free Open Source Software) bisa dilihat di <a href="http://gnu.org/" target="_blank" rel="noopener">GNU website</a>.</p>
 
 
     
@@ -368,7 +389,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

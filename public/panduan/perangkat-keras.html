@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -213,7 +233,7 @@
                 
                 
                 <li>
-                    <a href="/panduan/migrasi.html" class="sidebar-link">Migrasi dan Upgrade</a>
+                    <a href="/panduan/migrasi.html" class="sidebar-link">Migration and Upgrade</a>
                 </li>
             
                 
@@ -309,7 +329,7 @@
     
     <h2 id="Pembatasan-Beberapa-Driver"><a href="#Pembatasan-Beberapa-Driver" class="headerlink" title="Pembatasan Beberapa Driver"></a>Pembatasan Beberapa Driver</h2><h3 id="Mengapa-beberapa-driver-dibatasi"><a href="#Mengapa-beberapa-driver-dibatasi" class="headerlink" title="Mengapa beberapa driver dibatasi?"></a>Mengapa beberapa driver dibatasi?</h3><p>Pembatasan Driver (Restricted Driver) adalah keterbatasan driver untuk sebuah perangkat hardware karena tidak tersedia secara bebas atau open source.</p>
 <p>Kebanyakan device (hardware) yang terpasang di komputer anda bisa berfungsi secara normal di TeaLinuxOS. Device ini cenderung tidak memiliki keterbatasan driver, yang artinya driver dapat dimodifikasi dan masalah dengan device dapat dibetulkan.</p>
-<p>Ketika beberapa hardware tidak dapat berjalan lancar di TeaLinuxOS bisa dikarenakan device tersebut memiliki Restricted Driver (Pembatasan Driver). Biasanya pembuat hardware belum merilis detail dari hardware itu sendiri yang memungkinkan untuk developer membuat semacam driver sendiri. Device yang seperti ini mempunyai fungsi yang terbatas atau mungkin tidak bisa berkerja sama sekali</p>
+<p>Ketika beberapa hardware tidak dapat berjalan lancar di TeaLinuxOS bisa dikarenakan device tersebut memiliki Restricted Driver (Pembatasan Driver). Biasanya pembuat hardware belum merilis detail dari hardware itu sendiri yang memungkinkan untuk developer membuat semacam driver sendiri. Device yang seperti ini mempunyai fungsi yang terbatas atau mungkin tidak bisa berkerja sama sekali.</p>
 <h3 id="Mengaktifkan-Pembatasan-Driver"><a href="#Mengaktifkan-Pembatasan-Driver" class="headerlink" title="Mengaktifkan Pembatasan Driver"></a>Mengaktifkan Pembatasan Driver</h3><p>Jika Pembatasan Driver tersedia untuk beberapa device, anda dapat menginstalnya untuk memungkinkan perangkat anda berfungsi dengan baik.</p>
 <p>Jika beberapa driver tersedia untuk perangkat anda dapat diinstal dari Software Source dialog:</p>
 <ul>
@@ -364,7 +384,7 @@
 <li>Untuk menerapkan perubahan, klik <code>Edit → Apply All Operations</code></li>
 </ul>
 <h3 id="Mount-dan-Unmount-perangkat"><a href="#Mount-dan-Unmount-perangkat" class="headerlink" title="Mount dan Unmount perangkat"></a>Mount dan Unmount perangkat</h3><p>Ketika anda memasang sebuah perangakat removable storage (ex : Flashdisk) ke komputer anda, harusnya perangkat tersebut akan tersambung (mounted) oleh operating system yang memperbolehkan anda untuk mengakses file di perangkat tersebut</p>
-<p>Untuk mencari bagaimana cara mount dan unmount perangkat penyimpanan secara manual dan/atau otomatis, liat di halaman Ubuntu community wiki untuk <a href="https://help.ubuntu.com/community/Mount" target="_blank" rel="external">perintah mount</a>.</p>
+<p>Untuk mencari bagaimana cara mount dan unmount perangkat penyimpanan secara manual dan/atau otomatis, liat di halaman Ubuntu community wiki untuk <a href="https://help.ubuntu.com/community/Mount" target="_blank" rel="noopener">perintah mount</a>.</p>
 <p>Ketika anda mengcopy files dari perangkat penyimpanan removable, perangkat tersebut tidak selalu tertulis di perangkat secara langsung. Sebaliknya perangkat tersebut akan disimpan dalam antrian sehingga mereka semua dapat ditransfer ke perangkat pada saat yang sama (untuk alasan efisiensi).</p>
 <h2 id="Laptop"><a href="#Laptop" class="headerlink" title="Laptop"></a>Laptop</h2><h3 id="Pengaturan-manajemen-daya"><a href="#Pengaturan-manajemen-daya" class="headerlink" title="Pengaturan manajemen daya"></a>Pengaturan manajemen daya</h3><p>Anda mungkin ingin mengubah pengaturan manajemen daya laptop Anda untuk membantu menghemat baterai.</p>
 <ul>
@@ -391,7 +411,7 @@
 <li>Komputer tidak bangun setelah proses suspend.</li>
 <li>Program tertentu atau perangkat keras berhenti bekerja dengan benar setelah melanjutkan dari hibernate atau suspend.</li>
 </ul>
-<p>Jika Anda mengalami masalah ini, Anda harus <a href="http://tealinuxos.org/dukungan/bug.tealinuxos.org" target="_blank" rel="external">melaporkan bug</a>. Masalah mudah-mudahan akan diperbaiki dalam versi berikutnya dari TeaLinuxOS. Jika hardware Anda tidak bekerja dengan benar setelah suspend atau hibernate komputer, restart komputer Anda. Jika program tidak bekerja dengan benar, cobalah menutup program dan kemudian mulai lagi.</p>
+<p>Jika Anda mengalami masalah ini, Anda harus <a href="http://tealinuxos.org/dukungan/bug.tealinuxos.org" target="_blank" rel="noopener">melaporkan bug</a>. Masalah mudah-mudahan akan diperbaiki dalam versi berikutnya dari TeaLinuxOS. Jika hardware Anda tidak bekerja dengan benar setelah suspend atau hibernate komputer, restart komputer Anda. Jika program tidak bekerja dengan benar, cobalah menutup program dan kemudian mulai lagi.</p>
 <h2 id="Mouse-dan-keyboard"><a href="#Mouse-dan-keyboard" class="headerlink" title="Mouse dan keyboard"></a>Mouse dan keyboard</h2><p>Ketika Anda menginstal TeaLinuxOS Anda diberi pilihan untuk memilih jenis keyboard dan bahasa. Selama instalasi, perangkat penunjuk harus secara otomatis terdeteksi dan dikonfigurasi. Jika Anda ingin atau perlu mengubah pengaturan dari setiap perangkat ini setelah instalasi, Anda dapat melakukannya dengan klik <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br>   <code>→ Settings Manager → Mouse dan Touchpad</code> atau <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Settings Manager → Keyboard.</code></p>
 <p>Pilihan untuk mouse dan touchpad meliputi:</p>
 <ul>
@@ -450,7 +470,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

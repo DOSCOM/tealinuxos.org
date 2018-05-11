@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -251,8 +271,8 @@
 <li>Mendokumentasikan proses maupun hasil kerja tim lain</li>
 </ul>
 <h1 id="Konten-Panduan"><a href="#Konten-Panduan" class="headerlink" title="Konten Panduan"></a>Konten Panduan</h1><hr>
-<p>Dokumentasi panduan TeaLinuxOS ditulis dengan format <a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="external">Markdown</a> dan di-host di github. Kontribusi baik berupa perbaikan kesalahan penulisan, pembaruan, bahkan translasi akan mebuat lebih manis.</p>
-<p>Dokumentasi disusun oleh <a href="http://doscom.org" target="_blank" rel="external">Doscom</a> dengan dua bahasa, yaitu Bahasa Indonesia pada url <a href="http://tealinuxos.org/panduan/" target="_blank" rel="external">http://tealinuxos.org/panduan/</a> dan Bahasa Inggris pada url <a href="http://tealinuxos.org/en/panduan/" target="_blank" rel="external">http://tealinuxos.org/en/panduan/</a>.</p>
+<p>Dokumentasi panduan TeaLinuxOS ditulis dengan format <a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="noopener">Markdown</a> dan di-host di github. Kontribusi baik berupa perbaikan kesalahan penulisan, pembaruan, bahkan translasi akan mebuat lebih manis.</p>
+<p>Dokumentasi disusun oleh <a href="http://doscom.org" target="_blank" rel="noopener">Doscom</a> dengan dua bahasa, yaitu Bahasa Indonesia pada url <a href="http://tealinuxos.org/panduan/" target="_blank" rel="noopener">http://tealinuxos.org/panduan/</a> dan Bahasa Inggris pada url <a href="http://tealinuxos.org/en/panduan/" target="_blank" rel="noopener">http://tealinuxos.org/en/panduan/</a>.</p>
 <p>Pada bagian bawah setiap halaman panduan tersedia link yang menuju file markdown di github yang bisa diperbarui langsung melalui github.</p>
 <div class="row center-xs"><br>    <div class="col-xs-12 col-md-10"><br>    <img src="https://cloud.githubusercontent.com/assets/21119252/25969356/d297044a-36be-11e7-93a4-4c65b598c119.jpg" alt="photo_2017-05-12_02-55-15"><br>    <em>gambar: link edit via github</em><br>    </div><br></div>
 
@@ -261,12 +281,12 @@
 
 
 <h1 id="Pelaporan"><a href="#Pelaporan" class="headerlink" title="Pelaporan"></a>Pelaporan</h1><hr>
-<p>Pelaporan TeaLinuxOS secara umum bisa dengan menggunakan <a href="https://github.com/tealinuxos/lapor" target="_blank" rel="external">Lapor</a> di repo github tealinuxos.</p>
+<p>Pelaporan TeaLinuxOS secara umum bisa dengan menggunakan <a href="https://github.com/tealinuxos/lapor" target="_blank" rel="noopener">Lapor</a> di repo github tealinuxos.</p>
 <h3 id="Cara-melaporkan-Hama"><a href="#Cara-melaporkan-Hama" class="headerlink" title="Cara melaporkan Hama"></a>Cara melaporkan Hama</h3><ol>
-<li>Silahkan membuat akun Github <a href="https://github.com/join" target="_blank" rel="external">di sini</a>. Apabila sudah punya, bisa langsung akses halaman <a href="https://github.com/tealinuxos/lapor/issues" target="_blank" rel="external"><strong>Lapor Hama</strong></a></li>
+<li>Silahkan membuat akun Github <a href="https://github.com/join" target="_blank" rel="noopener">di sini</a>. Apabila sudah punya, bisa langsung akses halaman <a href="https://github.com/tealinuxos/lapor/issues" target="_blank" rel="noopener"><strong>Lapor Hama</strong></a></li>
 <li>Pastikan Hama belum pernah dilaporkan. (Gunakan fitur pencarian)</li>
 <li>Pastikan sudah menggunakan TeaLinuxOS versi terbaru.</li>
-<li>Memberi label pada setiap Hama yang dilaporkan. (label bisa dilihat <a href="https://github.com/tealinuxos/lapor/labels" target="_blank" rel="external">di sini</a>)</li>
+<li>Memberi label pada setiap Hama yang dilaporkan. (label bisa dilihat <a href="https://github.com/tealinuxos/lapor/labels" target="_blank" rel="noopener">di sini</a>)</li>
 </ol>
 <h3 id="Komponen-pelaporan-Hama-yang-baik"><a href="#Komponen-pelaporan-Hama-yang-baik" class="headerlink" title="Komponen pelaporan Hama yang baik"></a>Komponen pelaporan Hama yang baik</h3><ul>
 <li>Ringkasan (Deskripsi) Hama yang jelas</li>
@@ -294,7 +314,7 @@
 
 <div id="footer-page">
   Released under the <a href="https://opensource.org/licenses/MIT" href="_blank">MIT License</a><br>
-  2009-2017 Maintenance by <a href="http://doscom.org">Doscom</a>
+  2009-2018 Maintenance by <a href="http://doscom.org">Doscom</a>
 </div>
 
                 
@@ -317,7 +337,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

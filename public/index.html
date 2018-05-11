@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/index.css">
         
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -172,8 +192,8 @@
 
 <div id="hero" class="tea-hero">
   <div class="inner">
-    <div class="left">
-      <img class="hero-logo" src="/images/logo-tealinuxos.png">
+    <div class="left">  
+      <img class="hero-logo zoom-in-out" src="/images/logo-tealinuxos.png">
     </div><div class="right">
       <!-- <h2 class="vue" style="color:white;">TealinuxOS</h2> -->
       <h1>
@@ -181,8 +201,9 @@
         Operating System for Your Development Environment
       </h1>
       <p>
-        <a class="button" href="http://pinguin.dinus.ac.id/linux/tealinux.html">Download TealinuxOS</a>
-        <a class="button white" href="/panduan">Lihat Panduan</a>
+        <a class="button" href="http://pinguin.dinus.ac.id/iso/tealinuxos/TeaLinuxOS-9.0-i386.iso">Download 32bit</a>
+        <a class="button" href="http://pinguin.dinus.ac.id/iso/tealinuxos/TeaLinuxOS-9.0-amd64.iso">Download 64bit</a>
+        <!-- <a class="button white" href="/panduan">Lihat Panduan</a> -->
       </p>
     </div>
   </div>
@@ -200,6 +221,39 @@
           TeaLinuxOS adalah distro Linux turunan Ubuntu yang dikembangkan oleh Dinus Open Source Community (DOSCOM) dan kawan-kawan yang berorientasi pemrograman. Dengan menghadirkan filosofi, “Nikmatnya sebuah racikan”, TeaLinuxOS dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distro Linux pemrograman untuk dunia pendidikan.
       </p>
     </div>
+<br><br>
+
+
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="/images/feature/1.png" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="/images/feature/2.png" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="/images/feature/4.png" style="width:100%">
+      </div>
+      
+
+
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+
   </div>
 </div>
 
@@ -254,33 +308,107 @@
         </p>
       </div>
     </div>
+    
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div class="box-nested right-side">
-        <img src="/images/feature/tea-module-installer.png" alt="Tea Module Installer"/>
+        <img src="/images/feature/4.png" alt="Tea Module Installer"/>
       </div>
     </div>
   </div>
+
+
+
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div class="box-nested left-side">
-        <h2>Tea Theme Switcher</h2>
+        <video autoplay loop>
+          <source src="/videos/theme-switcher.webm" type="video/webm">
+            I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+            <!-- You can embed a Flash player here, to play your mp4 video in older browsers -->
+          </video>
+          <!-- <img src="/images/feature/tea-module-installer.png" alt="Tea Module Installer"/> -->
+        </div>
+      </div>
+      
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="box-nested right-side">
+          <h2>Tea Theme Switcher</h2>
+          <p>
+            Beralih tema dengan sekali klik!
+            <br/>
+            Secara bawaan, TeaLinuxOS memiliki dua mode tema, Developer mode (Dark) dan Normal mode (Light). Dengan Theme Switcher ini bergonta-ganti tema semakin cepat dan mudah.
+          </p>
+        </div>
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <div class="box-nested left-side">
+        <h2>Lapor Hama</h2>
         <p>
-          Beralih tema dengan sekali klik!
-          <br/>
-          Secara bawaan, TeaLinuxOS memiliki dua mode tema, Developer mode (Dark) dan Normal mode (Light). Dengan Theme Switcher ini bergonta-ganti tema semakin cepat dan mudah.
+          Lapor Hama merupakan aplikasi untuk pelaporan hama TeaLinuxOS secara umum. <br> Pelaporan menggunakan fitur Issues yang ada pada Github. Penggunaan Github karena memudahkan pengembang & pengguna dalam menyelesaikan & melaporkan suatu hama.
         </p>
       </div>
     </div>
+    
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div class="box-nested right-side">
-        <video autoplay loop>
-  <source src="/videos/theme-switcher.webm" type="video/webm">
-  I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
-  <!-- You can embed a Flash player here, to play your mp4 video in older browsers -->
-</video>
-        <!-- <img src="/images/feature/tea-module-installer.png" alt="Tea Module Installer"/> -->
+        <img src="/images/feature/5.png" alt="Tea Module Installer"/>
       </div>
     </div>
+  </div>
+
+
+</div>
+
+
+
+<div id="maskot">
+  <div class="inner">
+    <h2 style="color : white">{Mascot Dandel & Tea}</h2>
+    <!-- <h2>{Mascot Dande & Tea} <br> -->
+    <!-- <h3>PROUDLY SPONSORED BY</h3> -->
+    <!-- <a class="vip" href="http://www.thedifferenceengine.io/" target="_blank">
+  <img src="/images/tde.png">
+</a>
+<a href="https://jsfiddle.net/" target="_blank">
+  <img src="/images/jsfiddle.png">
+</a>
+<a href="https://laravel.com/" target="_blank">
+  <img src="/images/laravel.png">
+</a>
+<a href="https://chaitin.cn" target="_blank" style="top:-1px">
+  <img src="/images/chaitin.png">
+</a>
+<a href="https://htmlburger.com" target="_blank">
+  <img src="/images/htmlburger.png">
+</a>
+<a href="https://starter.someline.com/" target="_blank" style="top:-2px">
+  <img src="/images/someline.png">
+</a>
+<a href="http://gold.xitu.io/?utm_source=vuejs&utm_medium=image&utm_content=juejin&utm_campaign=q3_website" target="_blank" style="width:75px">
+  <img src="/images/juejin.png" style="width:75px">
+</a>
+<a href="http://monterail.com/" target="_blank">
+  <img src="/images/monterail.png">
+</a>
+<a href="https://www.trisoft.ro/" target="_blank" style="width:80px;top:-2px">
+  <img src="/images/trisoft.png" style="width:80px">
+</a>
+<a href="http://actualize.co/" target="_blank" style="width:144px;">
+  <img src="/images/actualize.png" style="width:144px">
+</a>
+<a href="https://www.2mhost.com/" target="_blank" style="width:90px">
+  <img src="/images/2mhost.png" style="width:90px">
+</a>
+<a href="https://vuejobs.com/?ref=vuejs" target="_blank" style="width:90px;top:5px">
+  <img src="/images/vuejobs.png" style="width:90px">
+</a>
+ -->
+    <img class="responsive" src="/images/g3.png" alt="Mascot Dande" style=""/>
+    <img class="responsive" src="/images/g4.png" alt="Mascot tea" style="padding-left:90px"/>
+
   </div>
 </div>
 
@@ -326,15 +454,17 @@
   <img src="/images/vuejobs.png" style="width:90px">
 </a>
  -->
+
     <a class="become-sponsor button white" href="https://www.bountysource.com/teams/tealinuxos">Donasi Sekarang</a>
     <a class="become-sponsor button white" href="/kontribusi">Ikut Kontribusi</a>
+
   </div>
 </div>
 
 
 <div id="footer">
   Released under the <a href="https://opensource.org/licenses/MIT" href="_blank">MIT License</a><br>
-  2009-2017 Maintenance by <a href="http://doscom.org">Doscom</a>
+  2009-2018 Maintenance by <a href="http://doscom.org">Doscom</a>
 </div>
 
 <script>
@@ -349,6 +479,29 @@ window.addEventListener('scroll', function () {
   }
 })
 </script>
+
+
+<script>
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
 
         
 
@@ -367,7 +520,7 @@ window.addEventListener('scroll', function () {
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

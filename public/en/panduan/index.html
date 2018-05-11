@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -248,42 +268,42 @@
                 
                 
                 <li>
-                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Print dan Scan</a>
+                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Printing and Scanning</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Mengelola Aplikasi Terinstall</a>
+                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Managing Installed Apps</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Menjaga Keamanan Komputer</a>
+                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Maintaining Computer Securoty</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Perangkat Keras</a>
+                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Hardwares</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Tugas-tugas administratif</a>
+                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Administrative Tasks</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Perintah Baris</a>
+                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Command Line</a>
                 </li>
             
             
@@ -307,9 +327,9 @@
     
       <h1>Getting started with TealinuxOS</h1>
     
-    <h2 id="What-is-Tealinuxos"><a href="#What-is-Tealinuxos" class="headerlink" title="What is Tealinuxos?"></a>What is Tealinuxos?</h2><p><a href="http://tealinuxos.org/" target="_blank" rel="external">TeaLinuxOS</a> s a Linux distro oriented programming derived from Ubuntu developed by doscom. By presenting the philosophy,</p>
+    <h2 id="What-is-Tealinuxos"><a href="#What-is-Tealinuxos" class="headerlink" title="What is Tealinuxos?"></a>What is Tealinuxos?</h2><p><a href="http://tealinuxos.org/" target="_blank" rel="noopener">TeaLinuxOS</a> s a Linux distro oriented programming derived from Ubuntu developed by doscom. By presenting the philosophy,</p>
 <blockquote>
-<p>The Joy of Blend<br><a href="https://www.instagram.com/doscomedia/" target="_blank" rel="external">@tealinuxos</a></p>
+<p>The Joy of Blend<br><a href="https://www.instagram.com/doscomedia/" target="_blank" rel="noopener">@tealinuxos</a></p>
 </blockquote>
 <p>TeaLinuxOS was developed openly and together to produce a Linux programming distro devoted to education.</p>
 <h3 id="Name"><a href="#Name" class="headerlink" title="Name"></a>Name</h3><p>TeaLinuxOS – The Joy of Blend!<br>We use the name TeaLinuxOS distro for several reasons, namely tea which in the Indonesian language means tea, is a typical drink of the people of Indonesia populist and can be consumed by everyone. We hope TeaLinuxOS can meet the needs of its users, especially programmers.</p>
@@ -325,9 +345,9 @@
 <li>TeaLinuxOS ver 8.0 Code Name : Pappermint Tea, based on Xubuntu 16.04</li>
 </ul>
 <h2 id="TealinuxOS-Recipe"><a href="#TealinuxOS-Recipe" class="headerlink" title="TealinuxOS Recipe"></a>TealinuxOS Recipe</h2><p>The latest version of TealinuxOS is TealinuxOS 8 Peppermint made from Xbuntu 16.04, Xfce and FOSS cores.</p>
-<h3 id="Xubuntu-16-04-LTS"><a href="#Xubuntu-16-04-LTS" class="headerlink" title="Xubuntu 16.04 LTS"></a>Xubuntu 16.04 LTS</h3><p>Xubuntu is an easy-to-use, elegant operating system and with the LTS “Long Term Support” edition this TeaLinuxOS Xubuntu-based version gets long-term support for 5 years so it’s always stable, reliable and secure. For more information about Xubuntu you can visit the official webseite <a href="http://xubuntu.org/" target="_blank" rel="external">Xubuntu</a>.</p>
-<h3 id="XFCE"><a href="#XFCE" class="headerlink" title="XFCE"></a>XFCE</h3><p>Xfce is a lightweight desktop environment used in TeaLinuxOS Pappermint. By using Xfce less system resource usage so that the operating system will be lighter without leaving the user-friendly user interface. For more information about xfce please visit the official website <a href="http://xfce.org/" target="_blank" rel="external">Xfce</a>.</p>
-<h3 id="FOSS"><a href="#FOSS" class="headerlink" title="FOSS"></a>FOSS</h3><p>All software used in the free licensed TeaLinuxOS operating system and open source code everyone can see the source code, contribute to improving or making it better. To know more about FOSS (Free Open Source Software) can be seen on <a href="http://gnu.org/" target="_blank" rel="external">GNU website</a>.</p>
+<h3 id="Xubuntu-16-04-LTS"><a href="#Xubuntu-16-04-LTS" class="headerlink" title="Xubuntu 16.04 LTS"></a>Xubuntu 16.04 LTS</h3><p>Xubuntu is an easy-to-use, elegant operating system and with the LTS “Long Term Support” edition this TeaLinuxOS Xubuntu-based version gets long-term support for 5 years so it’s always stable, reliable and secure. For more information about Xubuntu you can visit the official webseite <a href="http://xubuntu.org/" target="_blank" rel="noopener">Xubuntu</a>.</p>
+<h3 id="XFCE"><a href="#XFCE" class="headerlink" title="XFCE"></a>XFCE</h3><p>Xfce is a lightweight desktop environment used in TeaLinuxOS Pappermint. By using Xfce less system resource usage so that the operating system will be lighter without leaving the user-friendly user interface. For more information about xfce please visit the official website <a href="http://xfce.org/" target="_blank" rel="noopener">Xfce</a>.</p>
+<h3 id="FOSS"><a href="#FOSS" class="headerlink" title="FOSS"></a>FOSS</h3><p>All software used in the free licensed TeaLinuxOS operating system and open source code everyone can see the source code, contribute to improving or making it better. To know more about FOSS (Free Open Source Software) can be seen on <a href="http://gnu.org/" target="_blank" rel="noopener">GNU website</a>.</p>
 
 
     
@@ -368,7 +388,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

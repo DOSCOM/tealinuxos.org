@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -213,7 +233,7 @@
                 
                 
                 <li>
-                    <a href="/panduan/migrasi.html" class="sidebar-link">Migrasi dan Upgrade</a>
+                    <a href="/panduan/migrasi.html" class="sidebar-link">Migration and Upgrade</a>
                 </li>
             
                 
@@ -311,36 +331,36 @@
 <ul>
 <li><p>Melihat direktori kita berada</p>
 <p>Perintah <code>pwd</code> atau print working directory digunakan untuk mengetahui posisi direktori dimana kita berada.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ pwd</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ pwd</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>Pindah Direktori</p>
 <p>Perintah <code>cd</code> digunakan untuk mengubah direktori dimana kita berada. cd [nama_direktori] Untuk kembali kedirekroti satu level sebelumnya perintah yang digunakan sebagai berikut.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ cd .</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ cd .</span><br></pre></td></tr></table></figure>
 <p>Untuk kembali kedirektori root perintahnya sebagai berikut.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ cd ..</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ cd ..</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>List</p>
 <p>Perintah <code>ls</code> digunakan untuk menampilkan daftar file yang ada di direktori. ls Untuk menampilkan list file yang ada didirektori tertentu</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ ls [nama_direktori]</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ ls [nama_direktori]</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>Copy File</p>
+<li><p>Menyalin File</p>
 <p>Perintah <code>cp</code> digunakan untuk mengopi file atau direktori ke direktori lain.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ cp [nama_file] [nama_direktori]</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ cp [nama_file] [nama_direktori]</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>Pindah File</p>
+<li><p>Memindah File</p>
 <p>Perintah <code>mv</code> digunakan untuk memindah file atau direktori ke direktori lain.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ mv [nama_file] [nama_direktori]</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ mv [nama_file] [nama_direktori]</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>Hapus File</p>
+<li><p>Menghapus File</p>
 <p>Perintah <code>rm</code> digunakan untuk menghapus file atau direktori ke direktori lain.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ rm [nama_file]</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ rm [nama_file]</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>Penggunaan perintah</p>
 <p>Perintah <code>man</code> digunakan untuk menampilkan cara penggunaan suatu perintah.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ man [nama_perintah] man rm</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ man [nama_perintah] man rm</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h2 id="Menjalankan-Perintah-dengan-Hak-Administrasi"><a href="#Menjalankan-Perintah-dengan-Hak-Administrasi" class="headerlink" title="Menjalankan Perintah dengan Hak Administrasi"></a>Menjalankan Perintah dengan Hak Administrasi</h2><p>Ketika anda bekerja dengan perintah-perintah baris, beberapa perintah tidak bisa dilakukan tanpa hak administrator, sehingga butuh perintah sudo di awal setiap perintah tersebut. Sesaat setelah anda memberi perintah sudo sistem akan meminta password lalu akan mengingatnya selama 15 menit. Dalam waktu 15 menit ini anda dapat menjalankan perintah sudo tanpa harus mengetik password setiap kali menjalankan perintahnya. <figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ sudo apt-get update</div></pre></td></tr></table></figure></p>
+<h2 id="Menjalankan-Perintah-dengan-Hak-Administrasi"><a href="#Menjalankan-Perintah-dengan-Hak-Administrasi" class="headerlink" title="Menjalankan Perintah dengan Hak Administrasi"></a>Menjalankan Perintah dengan Hak Administrasi</h2><p>Ketika anda bekerja dengan perintah-perintah baris, beberapa perintah tidak bisa dilakukan tanpa hak administrator, sehingga butuh perintah sudo di awal setiap perintah tersebut. Sesaat setelah anda memberi perintah sudo sistem akan meminta password lalu akan mengingatnya selama 15 menit. Dalam waktu 15 menit ini anda dapat menjalankan perintah sudo tanpa harus mengetik password setiap kali menjalankan perintahnya. <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ sudo apt-get update</span><br></pre></td></tr></table></figure></p>
 
 
     
@@ -381,7 +401,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

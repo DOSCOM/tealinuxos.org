@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -213,7 +233,7 @@
                 
                 
                 <li>
-                    <a href="/panduan/migrasi.html" class="sidebar-link">Migrasi dan Upgrade</a>
+                    <a href="/panduan/migrasi.html" class="sidebar-link">Migration and Upgrade</a>
                 </li>
             
                 
@@ -313,7 +333,7 @@
 <h2 id="Desktop"><a href="#Desktop" class="headerlink" title="Desktop"></a>Desktop</h2><p><img src="https://cloud.githubusercontent.com/assets/26142091/23577631/e41eff86-00f6-11e7-8359-c21b5e649e5d.png" alt="dekstop"></p>
 <p>Pada bagian dekstop hanya terdapat tampilan wallpaper, anda dapat dapat menambahkan folder menambah shortcut mengubah wallpaper atau icon pada dekstop anda. Pengaturannya bisa anda lakukan dengan mengklik kanan di sekitar area dekstop anda. </p>
 <h2 id="File-dan-Direktori"><a href="#File-dan-Direktori" class="headerlink" title="File dan Direktori"></a>File dan Direktori</h2><p><img src="https://cloud.githubusercontent.com/assets/26142091/23577653/6320e772-00f7-11e7-8b8e-d3e54d198839.png" alt="filemanager"></p>
-<p>TeaLinuxOS Pappermint menggunakan file manager Nautilus dari gnome. Untuk mengaksesnya dengan ![menu] (<a href="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" target="_blank" rel="external">https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png</a>)<br> → Accesories → File Manager.<br>Membuat folder baru (new folder)</p>
+<p>TeaLinuxOS Pappermint menggunakan file manager Nautilus dari gnome. Untuk mengaksesnya dengan ![menu] (<a href="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" target="_blank" rel="noopener">https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png</a>)<br> → Accesories → File Manager.<br>Membuat folder baru (new folder)</p>
 <pre><code>Klik kanan → New Folder
 </code></pre><h3 id="Mengopi-file-copy"><a href="#Mengopi-file-copy" class="headerlink" title="Mengopi file (copy)"></a>Mengopi file (copy)</h3><pre><code>Pilih folder atau file yang ingin dicopy
 Klik kanan → Copy
@@ -335,7 +355,7 @@ atau klik pada icon arrow keatas di samping kanan nama device
     
       <div class="guide-links">
         
-          <span>← <a href="/panduan/migrasi.html">Migrasi dan Upgrade</a></span>
+          <span>← <a href="/panduan/migrasi.html">Migration and Upgrade</a></span>
         
         
           <span style="float:right"><a href="/panduan/pengaturan.html">Pengaturan dan Pilihan</a> →</span>
@@ -372,7 +392,7 @@ atau klik pada icon arrow keatas di samping kanan nama device
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

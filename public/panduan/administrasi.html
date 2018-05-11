@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -213,7 +233,7 @@
                 
                 
                 <li>
-                    <a href="/panduan/migrasi.html" class="sidebar-link">Migrasi dan Upgrade</a>
+                    <a href="/panduan/migrasi.html" class="sidebar-link">Migration and Upgrade</a>
                 </li>
             
                 
@@ -312,17 +332,17 @@
 <p>Klik tombol <code>Add</code><br>Masukkan password anda<br>Isikan Name dan Username yang akan digunakan<br>Klik tombol <code>Ok</code></p>
 </li>
 <li><p>Memberikan user hak sebagai super user atau administrator</p>
-<p>pilih User yang tipe akunnya akan diubah, lalu tekan tombol <code>Change</code><br>Pilih tipe Administrator (pilih Dekstop User untuk kembali seperti semula)<br>Klik tombol <code>Ok</code></p>
+<p>pilih User yang tipe akunnya akan diubah, lalu klik tombol <code>Change</code><br>Pilih tipe Administrator (pilih Dekstop User untuk kembali seperti semula)<br>Klik tombol <code>Ok</code></p>
 </li>
 <li><p>Menghapus user</p>
-<p>Pilih User yang akan dihapus<br>Klik tombol <code>delete</code></p>
+<p>Pilih user yang akan dihapus<br>Klik tombol <code>delete</code></p>
 </li>
 </ul>
 <h3 id="Mengelola-Grup"><a href="#Mengelola-Grup" class="headerlink" title="Mengelola Grup"></a>Mengelola Grup</h3><ul>
 <li><p>Menambah grup</p>
 <p>Klik tombol <code>Manage Groups</code><br>Klik tombol <code>Add</code><br>Isikan Nama grup yang anda inginkan, kalau mau anda juga dapat mengubah Group ID.<br>Pilih User yang akan dimasukkan ke grup tersebut.<br>Klik tombol <code>Ok</code></p>
 </li>
-<li><p>Menghapus Grup</p>
+<li><p>Menghapus grup</p>
 <p>Klik tombol <code>Manage Groups</code><br>Pilih Grup yang akan dihapus<br>Klik tombol <code>delete</code></p>
 </li>
 </ul>
@@ -368,7 +388,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>
