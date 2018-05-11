@@ -2,17 +2,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Perangkat Keras - TeaLinuxOS</title>
+        <title>Hardwares - TeaLinuxOS</title>
         <meta charset="utf-8">
         <meta name="description" content="Operating System for Your Development Environment">
         <meta name="viewport" con tent="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Perangkat Keras - TeaLinuxOS">
+        <meta property="og:title" content="Hardwares - TeaLinuxOS">
         <meta property="og:description" content="Operating System for Your Development Environment">
         <meta property="og:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Perangkat Keras - TeaLinuxOS">
+        <meta name="twitter:title" content="Hardwares - TeaLinuxOS">
         <meta name="twitter:description" content="Operating System for Your Development Environment">
         <meta name="twitter:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
 
@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -248,42 +268,42 @@
                 
                 
                 <li>
-                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Print dan Scan</a>
+                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Printing and Scanning</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Mengelola Aplikasi Terinstall</a>
+                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Managing Installed Apps</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Menjaga Keamanan Komputer</a>
+                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Maintaining Computer Securoty</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link current">Perangkat Keras</a>
+                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link current">Hardwares</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Tugas-tugas administratif</a>
+                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Administrative Tasks</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Perintah Baris</a>
+                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Command Line</a>
                 </li>
             
             
@@ -305,102 +325,102 @@
 
     
     
-      <h1>Perangkat Keras</h1>
+      <h1>Hardwares</h1>
     
-    <h2 id="Pembatasan-Beberapa-Driver"><a href="#Pembatasan-Beberapa-Driver" class="headerlink" title="Pembatasan Beberapa Driver"></a>Pembatasan Beberapa Driver</h2><h3 id="Mengapa-beberapa-driver-dibatasi"><a href="#Mengapa-beberapa-driver-dibatasi" class="headerlink" title="Mengapa beberapa driver dibatasi?"></a>Mengapa beberapa driver dibatasi?</h3><p>Pembatasan Driver (Restricted Driver) adalah keterbatasan driver untuk sebuah perangkat hardware karena tidak tersedia secara bebas atau open source.</p>
-<p>Kebanyakan device (hardware) yang terpasang di komputer anda bisa berfungsi secara normal di TeaLinuxOS. Device ini cenderung tidak memiliki keterbatasan driver, yang artinya driver dapat dimodifikasi dan masalah dengan device dapat dibetulkan.</p>
-<p>Ketika beberapa hardware tidak dapat berjalan lancar di TeaLinuxOS bisa dikarenakan device tersebut memiliki Restricted Driver (Pembatasan Driver). Biasanya pembuat hardware belum merilis detail dari hardware itu sendiri yang memungkinkan untuk developer membuat semacam driver sendiri. Device yang seperti ini mempunyai fungsi yang terbatas atau mungkin tidak bisa berkerja sama sekali</p>
-<h3 id="Mengaktifkan-Pembatasan-Driver"><a href="#Mengaktifkan-Pembatasan-Driver" class="headerlink" title="Mengaktifkan Pembatasan Driver"></a>Mengaktifkan Pembatasan Driver</h3><p>Jika Pembatasan Driver tersedia untuk beberapa device, anda dapat menginstalnya untuk memungkinkan perangkat anda berfungsi dengan baik.</p>
-<p>Jika beberapa driver tersedia untuk perangkat anda dapat diinstal dari Software Source dialog:</p>
+    <h2 id="Multiple-Driver-Restrictions"><a href="#Multiple-Driver-Restrictions" class="headerlink" title="Multiple Driver Restrictions"></a>Multiple Driver Restrictions</h2><h3 id="Why-are-some-drivers-limited"><a href="#Why-are-some-drivers-limited" class="headerlink" title="Why are some drivers limited?"></a>Why are some drivers limited?</h3><p>Restricted Drivers are driver limitations for a hardware device because they are not available freely or open source.</p>
+<p>Most devices (hardware) installed on your computer can function normally in TeaLinuxOS. These devices tend not to have driver limitations, which means drivers can be modified and problems with devices can be corrected.</p>
+<p>When some hardware can not run smoothly in TeaLinuxOS it can be because the device has Restricted Driver. Usually hardware makers have not released the details of the hardware itself that allows for developers to create drivers of their own. Devices like this have limited functionality or may not work at all.</p>
+<h3 id="Enabling-Driver-Restrictions"><a href="#Enabling-Driver-Restrictions" class="headerlink" title="Enabling Driver Restrictions"></a>Enabling Driver Restrictions</h3><p>If Driver Restrictions are available for multiple devices, you can install them to enable your device to work properly.</p>
+<p>If multiple drivers available for your device can be installed from the Software Source dialog:</p>
 <ul>
 <li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Settings Manager → Software &amp; Updates</code></li>
-<li>Driver yang tersedia akan muncul di tab Additional Drivers, pilih dan Apply Changes</li>
-<li>Anda akan, jika perlu, memasukan password administration</li>
-<li>Anda mungkin akan diminta untuk reboot komputer anda setelah proses instalasi selesai</li>
+<li>Available drivers will appear in the Additional Drivers tab, select and Apply Changes</li>
+<li>You will, if necessary, enter the administration password</li>
+<li>You may be prompted to reboot your computer after the installation process is complete</li>
 </ul>
-<h3 id="Menonaktifkan-Pembatasan-Driver"><a href="#Menonaktifkan-Pembatasan-Driver" class="headerlink" title="Menonaktifkan Pembatasan Driver"></a>Menonaktifkan Pembatasan Driver</h3><p>Jika Pembatasan Driver menyebabkan masalah, anda bisa menonaktifkan, ikuti langkah berikut</p>
+<h3 id="Disabling-Driver-Restrictions"><a href="#Disabling-Driver-Restrictions" class="headerlink" title="Disabling Driver Restrictions"></a>Disabling Driver Restrictions</h3><p>If Driver Restrictions cause problems, you can disable, follow these steps</p>
 <ul>
-<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Settings Manager → Software &amp; Updates</code></li>
-<li>Klik Additional Drivers</li>
-<li>Cari driver yang akan dinonaktifkan dan tekan tombol Deactivate</li>
-<li>Anda akan diminta memasukan password administration</li>
+<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Settings Manager → Software &amp; Updates</code></li>
+<li>Click Additional Drivers</li>
+<li>Find the drivers to disable and press the Deactivate button</li>
+<li>You will be asked to enter a password administration</li>
 </ul>
-<h2 id="Disk-dan-Partition"><a href="#Disk-dan-Partition" class="headerlink" title="Disk dan Partition"></a>Disk dan Partition</h2><h3 id="Memeriksa-berapa-ruang-disk-yang-tersisa"><a href="#Memeriksa-berapa-ruang-disk-yang-tersisa" class="headerlink" title="Memeriksa berapa ruang disk yang tersisa"></a>Memeriksa berapa ruang disk yang tersisa</h3><p>Cara mudah untuk memeriksa ruang disk yang tersedia adalah menggunakan File Manager. Berikut beberapa langkah yang harus dilakukan</p>
+<h2 id="Disk-and-Partition"><a href="#Disk-and-Partition" class="headerlink" title="Disk and Partition"></a>Disk and Partition</h2><h3 id="Check-how-much-disk-space-is-left"><a href="#Check-how-much-disk-space-is-left" class="headerlink" title="Check how much disk space is left"></a>Check how much disk space is left</h3><p>An easy way to check the available disk space is to use File Manager. Here are some steps to take</p>
 <ul>
-<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Accessories → File Manager</code></li>
-<li>Double-click di File System atau icon Home di Desktop</li>
-<li>Klik folder home di Lancher Panel</li>
+<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Accessories → File Manager</code></li>
+<li>Double-click in File System or Home icon on Desktop</li>
+<li>Click the home folder in Lancher Panel</li>
 </ul>
-<p>Status bar di bagian bawah jendela memperlihatkan ruang tersedia dari drive atau disk yang terpilih. Jika anda memiliki lebih dari satu drive tepasang atau terhubung, anda dapat click di side pane dan anda akan melihat ruang kosong pada drive atau disk tersebut.</p>
-<h3 id="Menambah-ruang-disk"><a href="#Menambah-ruang-disk" class="headerlink" title="Menambah ruang disk"></a>Menambah ruang disk</h3><p>Beberapa cara mudah untuk meberikan ruang kosong lebih:</p>
+<p>The status bar at the bottom of the window shows the available space of the selected drive or disk. If you have more than one drive installed or connected, you can click on the side pane and you will see the free space on the drive or disk.</p>
+<h3 id="Increasing-disk-space"><a href="#Increasing-disk-space" class="headerlink" title="Increasing disk space"></a>Increasing disk space</h3><p>Some easy ways to give more space:</p>
 <ul>
-<li>Kosongkan trash dengan cara klik kanan di Trash icon pada Desktop atau Launcher Panel dan pilih Empty Trash</li>
-<li>Hapus software package yang tidak digunakan lagi.</li>
-<li>Hapus file yang tidak dibutuhkan.</li>
+<li>Empty the trash by right clicking on Trash icon on Desktop or Launcher Panel and select Empty Trash</li>
+<li>Remove the unused software package again.</li>
+<li>Delete unneeded files.</li>
 </ul>
-<h3 id="Mempartisi-Perangkat"><a href="#Mempartisi-Perangkat" class="headerlink" title="Mempartisi Perangkat"></a>Mempartisi Perangkat</h3><p>Anda dapat menggunakan GParted (GNOME Partition Editor) untuk mempartisi perangkat penyimpanan. Klik <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Settings Manager → GParted</code> untuk memulai editor partisi</p>
-<h3 id="Membebaskan-ruang-untuk-partisi-baru"><a href="#Membebaskan-ruang-untuk-partisi-baru" class="headerlink" title="Membebaskan ruang untuk partisi baru"></a>Membebaskan ruang untuk partisi baru</h3><p>Untuk membuat partisi baru di perangkat yang sudah terpatisi, Anda harus mengubah ukuran partisi yang tersedia. Jika Anda sudah mempunyai ruang kosong, lewati langkah ini dan menuju kebagian Membuat partisi baru. Jika tidak, ikuti langkah dibawah:</p>
+<h3 id="Partitioning-your-Device"><a href="#Partitioning-your-Device" class="headerlink" title="Partitioning your Device"></a>Partitioning your Device</h3><p>You can use GParted (GNOME Partition Editor) to partition the storage device. Click <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Settings Manager → GParted</code> to start the partition editor</p>
+<h3 id="Free-the-space-for-the-new-partition"><a href="#Free-the-space-for-the-new-partition" class="headerlink" title="Free the space for the new partition"></a>Free the space for the new partition</h3><p>To create a new partition on a device that has been partitioned, you must resize the available partitions. If you already have an empty space, skip this step and go to Create a new partition. If not, follow the steps below:</p>
 <ul>
-<li>Pilih perangkat yang akan dipartisi dari list drop-down yang terdapat di kanan-atas dari jendela utama</li>
-<li>List partisi akan muncul di jendela utama. Pilih partisi yang akan anda rubah ukurannya dan dari menu pilih <code>Partition → Unmount</code></li>
-<li>Untuk merubah partisi pilih <code>Partition → Resize /Move.</code> Resize/Move dialog akan muncul. Anda dapat menggunakan Free Space Following (MiB) box untuk memilih berapa banyak ruang yang akan dikosongkan setelah partisi, atau Free Space Preceding (MiB) untuk mengosongkan ruang sebelum partisi ini.</li>
-<li>Klik <code>Resize / Move</code></li>
-<li>Untuk menerapkan perubahan, klik <code>Edit → Apply All Operations</code></li>
+<li>Select the device to be partitioned from the drop-down list located at the top right of the main window</li>
+<li>The partition list will appear in the main window. Select the partition you want to resize and from the menu select <code>Partition → Unmount</code></li>
+<li>To change the partition select <code>Partition → Resize / Move.</code> Resize / Move dialog will appear. You can use the Free Space Following (MiB) box to choose how much space will be emptied after the partition, or Free Space Preceding (MiB) to empty space before this partition.</li>
+<li>Click <code>Resize / Move</code></li>
+<li>To apply the changes, click <code>Edit → Apply All Operations</code></li>
 </ul>
-<h3 id="Membuat-Partisi-baru"><a href="#Membuat-Partisi-baru" class="headerlink" title="Membuat Partisi baru"></a>Membuat Partisi baru</h3><p>Untuk membuat partisi baru:</p>
+<h3 id="Creating-a-new-Partition"><a href="#Creating-a-new-Partition" class="headerlink" title="Creating a new Partition"></a>Creating a new Partition</h3><p>To create a new partition:</p>
 <ul>
-<li>Pilih perangkat yang akan dipartisi dari list drop-down di bagian kanan-atas dari jendela utama.</li>
-<li>List dari partisi akan muncul. Pilih unallocated, klik kanan dan click New</li>
-<li>Dari File system: pick list, pilih type dari filesystem yang akan digunakan.</li>
-<li>Jika dibutuhkan, masukkan deskripsi partisi di Label : field</li>
-<li>Click tombol Add</li>
-<li>Untuk menerapkan perubahan, klik <code>Edit → Apply All Operation</code></li>
+<li>Select the device to be partitioned from the drop-down list at the top-right of the main window.</li>
+<li>List of partitions will appear. Select unallocated, right click and click New</li>
+<li>From File system: pick list, choose the type of filesystem to use.</li>
+<li>If required, enter the partition description in the Label: field</li>
+<li>Click the Add button</li>
+<li>To apply the changes, click <code>Edit → Apply All Operation</code></li>
 </ul>
-<h3 id="Memformat-Partisi"><a href="#Memformat-Partisi" class="headerlink" title="Memformat Partisi"></a>Memformat Partisi</h3><p>Untuk menghapus partisi, lakukan langkah berikut:</p>
+<h3 id="Formatting-Partitions"><a href="#Formatting-Partitions" class="headerlink" title="Formatting Partitions"></a>Formatting Partitions</h3><p>To delete a partition, do the following:</p>
 <ul>
-<li>Pilih perangkat dari list drop-down di bagian kanan-atas dari jendela utama</li>
-<li>List partisi akan muncul. Pilih partisi dan pilih <code>Partition → Unmount</code></li>
-<li>Pilih partisi yang akan diformat dan pilih <code>Partition → Format to</code> dan pilih tipe file system dari list untuk dirubah ke tipe tersebut</li>
-<li>Untuk menerapkan perubahan, klik <code>Edit → Apply All Operations</code></li>
+<li>Select a device from the drop-down list at the top right of the main window</li>
+<li>List partition will appear. Select the partition and select <code>Partition → Unmount</code></li>
+<li>Select the partition to be formatted and select <code>Partition → Format to</code> and select fil type</li>
+<li>To apply the changes, click <code>Edit → Apply All Operations</code></li>
 </ul>
-<h3 id="Mount-dan-Unmount-perangkat"><a href="#Mount-dan-Unmount-perangkat" class="headerlink" title="Mount dan Unmount perangkat"></a>Mount dan Unmount perangkat</h3><p>Ketika anda memasang sebuah perangakat removable storage (ex : Flashdisk) ke komputer anda, harusnya perangkat tersebut akan tersambung (mounted) oleh operating system yang memperbolehkan anda untuk mengakses file di perangkat tersebut</p>
-<p>Untuk mencari bagaimana cara mount dan unmount perangkat penyimpanan secara manual dan/atau otomatis, liat di halaman Ubuntu community wiki untuk <a href="https://help.ubuntu.com/community/Mount" target="_blank" rel="external">perintah mount</a>.</p>
-<p>Ketika anda mengcopy files dari perangkat penyimpanan removable, perangkat tersebut tidak selalu tertulis di perangkat secara langsung. Sebaliknya perangkat tersebut akan disimpan dalam antrian sehingga mereka semua dapat ditransfer ke perangkat pada saat yang sama (untuk alasan efisiensi).</p>
-<h2 id="Laptop"><a href="#Laptop" class="headerlink" title="Laptop"></a>Laptop</h2><h3 id="Pengaturan-manajemen-daya"><a href="#Pengaturan-manajemen-daya" class="headerlink" title="Pengaturan manajemen daya"></a>Pengaturan manajemen daya</h3><p>Anda mungkin ingin mengubah pengaturan manajemen daya laptop Anda untuk membantu menghemat baterai.</p>
+<h3 id="Mounting-and-Unmounting-devices"><a href="#Mounting-and-Unmounting-devices" class="headerlink" title="Mounting and Unmounting devices"></a>Mounting and Unmounting devices</h3><p>When you install a removable storage (ex: Flashdisk) to your computer, the device should be mounted by the operating system that allows you to access files on that device</p>
+<p>To find how to mount and unmount storage devices manually and/or automatically, see the Ubuntu community wiki page for <a href="https://help.ubuntu.com/community/Mount" target="_blank" rel="noopener">mount command</a>.</p>
+<p>When you copy files from removable storage devices, they are not always written on the device directly. Instead the device will be stored in a queue so that they can all be transferred to the device at the same time (for efficiency reasons).</p>
+<h2 id="Laptop"><a href="#Laptop" class="headerlink" title="Laptop"></a>Laptop</h2><h3 id="Power-management-settings"><a href="#Power-management-settings" class="headerlink" title="Power management settings"></a>Power management settings</h3><p>You may want to change your laptop’s power management settings to help conserve battery life.</p>
 <ul>
-<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Settings Manager → Power Manager</code></li>
-<li>Mengubah pengaturan yang sesuai</li>
-<li>Perubahan yang diterapkan dapat langsung dilihat</li>
+<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br>  <code>→ Settings Manager → Power Manager</code></li>
+<li>Change the settings accordingly</li>
+<li>Changes applied can be directly viewed</li>
 </ul>
-<h3 id="Touchpads"><a href="#Touchpads" class="headerlink" title="Touchpads"></a>Touchpads</h3><p>Sebagian besar laptop terdapat touchpad, yang digunakan untuk mengontrol pointer mouse. Ada banyak cara untuk mengubah cara touchpad berkerja; pengaturan touchpad dasar dapat dikonfigurasi dengan cara berikut:</p>
+<h3 id="Touchpads"><a href="#Touchpads" class="headerlink" title="Touchpads"></a>Touchpads</h3><p>Most laptops have a touchpad, which is used to control the mouse pointer. There are many ways to change how the touchpad works; basic touchpad settings can be configured in the following ways:</p>
 <ul>
-<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br>  <code>→ Settings Manager → Mouse dan Touchpad</code></li>
-<li>Pada tab  <code>Device</code> : pilih <code>touchpad</code></li>
-<li>Anda dapat mengubah pengaturan touchpad sesuai dengan keinginan Anda.</li>
+<li>![menu] (<a href="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" target="_blank" rel="noopener">https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png</a>)<br>  <code>→ Settings Manager → Mouse and Touchpad</code></li>
+<li>On the <code>Device</code> tab: select<code>touchpad</code></li>
+<li>You can change the touchpad settings to your liking.</li>
 </ul>
-<h2 id="Suspend-dan-Hibernate"><a href="#Suspend-dan-Hibernate" class="headerlink" title="Suspend dan Hibernate"></a>Suspend dan Hibernate</h2><p>Untuk menghemat daya, Anda dapat mengalihkan komputer ke salah satu dari sejumlah mode hemat daya ketika Anda tidak menggunakannya:</p>
-<p><code>Suspend</code> adalah perintah untuk membuat komputer anda seperti tertidur. Komputer masih akan diaktifkan dan semua pekerjaan akan dibiarkan terbuka, dengan menggunakan daya yang lebih sedikit. Anda dapat membangunkan komputer dengan menekan tombol atau mengklik mouse.</p>
-<p><code>Hibernate</code> adalah mematikan komputer sepenuhnya sambil menyimpan keadaan saat komputer (seperti menjaga semua dokumen yang terbuka). Ketika Anda menghidupkan kembali komputer setelah Hibernate, semua pekerjaan Anda harus dikembalikan seperti sebelum Hibernate. Tidak ada daya yang digunakan saat komputer hibernate.</p>
-<p><code>Shutting Down</code> adalah mematikan komputer sepenuhnya tanpa menyimpan keadaan saat komputer masih hidup. Tidak ada daya yang digunakan saat komputer dimatikan.</p>
-<p><code>Resumming</code> membawa komputer keluar dari mode hemat daya dan kembali ke operasi normal.</p>
-<p>Anda dapat secara manual mengalihkan komputer ke mode hemat daya dengan menekan <code>Menu → logout</code> dan kemudian pilih tombol mode yang sesuai.</p>
-<h3 id="Komputer-saya-tidak-Suspend-atau-hibernasi-dengan-benar"><a href="#Komputer-saya-tidak-Suspend-atau-hibernasi-dengan-benar" class="headerlink" title="Komputer saya tidak Suspend atau hibernasi dengan benar"></a>Komputer saya tidak Suspend atau hibernasi dengan benar</h3><p>Beberapa komputer tidak dapat Suspend atau hibernate denga benar di TeaLinuxOS. Anda mungkin melihat beberapa gejala seperti berikut:</p>
+<h2 id="Suspending-and-Hibernating"><a href="#Suspending-and-Hibernating" class="headerlink" title="Suspending and Hibernating"></a>Suspending and Hibernating</h2><p>To save power, you can switch your computer to one of a number of power-saving modes when you are not using it:</p>
+<p><code>Suspend</code> is a command to make your computer asleep. The computer will still be activated and all work will be left open, using less power. You can wake the computer by pressing the button or clicking the mouse.</p>
+<p><code>Hibernate</code> is shutting down the computer completely while saving the state of the computer (like keeping all open documents). When you restart the computer after Hibernate, all your work must be restored as it was before Hibernate. No power is used when the computer hibernate.</p>
+<p><code>Shutting Down</code> is shutting down the computer completely without saving the state while the computer is still alive. No power is used when the computer is turned off.</p>
+<p><code>Resumming</code> takes the computer out of the power saving mode and returns to normal operation.</p>
+<p>You can manually switch the computer to power saving mode by pressing <code>Menu → logout</code> and then select the appropriate mode button.</p>
+<h3 id="My-computer-is-not-suspended-or-hibernated-correctly"><a href="#My-computer-is-not-suspended-or-hibernated-correctly" class="headerlink" title="My computer is not suspended or hibernated correctly"></a>My computer is not suspended or hibernated correctly</h3><p>Some computers can not Suspend or hibernate properly in TeaLinuxOS. You may notice some of the following symptoms:</p>
 <ul>
-<li>Komputer tidak mati setelah Anda klik untuk hibernate itu.</li>
-<li>Ketika Anda menghidupkan komputer setelah hibernate itu, program yang sebelumnya terbuka Anda tidak hidup.</li>
-<li>Komputer tidak bangun setelah proses suspend.</li>
-<li>Program tertentu atau perangkat keras berhenti bekerja dengan benar setelah melanjutkan dari hibernate atau suspend.</li>
+<li>The computer does not die after you click to hibernate it.</li>
+<li>When you turn on the computer after hibernating it, your previously open programs are not live.</li>
+<li>The computer does not wake up after the suspend process.</li>
+<li>Certain programs or hardware stops working correctly after resuming from hibernate or suspend.</li>
 </ul>
-<p>Jika Anda mengalami masalah ini, Anda harus <a href="http://tealinuxos.org/dukungan/bug.tealinuxos.org" target="_blank" rel="external">melaporkan bug</a>. Masalah mudah-mudahan akan diperbaiki dalam versi berikutnya dari TeaLinuxOS. Jika hardware Anda tidak bekerja dengan benar setelah suspend atau hibernate komputer, restart komputer Anda. Jika program tidak bekerja dengan benar, cobalah menutup program dan kemudian mulai lagi.</p>
-<h2 id="Mouse-dan-keyboard"><a href="#Mouse-dan-keyboard" class="headerlink" title="Mouse dan keyboard"></a>Mouse dan keyboard</h2><p>Ketika Anda menginstal TeaLinuxOS Anda diberi pilihan untuk memilih jenis keyboard dan bahasa. Selama instalasi, perangkat penunjuk harus secara otomatis terdeteksi dan dikonfigurasi. Jika Anda ingin atau perlu mengubah pengaturan dari setiap perangkat ini setelah instalasi, Anda dapat melakukannya dengan klik <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br>   <code>→ Settings Manager → Mouse dan Touchpad</code> atau <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Settings Manager → Keyboard.</code></p>
-<p>Pilihan untuk mouse dan touchpad meliputi:</p>
+<p>If you encounter this problem, you must <a href="http://tealinuxos.org/support/bug.tealinuxos.org" target="_blank" rel="noopener">report the bug</a>. The problem will hopefully be fixed in the next version of TeaLinuxOS. If your hardware does not work properly after suspend or hibernate the computer, restart your computer. If the program is not working correctly, try closing the program and then starting again.</p>
+<h2 id="Mouse-and-keyboard"><a href="#Mouse-and-keyboard" class="headerlink" title="Mouse and keyboard"></a>Mouse and keyboard</h2><p>When you install TeaLinuxOS you are given the option to choose the keyboard type and language. During installation, the pointing device must be automatically detected and configured. If you want or need to change the settings of each of these devices after installation, you can do so by clicking <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13. png" alt="menu"><br>    <code>→ Settings Manager → Mouse and Touchpad</code> or ![menu] (<a href="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" target="_blank" rel="noopener">https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png</a>)<br> <code>→ Settings Manager → Keyboard .</code></p>
+<p>Options for mouse and touchpad include:</p>
 <ul>
-<li>Orientasi tombol</li>
-<li>Kecepatan pointer dan sensitivitas</li>
-<li>Sensitivitas double-click</li>
-<li>Tema Kursor</li>
+<li>Key orientation</li>
+<li>Speed ​​of pointer and sensitivity</li>
+<li>Double-click sensitivity</li>
+<li>Cursor Theme</li>
 </ul>
-<p>Beberapa pilihan untuk mengkonfigurasi keyboard Anda meliputi:</p>
+<p>Some options for configuring your keyboard include:</p>
 <ul>
 <li>State of the Num Lock key on startup</li>
 <li>Key repeat speed and delay</li>
@@ -413,10 +433,10 @@
     
       <div class="guide-links">
         
-          <span>← <a href="/en/panduan/menjaga-keamanan.html">Menjaga Keamanan Komputer</a></span>
+          <span>← <a href="/en/panduan/menjaga-keamanan.html">Maintaining Computer Securoty</a></span>
         
         
-          <span style="float:right"><a href="/en/panduan/administrasi.html">Tugas-tugas administratif</a> →</span>
+          <span style="float:right"><a href="/en/panduan/administrasi.html">Administrative Tasks</a> →</span>
         
       </div>
     
@@ -450,7 +470,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

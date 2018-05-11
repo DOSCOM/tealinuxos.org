@@ -2,17 +2,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Mengelola Aplikasi Terinstall - TeaLinuxOS</title>
+        <title>Managing Installed Apps - TeaLinuxOS</title>
         <meta charset="utf-8">
         <meta name="description" content="Operating System for Your Development Environment">
         <meta name="viewport" con tent="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Mengelola Aplikasi Terinstall - TeaLinuxOS">
+        <meta property="og:title" content="Managing Installed Apps - TeaLinuxOS">
         <meta property="og:description" content="Operating System for Your Development Environment">
         <meta property="og:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Mengelola Aplikasi Terinstall - TeaLinuxOS">
+        <meta name="twitter:title" content="Managing Installed Apps - TeaLinuxOS">
         <meta name="twitter:description" content="Operating System for Your Development Environment">
         <meta name="twitter:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
 
@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -248,42 +268,42 @@
                 
                 
                 <li>
-                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Print dan Scan</a>
+                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Printing and Scanning</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link current">Mengelola Aplikasi Terinstall</a>
+                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link current">Managing Installed Apps</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Menjaga Keamanan Komputer</a>
+                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Maintaining Computer Securoty</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Perangkat Keras</a>
+                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Hardwares</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Tugas-tugas administratif</a>
+                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Administrative Tasks</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Perintah Baris</a>
+                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Command Line</a>
                 </li>
             
             
@@ -305,73 +325,72 @@
 
     
     
-      <h1>Mengelola Aplikasi Terinstall</h1>
+      <h1>Managing Installed Apps</h1>
     
-    <h2 id="Menginstall-Software"><a href="#Menginstall-Software" class="headerlink" title="Menginstall Software"></a>Menginstall Software</h2><h3 id="Menginstall-aplikasi-dengan-menggunakan-internet"><a href="#Menginstall-aplikasi-dengan-menggunakan-internet" class="headerlink" title="Menginstall aplikasi dengan menggunakan internet"></a>Menginstall aplikasi dengan menggunakan internet</h3><p>Pastikan komputer anda terkoneksi dengan jaringan komputer karena penginstalan akan langsung mengunduh paket aplikasi yang ingin di install dari repository ubuntu. Cara paling mudah adalah melalui Software Center.</p>
-<p>Klik <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Software</code></p>
-<p> <img src="https://cloud.githubusercontent.com/assets/26142091/23578129/6d894e06-0102-11e7-8672-2a7212299881.png" alt="software-center"></p>
-<p>Atau lewat terminal, Buka terminal<br>Ketikan perintah: </p>
-<pre><code>sudo apt-get install nama_paket 
-</code></pre><p>Masukkan password komputer anda<br>Ketika ada dialog <code>“Do you want to continue? (Y/n)”</code> ketik <code>“y”</code><br>Tunggu hingga proses pengunduhan dan pemasangan selesai.<br>Jalankan aplikasi dengan memanggil nama_paket di terminal atau anda dapat mencarinya di menu.</p>
-<h3 id="Menginstall-aplikasi-tanpa-internet"><a href="#Menginstall-aplikasi-tanpa-internet" class="headerlink" title="Menginstall aplikasi tanpa internet"></a>Menginstall aplikasi tanpa internet</h3><p>Jika anda memiliki aplikasi dengan ekstensi .tar.gz, .deb ataupun .tea anda dapat menginstalnya tanpa koneksi internet.</p>
+    <h2 id="Installing-Software"><a href="#Installing-Software" class="headerlink" title="Installing Software"></a>Installing Software</h2><h3 id="Installing-applications-using-the-internet"><a href="#Installing-applications-using-the-internet" class="headerlink" title="Installing applications using the internet"></a>Installing applications using the internet</h3><p>Make sure your computer is connected to a computer network because the installation will directly download the application package you want to install from ubuntu repository. The easiest way is through the Software Center.</p>
+<p>Click ![menu] (<a href="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" target="_blank" rel="noopener">https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png</a>)<br> <code>→ Software</code><br> <img src="https://cloud.githubusercontent.com/assets/26142091/23578129/6d894e06-0102-11e7-8672-2a7212299881.png" alt="software-center"></p>
+<p>Or through terminal, Open terminal and<br>Type command:</p>
+<pre><code>sudo apt-get install name_of_the_package
+</code></pre><p>Enter your computer password.<br>When there is dialog <code>&quot; Do you want to continue? (Y / n) &quot;</code> type <code>&quot; y &quot;</code><br>Wait until the download and installation process is complete.<br>Run the app by calling the package_name in the terminal or you can look it up in the menu.</p>
+<h3 id="Installing-applications-without-internet"><a href="#Installing-applications-without-internet" class="headerlink" title="Installing applications without internet"></a>Installing applications without internet</h3><p>If you have an application with extension .tar.gz, .deb or .tea you can install it without an internet connection.</p>
 <ul>
-<li><p>Menginstall aplikasi .tar.gz<br>Buka terminal anda lalu ketikkan perintah </p>
+<li><p>Installing .tar.gz apps<br>Open your terminal then type the command</p>
 <p>   tar xzvf nama_file.tar.gz</p>
-<p>(perintah untuk mengekstrak file)<br>Masuk ke folder yang telah di ekstrak </p>
-<p>   cd nama_file </p>
-<p>   ./configure </p>
-<p>   make </p>
-<p>   sudo su </p>
-<p>   #make install</p>
-<p>Pada umumnya penginstalan file tar.gz menggunakan perintah diatas namun jika aplikasi tidak terinstall atau terjadi error, sebaiknya anda membaca file README atau INSTALL yang biasanya disertakan dalam file aplikasi tersebut untuk panduan penginstalan.</p>
+<p>(command to extract the file)<br>Go to the extracted folder</p>
+<p>   cd file_name</p>
+<p>   ./configure</p>
+<p>   make</p>
+<p>   sudo su</p>
+<p>   #make install<br>Generally tar.gz files are installed using the above commands but if the application is not installed or an error occurs, you should read the README or INSTALL file which is usually included in the application file for installation guide.</p>
 </li>
-<li><p>Menginstall aplikasi .deb<br>Jika anda ingin menginstall aplikasi berekstensi .deb yang merupakan debian paket ada dua langkah.</p>
+<li><p>Installing .deb apps<br>If you want to install an application with extension .deb which is a debian package there are two steps.</p>
 <ul>
-<li><p>Menggunakan Package Installer<br>kliknya dua kali pada file .deb<br>klik tombol Install Package<br>Masukkan password anda<br>Tunggu hingga muncul pesan Installation finished.</p>
-</li>
-<li><p>Menggunakan Terminal<br>Buka teminal ketikkan perintah </p>
+<li>Using Package Installer<br>Double click on the .deb file<br>click the Install Package button<br>Enter your password<br>Wait until the Installation finished message appears.</li>
+<li><p>Using Terminal<br>Open the terminal type command</p>
 <pre><code>sudo dpkg -i nama_file.deb
 </code></pre></li>
 </ul>
 </li>
-<li><p>Menginstall aplikasi .tea<br>Penginstalan paket aplikasi .tea dengan menggunakan Tea Package Installer</p>
-<p><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ System → Tea Package Installer</code><br>Pilih <code>Cari</code><br>Lakukan pencarian dimana anda meletakkan file .tea<br>Pilih <code>Install</code><br>Pilih <code>Lanjut</code> hingga selesai.</p>
+<li><p>Installing the .tea app<br>  Installing the .tea app package using the Tea Package Installer</p>
+<p>  <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br>  <code>→ System → Tea Package Installer</code><br>  Select <code>Find</code><br>  Do a search where you put the .tea file<br>  Select <code>Install</code><br>  Select <code>Continue</code> to finish.</p>
 </li>
-<li><p>Menginstall melalui Tea Module Installer<br>Untuk mengistall aplikasi melalui Tea Module Installer anda dapat melihatnya <a href="http://tealinuxos.org/dukungan/tea-mudule-installer" target="_blank" rel="external">disini</a>.</p>
+<li><p>Installing via the Tea Module Installer<br>  To install the application via the Tea Module Installer you can view it <a href="http://tealinuxos.org/support/tea-mudule-installer" target="_blank" rel="noopener">here</a>.</p>
 </li>
 </ul>
-<h2 id="Uninstall-Software"><a href="#Uninstall-Software" class="headerlink" title="Uninstall Software"></a>Uninstall Software</h2><p> Untuk menguinstall software tertentu anda dapat melakukannya dengan cara berikut:<br>Buka terminal, pastikan terlebih dahulu nama paket yang ingin anda uninstall denganmenggunakan perintah: </p>
-<pre><code>dpkg –list
-</code></pre><p>Setelah mamastikan paket yang ingin ada uninstall ketikkan perintah </p>
-<pre><code>sudo apt-get remove nama_paket 
-</code></pre><p>Masukan password<br>Tunggu hingga proses uninstall selesai.</p>
-<h2 id="Menambah-Repository"><a href="#Menambah-Repository" class="headerlink" title="Menambah Repository"></a>Menambah Repository</h2><p>Repository merupakan sekumpulan paket-paket aplikasi atau program untuk sebuah sistem operasi (Linux) yang digunakan untuk menunjang kinerja dari sebuah aplikasi, program dan sebagainya yang didapatkan dari server mirror website paket-paket tersebut. Ada dua cara untuk menambahkan repository ke sistem.</p>
+<h2 id="Uninstalling-Software"><a href="#Uninstalling-Software" class="headerlink" title="Uninstalling Software"></a>Uninstalling Software</h2><p> To install certain software you can do it in the following way:<br> Open the terminal and make sure first the package name you want to uninstall by using the command:</p>
+<pre><code>dpkg -list
+</code></pre><p>After you’re certain with the package that you want to uninstall type command:</p>
+<pre><code>sudo apt-get remove package_name
+</code></pre><p>Enter password<br>Wait until the uninstall process is complete.</p>
+<h2 id="Adding-a-Repository"><a href="#Adding-a-Repository" class="headerlink" title="Adding a Repository"></a>Adding a Repository</h2><p>Repository is a set of application packages or programs for an operating system (Linux) that is used to support the performance of an application, program and so forth obtained from the mirror server website packages. There are two ways to add the repository to the system.</p>
 <ul>
-<li><p>Melalui Terminal<br>Buka terminal, lalu ketikkan perintah: </p>
-<p>   sudo add-apt-repository ppa:nama_pembuat/nama_paket </p>
-<p>   sudo apt-get update </p>
-<p>   sudo apt-get install nama_paket</p>
-</li>
-<li><p>Melalui Sistem<br><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Settings → Software &amp; Updaters</code><br>Pada jendela Software &amp; Updaters pilih tab <code>Other Software</code><br>Klik tombol <code>Add</code><br>Isikan repository yang ingin ditambahkan<br>Klik tombol <code>Add Source</code></p>
+<li><p>Via Terminal<br>Open a terminal, then type the command:</p>
+<pre><code>sudo add-apt-repository ppa:creator_name/package_name
+
+sudo apt-get update
+
+sudo apt-get install nama_paket
+</code></pre></li>
+<li><p>Through the System<br><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Settings → Software &amp; Updaters</code><br>In the Software &amp; Updaters window select the <code>Other Software</code> tab<br>Click the <code>Add</code> button<br>Fill in the repository you want to add<br>Click the <code>Add Source</code> button</p>
 </li>
 </ul>
-<h2 id="Menginstall-melalui-Tealinuxos-IDE-Installer"><a href="#Menginstall-melalui-Tealinuxos-IDE-Installer" class="headerlink" title="Menginstall melalui Tealinuxos IDE Installer"></a>Menginstall melalui Tealinuxos IDE Installer</h2><p>Penginstallan paket menggunakan TeaLinux IDE Installer sebagai berikut:</p>
+<h2 id="Installing-via-Tealinuxos-IDE-Installer"><a href="#Installing-via-Tealinuxos-IDE-Installer" class="headerlink" title="Installing via Tealinuxos IDE Installer"></a>Installing via Tealinuxos IDE Installer</h2><p>You can install your package using the TeaLinux IDE Installer as follows:</p>
 <ul>
-<li>Masukkan CD IDE Installer</li>
-<li>Jalankan TeaLinux IDE Installer <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Accessories → tealinux-ide-installer</code></li>
-<li>Pilih paket yang ingin di Install</li>
-<li>Klik tombol <code>Install</code></li>
+<li>Insert IDE Installer CD</li>
+<li>Run TeaLinux IDE Installer <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Accessories → tealinux-idea-installer</code></li>
+<li>Select the package you want to install</li>
+<li>Click the <code>Install</code> button</li>
 </ul>
-<h2 id="Mengupdate-software"><a href="#Mengupdate-software" class="headerlink" title="Mengupdate software"></a>Mengupdate software</h2><p> <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Settings → Software Updater</code><br>Mengupdate software dapat melalui layanan Software updater, sistem akan mengecek update software lalu akan mengunduh dari internet dan memasang update-update dari software. </p>
+<h2 id="Updating-software"><a href="#Updating-software" class="headerlink" title="Updating software"></a>Updating software</h2><p> <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>Settings → Software Updater</code><br>Updating the software can be done through Software Updater service, the system will check the software update and will download from internet and install the updates for the software.</p>
 
 
     
       <div class="guide-links">
         
-          <span>← <a href="/en/panduan/print-dan-scan.html">Print dan Scan</a></span>
+          <span>← <a href="/en/panduan/print-dan-scan.html">Printing and Scanning</a></span>
         
         
-          <span style="float:right"><a href="/en/panduan/menjaga-keamanan.html">Menjaga Keamanan Komputer</a> →</span>
+          <span style="float:right"><a href="/en/panduan/menjaga-keamanan.html">Maintaining Computer Securoty</a> →</span>
         
       </div>
     
@@ -405,7 +424,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

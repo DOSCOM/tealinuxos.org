@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -213,7 +233,7 @@
                 
                 
                 <li>
-                    <a href="/panduan/migrasi.html" class="sidebar-link">Migrasi dan Upgrade</a>
+                    <a href="/panduan/migrasi.html" class="sidebar-link">Migration and Upgrade</a>
                 </li>
             
                 
@@ -310,7 +330,7 @@
     <h2 id="Menyambung-dan-Memutuskan-jaringan"><a href="#Menyambung-dan-Memutuskan-jaringan" class="headerlink" title="Menyambung dan Memutuskan jaringan"></a>Menyambung dan Memutuskan jaringan</h2><p> <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Settings → Network Connection</code><br>atau klik icon <img src="https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png" alt="networkmanager"><br> <code>NetworkManager</code> yang berada di panel <code>→ Edit.</code><br>Koneksi jaringan di TealinuxOS Pappermint menggunakan network connection untuk mengatur jaringan menggunakan kabel, jaringan wireless, mobile broadband, VPN dan koneksi DSL. Network connection akan menghubungkan komputer anda secara otomatis dengan jaringan, namun jika penyambungan pertama kali biasanya memerlukan informasi keamanan untuk terhubung ke jaringan.</p>
 <p>Untuk memutuskan (disconnect) jaringan klik pada icon <img src="https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png" alt="networkmanager"><br> <code>NetworkManager</code> yang berada di panel lalu klik <code>disconnect.</code> </p>
 <h2 id="Konfigurasi-koneksi"><a href="#Konfigurasi-koneksi" class="headerlink" title="Konfigurasi koneksi"></a>Konfigurasi koneksi</h2><p> Jika anda menginginkan untuk mengkonfigurasi jaringan anda, Pada kotak dialog Netwok Connection anda akan melihat koneksi-koneksi jaringan yang ada. Pilih salah satu untuk mengatur konfigurasi atau anda dapat menambahkan koneksi jaringan baru dengan memilih <code>Add.</code></p>
-<h2 id="Berbagi-koneksi-ke-komputer-lain"><a href="#Berbagi-koneksi-ke-komputer-lain" class="headerlink" title="Berbagi koneksi ke komputer lain"></a>Berbagi koneksi ke komputer lain</h2><p>Anda dapat berbagi koneksi ke komputer lain dengan menggunakan kabel Ethernet. Untuk pengaturannya klik icon <img src="https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png" alt="networkmanager"><br> <code>NetworkManager → Edit</code> lalu pilih <code>Add</code> pada kotak dialog pilih jenis koneksi yang anda inginkan, Setelah create pada bagian tab <code>IPv4 Setting</code> pilih metode yang digunakan.</p>
+<h2 id="Berbagi-koneksi-ke-komputer-lain"><a href="#Berbagi-koneksi-ke-komputer-lain" class="headerlink" title="Berbagi koneksi ke komputer lain"></a>Berbagi koneksi ke komputer lain</h2><p>Anda dapat berbagi koneksi ke komputer lain dengan menggunakan kabel Ethernet. Untuk pengaturannya klik icon <img src="https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png" alt="networkmanager"><br> <code>NetworkManager → Edit</code> lalu pilih <code>Add</code> pada kotak dialog pilih jenis koneksi yang anda inginkan, Setelah mengklik tombol create pada bagian tab <code>IPv4 Setting</code> pilih metode yang digunakan.</p>
 <h2 id="Troubleshooting-pada-jaringan"><a href="#Troubleshooting-pada-jaringan" class="headerlink" title="Troubleshooting pada jaringan"></a>Troubleshooting pada jaringan</h2><p>Jika koneksi jaringan anda tidak bekerja secara sempurna anda dapat menggunakan beberapa cara untuk menemukan kesalahan koneksi anda.</p>
 <h3 id="Mengecek-informasi-koneksi"><a href="#Mengecek-informasi-koneksi" class="headerlink" title="Mengecek informasi koneksi"></a>Mengecek informasi koneksi</h3><ul>
 <li>Menggunakan icon NetworkManager<br> <img src="https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png" alt="networkmanager"><br><code>NetworkManager → Information</code>. Jika information di disable ini kemungkinan karena komputer anda tidak terkoneksi dengan  jaringan.</li>
@@ -325,7 +345,7 @@
 <li><p>lalu enter.</p>
 </li>
 </ul>
-<p>Jika koneksi berhasil anda akan menerima pesan berupa jumlah statistik paket yang di transmisikan. Jika anda mendapat pasan <code>ping: unknown host tealinuxos.org</code> maka komputer anda mungkin tidak terhubung ke internet dan tidak dapat menjangkau Domine Name System (DNS) server.</p>
+<p>Jika koneksi berhasil anda akan menerima pesan berupa jumlah statistik paket yang di transmisikan. Jika anda mendapat pasan <code>ping: unknown host tealinuxos.org</code> maka komputer anda mungkin tidak terhubung ke internet dan tidak dapat menjangkau Domain Name System (DNS) server.</p>
 
 
     
@@ -368,7 +388,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

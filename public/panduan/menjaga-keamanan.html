@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -213,7 +233,7 @@
                 
                 
                 <li>
-                    <a href="/panduan/migrasi.html" class="sidebar-link">Migrasi dan Upgrade</a>
+                    <a href="/panduan/migrasi.html" class="sidebar-link">Migration and Upgrade</a>
                 </li>
             
                 
@@ -309,7 +329,7 @@
     
     <h2 id="Tips-Menjaga-Keamanan-Komputer"><a href="#Tips-Menjaga-Keamanan-Komputer" class="headerlink" title="Tips Menjaga Keamanan Komputer"></a>Tips Menjaga Keamanan Komputer</h2><p>Beberapa tips menjaga keamanan komputer anda diantaranya :</p>
 <h3 id="Mengubah-password-komputer-secara-berkala"><a href="#Mengubah-password-komputer-secara-berkala" class="headerlink" title="Mengubah password komputer secara berkala"></a>Mengubah password komputer secara berkala</h3><p>Meskipun anda memiliki password yang sangat sulit dipecahkan alangkah baiknya untuk tetap waspada dengan mengganti password komputer anda secara berkala, langkah-langkahnya sebagai berikut:</p>
-<p> <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Setting → User and Groups</code><br>Klik username anda pada list<br>Klik <code>Change</code>, pada pengaturan Password<br>Anda dapat memilih <code>set password by hand</code> yaitu anda memasukkan password anda sendiri atau memilih <code>Generate random password</code> untuk memilih password secara acak.<br>Terakhir pilih <code>Ok</code></p>
+<p> <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Setting → User and Groups</code><br>Klik username anda pada list<br>Klik <code>Change</code> pada pengaturan Password<br>Anda dapat memilih <code>set password by hand</code> dengan memasukkan password anda sendiri atau memilih <code>Generate random password</code> untuk memilih password secara acak.<br>Terakhir pilih <code>Ok</code></p>
 <h3 id="Kunci-layar-ketika-meninggalkan-komputer"><a href="#Kunci-layar-ketika-meninggalkan-komputer" class="headerlink" title="Kunci layar ketika meninggalkan komputer"></a>Kunci layar ketika meninggalkan komputer</h3><p>Mengunci layar saat hendak meninggalkan komputer sangat penting untuk menghindari seseorang mengakses komputer anda. Untuk mengunci <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Lock Screen</code> atau Klik <code>nama user</code> pada panel <code>→ Lock Screen.</code></p>
 <h3 id="Mengatur-Firewall"><a href="#Mengatur-Firewall" class="headerlink" title="Mengatur Firewall"></a>Mengatur Firewall</h3><p>Firewall membantu mencegah pelanggaran keamanan dengan memblokir koneksi dari sumber yang tidak diketahui. Pada kondisi awal Firewall tidak dijalankan namun anda dapat menginstall aplikasi seperti Firestarter atau yang lainnya.</p>
 <h3 id="Waspada-saat-mengakses-internet"><a href="#Waspada-saat-mengakses-internet" class="headerlink" title="Waspada saat mengakses internet"></a>Waspada saat mengakses internet</h3><p>Berikut adalah beberapa tips untuk menjaga aman secara online:</p>
@@ -326,7 +346,7 @@
 <ul>
 <li>Buat cadangan secara teratur</li>
 <li>Pastikan sudah terbuat dengan benar</li>
-<li>Beri label backup dengan jelas dan simpan di tempat yang aman.</li>
+<li>Beri label backup dengan jelas dan simpan di tempat yang aman</li>
 </ul>
 
 
@@ -370,7 +390,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

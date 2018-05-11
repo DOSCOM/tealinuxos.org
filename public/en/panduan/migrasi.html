@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -248,42 +268,42 @@
                 
                 
                 <li>
-                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Print dan Scan</a>
+                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Printing and Scanning</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Mengelola Aplikasi Terinstall</a>
+                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Managing Installed Apps</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Menjaga Keamanan Komputer</a>
+                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Maintaining Computer Securoty</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Perangkat Keras</a>
+                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Hardwares</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Tugas-tugas administratif</a>
+                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Administrative Tasks</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Perintah Baris</a>
+                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Command Line</a>
                 </li>
             
             
@@ -307,14 +327,14 @@
     
       <h1>Migration and Upgrade</h1>
     
-    <h2 id="Migrate-from-Windows"><a href="#Migrate-from-Windows" class="headerlink" title="Migrate from Windows"></a>Migrate from Windows</h2><p>If previously you only use Windows as operating system then welcome to open source world. If you already familiar with linux operating system you can continue to the next step. For the new one here, don’t give up when facing a problem, you can ask in <a href="https://www.facebook.com/groups/doscomedia/" target="_blank" rel="external">Doscom Group</a> or in <a href="https://www.facebook.com/tealinuxos" target="_blank" rel="external">TeaLinuxOS Fanpage</a> all the developer and other users will assist you. This is some keyword often used in windows and can be found in TeaLinuxOS.</p>
+    <h2 id="Migrate-from-Windows"><a href="#Migrate-from-Windows" class="headerlink" title="Migrate from Windows"></a>Migrate from Windows</h2><p>If previously you only use Windows as operating system then welcome to open source world. If you already familiar with linux operating system you can continue to the next step. For the new one here, don’t give up when facing a problem, you can ask in <a href="https://www.facebook.com/groups/doscomedia/" target="_blank" rel="noopener">Doscom Group</a> or in <a href="https://www.facebook.com/tealinuxos" target="_blank" rel="noopener">TeaLinuxOS Fanpage</a> all the developer and other users will assist you. This is some keyword often used in windows and can be found in TeaLinuxOS.</p>
 <ul>
 <li>Windows Explorer : <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br>→ Accesories → File Manager</li>
 <li>My Document : <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br>→ Accesories → File Manager → masuk direktori /Home/Documents</li>
 <li>Control Panel : <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br>→ Settings → Settings Manager</li>
 </ul>
-<p>If you still hard to migrate to linux because there are few software you often use and can only run in windows you can use application <a href="http://tealinuxos.org/dukungan/winehq.org" target="_blank" rel="external">wine</a> or <a href="http://tealinuxos.org/dukungan/virtualbox.org" target="_blank" rel="external">virtualbox</a>(Available in TeaLinuxOS PapperMint) although it is not reccomended because not all the software that run in windows can also run in wine or virtualbox. Another solution is you can use free open source software that have the same function like the software you use.</p>
-<h2 id="How-to-Upgrade"><a href="#How-to-Upgrade" class="headerlink" title="How to Upgrade"></a>How to Upgrade</h2><p>TeaLinuxOS launched once a year on April (decided by release team) you can upgrade TeaLinuxOS version by download in <a href="http://pinguin.dinus.ac.id/iso/tealinuxos/" target="_blank" rel="external">pinguin</a>.</p>
+<p>If you still hard to migrate to linux because there are few software you often use and can only run in windows you can use application <a href="http://tealinuxos.org/dukungan/winehq.org" target="_blank" rel="noopener">wine</a> or <a href="http://tealinuxos.org/dukungan/virtualbox.org" target="_blank" rel="noopener">virtualbox</a>(Available in TeaLinuxOS PapperMint) although it is not reccomended because not all the software that run in windows can also run in wine or virtualbox. Another solution is you can use free open source software that have the same function like the software you use.</p>
+<h2 id="How-to-Upgrade"><a href="#How-to-Upgrade" class="headerlink" title="How to Upgrade"></a>How to Upgrade</h2><p>TeaLinuxOS launched once a year on April (decided by release team) you can upgrade TeaLinuxOS version by download in <a href="http://pinguin.dinus.ac.id/iso/tealinuxos/" target="_blank" rel="noopener">pinguin</a>.</p>
 
 
     
@@ -357,7 +377,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

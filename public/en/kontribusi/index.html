@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -179,7 +199,7 @@
         <div class="col-xs-12 col-md-8">
             <h1 class="tea-center">Chatime</h1>
             <p class="tea-center">
-                Kami butuh kamu. Jadilah bagian dari developer-developer TeaLinuxOS untuk berkontribusi dan terlibat melakukan perubahan pada pengembangan TeaLinuxOS.
+                We need you. Be part of the TeaLinuxOS developers to contribute and engage in making changes to the development of TeaLinuxOS.
             </p>
         </div>
     </div>
@@ -213,9 +233,9 @@
     <div class="row">
         <div class="col-xs-12 col-md-10 col-md-offset-1">
             <div class="isi-panduan">
-                <h1 id="Guide-Content"><a href="#Guide-Content" class="headerlink" title="Guide Content"></a>Guide Content</h1><p>Untuk teman-teman yang mau kontribusi pada konten panduan, bisa langsung menuju ke halaman <a href="https://tealinuxos.github.io/panduan">panduan tealinuxos</a>.</p>
-<p>Ada beberapa halaman untuk konten panduan, bisa diakses lewat side bar sebelah kiri,<br>terus di footer ada link buat ngedit halamannya melalui github.</p>
-<h1 id="Web-Development"><a href="#Web-Development" class="headerlink" title="Web Development"></a>Web Development</h1><p>untuk memudahkan berkontribusi, web ini dibangun menggunakan <a href="https://hexo.io/" target="_blank" rel="external">hexo</a>. Untuk berkontribusi dalam pengembangan website TealinuxOS, bisa fork ke repositori github <a href="https://github.com/DOSCOM/tealinuxos.org" target="_blank" rel="external">DOSCOM</a></p>
+                <h1 id="Guide-Content"><a href="#Guide-Content" class="headerlink" title="Guide Content"></a>Guide Content</h1><p>For those who want to contribute to the content of the guide, can go directly to the page <a href="https://tealinuxos.github.io/guide">TealinuxOS Guide</a>.</p>
+<p>There are several pages for the guide content, accessible via the left side bar,<br>In the footer there is a link to edit the page through Github.</p>
+<h1 id="Web-Development"><a href="#Web-Development" class="headerlink" title="Web Development"></a>Web Development</h1><p>To make it easier to contribute, this web is built using <a href="https://hexo.io/" target="_blank" rel="noopener">hexo</a>. To contribute to the TealinuxOS website, you can fork this repository <a href="https://github.com/DOSCOM/tealinuxos.org" target="_blank" rel="noopener">DOSCOM</a>.</p>
 
             </div>
         </div>
@@ -225,7 +245,7 @@
 
 <div id="footer-page">
   Released under the <a href="https://opensource.org/licenses/MIT" href="_blank">MIT License</a><br>
-  2009-2017 Maintenance by <a href="http://doscom.org">Doscom</a>
+  2009-2018 Maintenance by <a href="http://doscom.org">Doscom</a>
 </div>
 
                 
@@ -248,7 +268,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

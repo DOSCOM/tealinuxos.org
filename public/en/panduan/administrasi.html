@@ -2,17 +2,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Tugas-tugas administratif - TeaLinuxOS</title>
+        <title>Administrative Tasks - TeaLinuxOS</title>
         <meta charset="utf-8">
         <meta name="description" content="Operating System for Your Development Environment">
         <meta name="viewport" con tent="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Tugas-tugas administratif - TeaLinuxOS">
+        <meta property="og:title" content="Administrative Tasks - TeaLinuxOS">
         <meta property="og:description" content="Operating System for Your Development Environment">
         <meta property="og:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Tugas-tugas administratif - TeaLinuxOS">
+        <meta name="twitter:title" content="Administrative Tasks - TeaLinuxOS">
         <meta name="twitter:description" content="Operating System for Your Development Environment">
         <meta name="twitter:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
 
@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -248,42 +268,42 @@
                 
                 
                 <li>
-                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Print dan Scan</a>
+                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Printing and Scanning</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Mengelola Aplikasi Terinstall</a>
+                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Managing Installed Apps</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Menjaga Keamanan Komputer</a>
+                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Maintaining Computer Securoty</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Perangkat Keras</a>
+                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Hardwares</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/administrasi.html" class="sidebar-link current">Tugas-tugas administratif</a>
+                    <a href="/en/panduan/administrasi.html" class="sidebar-link current">Administrative Tasks</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Perintah Baris</a>
+                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Command Line</a>
                 </li>
             
             
@@ -305,25 +325,25 @@
 
     
     
-      <h1>Tugas-tugas administratif</h1>
+      <h1>Administrative Tasks</h1>
     
-    <h2 id="User-dan-Grub"><a href="#User-dan-Grub" class="headerlink" title="User dan Grub"></a>User dan Grub</h2><h3 id="Mengelola-User"><a href="#Mengelola-User" class="headerlink" title="Mengelola User"></a>Mengelola User</h3><ul>
-<li><p>Menambah user baru</p>
-<p>Klik tombol <code>Add</code><br>Masukkan password anda<br>Isikan Name dan Username yang akan digunakan<br>Klik tombol <code>Ok</code></p>
+    <h2 id="User-dan-Group"><a href="#User-dan-Group" class="headerlink" title="User dan Group"></a>User dan Group</h2><h3 id="Managing-User"><a href="#Managing-User" class="headerlink" title="Managing User"></a>Managing User</h3><ul>
+<li><p>Adding a new user</p>
+<p>Click the <code>Add</code> button<br>Enter your password<br>Fill in the Name and Username to use<br>Click the <code>Ok</code> button</p>
 </li>
-<li><p>Memberikan user hak sebagai super user atau administrator</p>
-<p>pilih User yang tipe akunnya akan diubah, lalu tekan tombol <code>Change</code><br>Pilih tipe Administrator (pilih Dekstop User untuk kembali seperti semula)<br>Klik tombol <code>Ok</code></p>
+<li><p>Granting user rights as super user or administrator</p>
+<p>Select the User whose account type will be changed, then click the <code>Change</code> button<br>Select the Administrator type (select Desktop Users to return as before)<br>Click the <code>Ok</code> button</p>
 </li>
-<li><p>Menghapus user</p>
-<p>Pilih User yang akan dihapus<br>Klik tombol <code>delete</code></p>
+<li><p>Deleting user</p>
+<p>Select user to delete<br>Click the <code>delete</code> button</p>
 </li>
 </ul>
-<h3 id="Mengelola-Grup"><a href="#Mengelola-Grup" class="headerlink" title="Mengelola Grup"></a>Mengelola Grup</h3><ul>
-<li><p>Menambah grup</p>
-<p>Klik tombol <code>Manage Groups</code><br>Klik tombol <code>Add</code><br>Isikan Nama grup yang anda inginkan, kalau mau anda juga dapat mengubah Group ID.<br>Pilih User yang akan dimasukkan ke grup tersebut.<br>Klik tombol <code>Ok</code></p>
+<h3 id="Managing-Groups"><a href="#Managing-Groups" class="headerlink" title="Managing Groups"></a>Managing Groups</h3><ul>
+<li><p>Adding a group</p>
+<p>Click the <code>Manage Groups</code> button<br>Click the <code>Add</code> button<br>Fill in the name of the group you want, if you want you can also change Group ID<br>Select the Users to be added to the group<br>Click the <code>Ok</code> button</p>
 </li>
-<li><p>Menghapus Grup</p>
-<p>Klik tombol <code>Manage Groups</code><br>Pilih Grup yang akan dihapus<br>Klik tombol <code>delete</code></p>
+<li><p>Deleting a group</p>
+<p>Click the <code>Manage Groups</code> button<br>Select group to delete<br>Click the <code>delete</code> button</p>
 </li>
 </ul>
 
@@ -331,10 +351,10 @@
     
       <div class="guide-links">
         
-          <span>← <a href="/en/panduan/perangkat-keras.html">Perangkat Keras</a></span>
+          <span>← <a href="/en/panduan/perangkat-keras.html">Hardwares</a></span>
         
         
-          <span style="float:right"><a href="/en/panduan/perintah-baris.html">Perintah Baris</a> →</span>
+          <span style="float:right"><a href="/en/panduan/perintah-baris.html">Command Line</a> →</span>
         
       </div>
     
@@ -368,7 +388,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>

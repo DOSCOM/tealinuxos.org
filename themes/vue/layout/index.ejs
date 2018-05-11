@@ -6,7 +6,7 @@
 
 <div id="hero" class="tea-hero">
   <div class="inner">
-    <div class="left">
+    <div class="left">  
       <img class="hero-logo zoom-in-out" src="<%- url_for('/images/logo-tealinuxos.png') %>">
     </div><div class="right">
       <!-- <h2 class="vue" style="color:white;">TealinuxOS</h2> -->
@@ -35,6 +35,39 @@
           <%= __('index.adalah') %>
       </p>
     </div>
+<br><br>
+
+
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="/images/feature/1.png" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="/images/feature/2.png" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="/images/feature/4.png" style="width:100%">
+      </div>
+      
+
+
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+
   </div>
 </div>
 
@@ -89,12 +122,16 @@
         </p>
       </div>
     </div>
+    
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div class="box-nested right-side">
-        <img src="<%- url_for('/images/feature/tea-module-installer.png') %>" alt="Tea Module Installer"/>
+        <img src="<%- url_for('/images/feature/4.png') %>" alt="Tea Module Installer"/>
       </div>
     </div>
   </div>
+
+
+
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div class="box-nested left-side">
@@ -118,6 +155,39 @@
         </div>
       </div>
   </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <div class="box-nested left-side">
+        <h2>Lapor Hama</h2>
+        <p>
+          Lapor Hama merupakan aplikasi untuk pelaporan hama TeaLinuxOS secara umum. <br> Pelaporan menggunakan fitur Issues yang ada pada Github. Penggunaan Github karena memudahkan pengembang & pengguna dalam menyelesaikan & melaporkan suatu hama.
+        </p>
+      </div>
+    </div>
+    
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <div class="box-nested right-side">
+        <img src="<%- url_for('/images/feature/5.png') %>" alt="Tea Module Installer"/>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+<div id="maskot">
+  <div class="inner">
+    <h2 style="color : white">{Mascot Dandel & Tea}</h2>
+    <!-- <h2>{Mascot Dande & Tea} <br> -->
+    <!-- <h3>PROUDLY SPONSORED BY</h3> -->
+    <!-- <%- partial('partials/sponsors') %> -->
+    <img class="responsive" src="<%- url_for('/images/g3.png') %>" alt="Mascot Dande" style=""/>
+    <img class="responsive" src="<%- url_for('/images/g4.png') %>" alt="Mascot tea" style="padding-left:90px"/>
+
+  </div>
 </div>
 
 <div id="sponsors">
@@ -126,8 +196,10 @@
         namun jika anda menyukai kami, anda dapat traktir kami (:</h2>
     <!-- <h3>PROUDLY SPONSORED BY</h3> -->
     <!-- <%- partial('partials/sponsors') %> -->
+
     <a class="become-sponsor button white" href="https://www.bountysource.com/teams/tealinuxos">Donasi Sekarang</a>
     <a class="become-sponsor button white" href="<%- url_for_lang('/kontribusi') %>">Ikut Kontribusi</a>
+
   </div>
 </div>
 
@@ -149,3 +221,26 @@ window.addEventListener('scroll', function () {
   }
 })
 </script>
+
+
+<script>
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>

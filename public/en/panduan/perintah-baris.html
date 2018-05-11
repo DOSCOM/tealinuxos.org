@@ -2,17 +2,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Perintah Baris - TeaLinuxOS</title>
+        <title>Command Line - TeaLinuxOS</title>
         <meta charset="utf-8">
         <meta name="description" content="Operating System for Your Development Environment">
         <meta name="viewport" con tent="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Perintah Baris - TeaLinuxOS">
+        <meta property="og:title" content="Command Line - TeaLinuxOS">
         <meta property="og:description" content="Operating System for Your Development Environment">
         <meta property="og:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Perintah Baris - TeaLinuxOS">
+        <meta name="twitter:title" content="Command Line - TeaLinuxOS">
         <meta name="twitter:description" content="Operating System for Your Development Environment">
         <meta name="twitter:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
 
@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
                 background: url('/images/bg-hero2.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -248,42 +268,42 @@
                 
                 
                 <li>
-                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Print dan Scan</a>
+                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link">Printing and Scanning</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Mengelola Aplikasi Terinstall</a>
+                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Managing Installed Apps</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Menjaga Keamanan Komputer</a>
+                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Maintaining Computer Securoty</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Perangkat Keras</a>
+                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Hardwares</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Tugas-tugas administratif</a>
+                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Administrative Tasks</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link current">Perintah Baris</a>
+                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link current">Command Line</a>
                 </li>
             
             
@@ -305,48 +325,47 @@
 
     
     
-      <h1>Perintah Baris</h1>
+      <h1>Command Line</h1>
     
-    <h2 id="Daftar-Perintah-Umum"><a href="#Daftar-Perintah-Umum" class="headerlink" title="Daftar Perintah Umum"></a>Daftar Perintah Umum</h2><p>Untuk menjelajah atau beraktivitas di TealinuxOS atau distro linux lainya selain menggunakan Graphical User Interface (GUI) anda juga dapat menggunakan Command Line Interface(CLI). Berikut ini merupakan beberapa perintah yang umum digunakan dalam CLI.</p>
+    <h2 id="General-Commands-List"><a href="#General-Commands-List" class="headerlink" title="General Commands List"></a>General Commands List</h2><p>To explore or move on TealinuxOS or other linux distro in addition to using Graphical User Interface (GUI) you can also use Command Line Interface (CLI). The following are some commonly used commands in the CLI.</p>
 <ul>
-<li><p>Melihat direktori kita berada</p>
-<p>Perintah <code>pwd</code> atau print working directory digunakan untuk mengetahui posisi direktori dimana kita berada.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ pwd</div></pre></td></tr></table></figure>
+<li><p>See the directory we are on<br>The <code>pwd</code> or print working directory command is used to determine the position of the directory to which we belong.<br><code>`
+  $ pwd</code> `</p>
 </li>
-<li><p>Pindah Direktori</p>
-<p>Perintah <code>cd</code> digunakan untuk mengubah direktori dimana kita berada. cd [nama_direktori] Untuk kembali kedirekroti satu level sebelumnya perintah yang digunakan sebagai berikut.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ cd .</div></pre></td></tr></table></figure>
-<p>Untuk kembali kedirektori root perintahnya sebagai berikut.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ cd ..</div></pre></td></tr></table></figure>
+<li><p>Move Directory</p>
+<p>The <code>cd</code> command is used to change the directory where we are. cd [directory_name] To return to the level one prior level command is used as follows.<br><code>`
+  $ cd.</code> <code>To return to the root directory the command is as follows.
+`</code> <code>$ cd ..
+`</code> `</p>
 </li>
 <li><p>List</p>
-<p>Perintah <code>ls</code> digunakan untuk menampilkan daftar file yang ada di direktori. ls Untuk menampilkan list file yang ada didirektori tertentu</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ ls [nama_direktori]</div></pre></td></tr></table></figure>
+<p>The <code>ls</code> command is used to display a list of files in the directory. ls To display a list of files in a particular directory<br><code>`
+  $ ls [directory_name]</code> `</p>
 </li>
-<li><p>Copy File</p>
-<p>Perintah <code>cp</code> digunakan untuk mengopi file atau direktori ke direktori lain.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ cp [nama_file] [nama_direktori]</div></pre></td></tr></table></figure>
+<li><p>Copying File</p>
+<p>The <code>cp</code> command is used to copy a file or directory to another directory.<br><code>`
+  $ cp [filename] [directory_name]</code> `</p>
 </li>
-<li><p>Pindah File</p>
-<p>Perintah <code>mv</code> digunakan untuk memindah file atau direktori ke direktori lain.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ mv [nama_file] [nama_direktori]</div></pre></td></tr></table></figure>
+<li><p>Moving Files</p>
+<p>The <code>mv</code> command is used to move files or directories to another directory.<br><code>`
+  $ mv [filename] [directory_name]</code> `</p>
 </li>
-<li><p>Hapus File</p>
-<p>Perintah <code>rm</code> digunakan untuk menghapus file atau direktori ke direktori lain.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ rm [nama_file]</div></pre></td></tr></table></figure>
+<li><p>Deleting Files</p>
+<p>The <code>rm</code> command is used to delete files or directories to another directory.<br><code>`
+  $ rm [filename]</code> `</p>
 </li>
-<li><p>Penggunaan perintah</p>
-<p>Perintah <code>man</code> digunakan untuk menampilkan cara penggunaan suatu perintah.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ man [nama_perintah] man rm</div></pre></td></tr></table></figure>
+<li><p>Commands usage<br>The <code>man</code> command is used to display how to use a command.<br><code>`
+  $ man [name_perintah] man rm</code> `</p>
 </li>
 </ul>
-<h2 id="Menjalankan-Perintah-dengan-Hak-Administrasi"><a href="#Menjalankan-Perintah-dengan-Hak-Administrasi" class="headerlink" title="Menjalankan Perintah dengan Hak Administrasi"></a>Menjalankan Perintah dengan Hak Administrasi</h2><p>Ketika anda bekerja dengan perintah-perintah baris, beberapa perintah tidak bisa dilakukan tanpa hak administrator, sehingga butuh perintah sudo di awal setiap perintah tersebut. Sesaat setelah anda memberi perintah sudo sistem akan meminta password lalu akan mengingatnya selama 15 menit. Dalam waktu 15 menit ini anda dapat menjalankan perintah sudo tanpa harus mengetik password setiap kali menjalankan perintahnya. <figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ sudo apt-get update</div></pre></td></tr></table></figure></p>
+<h2 id="Running-Commands-with-Administrative-Rights"><a href="#Running-Commands-with-Administrative-Rights" class="headerlink" title="Running Commands with Administrative Rights"></a>Running Commands with Administrative Rights</h2><p>When you work with line commands, some commands can not be performed without administrator privileges, so it takes the sudo command at the start of each command. Shortly after you give the sudo command the system will ask for a password and will remember it for 15 minutes. Within these 15 minutes you can run the sudo command without typing a password every time you run the command. <code>` 
+  $ sudo apt-get update</code> `</p>
 
 
     
       <div class="guide-links">
         
-          <span>← <a href="/en/panduan/administrasi.html">Tugas-tugas administratif</a></span>
+          <span>← <a href="/en/panduan/administrasi.html">Administrative Tasks</a></span>
         
         
       </div>
@@ -381,7 +400,7 @@
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>
