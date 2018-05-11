@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mengelola Aplikasi Terinstall - TeaLinuxOS</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Operating System for Your Development Environment">
+        <meta name="viewport" con tent="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Mengelola Aplikasi Terinstall - TeaLinuxOS">
+        <meta property="og:description" content="Operating System for Your Development Environment">
+        <meta property="og:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Mengelola Aplikasi Terinstall - TeaLinuxOS">
+        <meta name="twitter:description" content="Operating System for Your Development Environment">
+        <meta name="twitter:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
+
+        <link rel="icon" href="/images/tealinuxos-logos/favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Dosis:500&text=Vue.js' rel='stylesheet' type='text/css'>
+
+        <!-- Simple Line Icon    -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+
+        <!-- CSS GRID -->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+
+        <!-- main page styles -->
+        <!-- <link rel="stylesheet" href="/css/page.css"> -->
+        
+            <link rel="stylesheet" href="/css/page.css">
+         
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+        <style media="screen">
+            .tea-hero{
+                background: url('/images/bg-hero2.png') no-repeat bottom;
+                background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
+            }
+        </style>
+
+        <!-- this needs to be loaded before guide's inline scripts -->
+        <!-- <script src="/js/vue.js"></script> -->
+        <script>window.PAGE_TYPE = "panduan"</script>
+    </head>
+    <body class="docs">        <div id="mobile-bar" >
+            <a class="menu-button"></a>
+            <a class="logo" href="/"></a>
+        </div>
+        <div id="header">
+  <a id="logo" href="/">
+    <img src="/images/hexa-logo.png">
+    <span>TealinuxOS</span>
+  </a>
+  <ul id="nav">
+    <li>
+  <form id="search-form">
+    <input type="text" id="search-query-nav" class="search-query st-default-search-input">
+  </form>
+</li>
+<!-- <li><a href="/panduan/">Panduan</a></li> -->
+<li><a href="/panduan">Panduan</a></li>
+
+<!--li><a href="/v2/guide/" class="nav-link">Dukungan</a></li-->
+
+<li><a href="/kontribusi/">Kontribusi</a></li>
+<li><a href="https://medium.com/tealinuxos" target="_blank">Blog</a></li>
+<!-- <li class="nav-dropdown-container ecosystem">
+  <a class="nav-link">Ecosystem</a><span class="arrow"></span>
+  <ul class="nav-dropdown">
+    <li><h4>Help</h4></li>
+    <li><ul>
+      <li><a href="http://forum.vuejs.org" class="nav-link" target="_blank">Forum</a></li>
+      <li><a href="https://gitter.im/vuejs/vue" class="nav-link" target="_blank">Chat</a></li>
+      <li><a href="https://github.com/vuejs-templates" class="nav-link" target="_blank">Templates</a></li>
+    </ul></li>
+    <li><h4>News</h4></li>
+    <li><ul>
+      <li><a href="https://twitter.com/vuejs" class="nav-link" target="_blank">Twitter</a></li>
+      <li><a href="https://medium.com/the-vue-point" class="nav-link" target="_blank">Blog</a></li>
+      <li><a href="https://vuejobs.com/?ref=vuejs" class="nav-link" target="_blank">Jobs</a></li>
+    </ul></li>
+    <li><h4>Core Plugins</h4></li>
+    <li><ul>
+      <li><a href="https://router.vuejs.org/" class="nav-link" target="_blank">Vue Router</a></li>
+      <li><a href="https://vuex.vuejs.org/" class="nav-link" target="_blank">Vuex</a></li>
+    </ul></li>
+    <li><h4>Resource Lists</h4></li>
+    <li><ul>
+      <li><a href="https://github.com/vuejs" class="nav-link" target="_blank">Official Repos</a></li>
+      <li><a href="https://github.com/vuejs/awesome-vue" class="nav-link" target="_blank">Awesome Vue</a></li>
+    </ul></li>
+  </ul>
+</li>
+
+
+ -->
+<li class="nav-dropdown-container language">
+    <a class="nav-link"><span class="icon-globe"></span> Translation</a><span class="arrow"></span>
+    <ul class="nav-dropdown">
+        
+            <li><a href="/en" class="nav-link" target="_blank">English</a></li>
+        
+
+            </ul>
+        </li>
+
+
+  </ul>
+</div>
+
+        
+            <div id="main" class="fix-sidebar">
+                
+                    
+    <div class="sidebar">
+    <ul class="main-menu">
+        <li>
+  <form id="search-form">
+    <input type="text" id="search-query-sidebar" class="search-query st-default-search-input">
+  </form>
+</li>
+<!-- <li><a href="/panduan/">Panduan</a></li> -->
+<li><a href="/panduan">Panduan</a></li>
+
+<!--li><a href="/v2/guide/" class="nav-link">Dukungan</a></li-->
+
+<li><a href="/kontribusi/">Kontribusi</a></li>
+<li><a href="https://medium.com/tealinuxos" target="_blank">Blog</a></li>
+<!-- <li class="nav-dropdown-container ecosystem">
+  <a class="nav-link">Ecosystem</a><span class="arrow"></span>
+  <ul class="nav-dropdown">
+    <li><h4>Help</h4></li>
+    <li><ul>
+      <li><a href="http://forum.vuejs.org" class="nav-link" target="_blank">Forum</a></li>
+      <li><a href="https://gitter.im/vuejs/vue" class="nav-link" target="_blank">Chat</a></li>
+      <li><a href="https://github.com/vuejs-templates" class="nav-link" target="_blank">Templates</a></li>
+    </ul></li>
+    <li><h4>News</h4></li>
+    <li><ul>
+      <li><a href="https://twitter.com/vuejs" class="nav-link" target="_blank">Twitter</a></li>
+      <li><a href="https://medium.com/the-vue-point" class="nav-link" target="_blank">Blog</a></li>
+      <li><a href="https://vuejobs.com/?ref=vuejs" class="nav-link" target="_blank">Jobs</a></li>
+    </ul></li>
+    <li><h4>Core Plugins</h4></li>
+    <li><ul>
+      <li><a href="https://router.vuejs.org/" class="nav-link" target="_blank">Vue Router</a></li>
+      <li><a href="https://vuex.vuejs.org/" class="nav-link" target="_blank">Vuex</a></li>
+    </ul></li>
+    <li><h4>Resource Lists</h4></li>
+    <li><ul>
+      <li><a href="https://github.com/vuejs" class="nav-link" target="_blank">Official Repos</a></li>
+      <li><a href="https://github.com/vuejs/awesome-vue" class="nav-link" target="_blank">Awesome Vue</a></li>
+    </ul></li>
+  </ul>
+</li>
+
+
+ -->
+<li class="nav-dropdown-container language">
+    <a class="nav-link"><span class="icon-globe"></span> Translation</a><span class="arrow"></span>
+    <ul class="nav-dropdown">
+        
+            <li><a href="/en" class="nav-link" target="_blank">English</a></li>
+        
+
+            </ul>
+        </li>
+
+
+    </ul>
+    <div class="list">
+        <!-- <div class="main-sponsor">
+            <span>Sponsored By</span><br>
+            <a href="http://www.thedifferenceengine.io/" target="_blank"
+                style="background-color: #f3f3f3; padding: 10px 0">
+                <img src="/images/tde.png">
+            </a>
+        </div>
+        <a class="become-backer" href="/support-vuejs">
+            Become a Backer
+        </a> -->
+        <!-- <h2>
+            Panduan
+            
+                <select class="version-select">
+                    <option value="SELF" selected>2.0</option>
+                    <option value="v1">1.0</option>
+                    <option value="012">0.12</option>
+                    <option value="011">0.11</option>
+                </select>
+            
+        </h2> -->
+        <ul class="menu-root">
+            
+                
+                
+                
+                <li>
+                    <a href="/panduan/index.html" class="sidebar-link">Kenalan dengan TealinuxOS</a>
+                </li>
+            
+                
+                
+                
+                <li>
+                    <a href="/panduan/install.html" class="sidebar-link">Instalasi TealinuxOS</a>
+                </li>
+            
+                
+                
+                
+                <li>
+                    <a href="/panduan/migrasi.html" class="sidebar-link">Migration and Upgrade</a>
+                </li>
+            
+                
+                
+                
+                <li>
+                    <a href="/panduan/pengenalan-de.html" class="sidebar-link">Pengenalan Dekstop Environment</a>
+                </li>
+            
+                
+                
+                
+                <li>
+                    <a href="/panduan/pengaturan.html" class="sidebar-link">Pengaturan dan Pilihan</a>
+                </li>
+            
+                
+                
+                
+                <li>
+                    <a href="/panduan/aplikasi-tea.html" class="sidebar-link">Pengenalan Aplikasi Bawaan</a>
+                </li>
+            
+                
+                
+                
+                <li>
+                    <a href="/panduan/koneksi.html" class="sidebar-link">Koneksi Jaringan dan Internet</a>
+                </li>
+            
+                
+                
+                
+                <li>
+                    <a href="/panduan/print-dan-scan.html" class="sidebar-link">Print dan Scan</a>
+                </li>
+            
+                
+                
+                
+                <li>
+                    <a href="/panduan/mengelola-aplikasi.html" class="sidebar-link current">Mengelola Aplikasi Terinstall</a>
+                </li>
+            
+                
+                
+                
+                <li>
+                    <a href="/panduan/menjaga-keamanan.html" class="sidebar-link">Menjaga Keamanan Komputer</a>
+                </li>
+            
+                
+                
+                
+                <li>
+                    <a href="/panduan/perangkat-keras.html" class="sidebar-link">Perangkat Keras</a>
+                </li>
+            
+                
+                
+                
+                <li>
+                    <a href="/panduan/administrasi.html" class="sidebar-link">Tugas-tugas administratif</a>
+                </li>
+            
+                
+                
+                
+                <li>
+                    <a href="/panduan/perintah-baris.html" class="sidebar-link">Perintah Baris</a>
+                </li>
+            
+            
+        </ul>
+    </div>
+</div>
+
+
+<div class="content panduan with-sidebar mengelola-aplikasi-panduan">
+    
+      <div id="ad">
+  <!-- <span>Sponsored By</span><br>
+  <a href="http://www.thedifferenceengine.io/" target="_blank"
+    style="background-color: rgba(0,0,0,.85); padding: 10px 0">
+    <img src="/images/tde.png">
+  </a> -->
+  <!-- <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=vuejs" id="_carbonads_js"></script> -->
+</div>
+
+    
+    
+      <h1>Mengelola Aplikasi Terinstall</h1>
+    
+    <h2 id="Menginstall-Software"><a href="#Menginstall-Software" class="headerlink" title="Menginstall Software"></a>Menginstall Software</h2><h3 id="Menginstall-aplikasi-dengan-menggunakan-internet"><a href="#Menginstall-aplikasi-dengan-menggunakan-internet" class="headerlink" title="Menginstall aplikasi dengan menggunakan internet"></a>Menginstall aplikasi dengan menggunakan internet</h3><p>Pastikan komputer anda terkoneksi dengan jaringan komputer karena penginstalan akan langsung mengunduh paket aplikasi yang ingin di install dari repository ubuntu. Cara paling mudah adalah melalui Software Center.</p>
+<p>Klik <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Software</code></p>
+<p> <img src="https://cloud.githubusercontent.com/assets/26142091/23578129/6d894e06-0102-11e7-8672-2a7212299881.png" alt="software-center"></p>
+<p>Atau lewat terminal, Buka terminal dan<br>Ketikan perintah: </p>
+<pre><code>sudo apt-get install nama_paket 
+</code></pre><p>Masukkan password komputer anda.<br>Ketika ada dialog <code>“Do you want to continue? (Y/n)”</code> ketik <code>“y”</code><br>Tunggu hingga proses pengunduhan dan pemasangan selesai.<br>Jalankan aplikasi dengan memanggil nama_paket di terminal atau anda dapat mencarinya di menu.</p>
+<h3 id="Menginstall-aplikasi-tanpa-internet"><a href="#Menginstall-aplikasi-tanpa-internet" class="headerlink" title="Menginstall aplikasi tanpa internet"></a>Menginstall aplikasi tanpa internet</h3><p>Jika anda memiliki aplikasi dengan ekstensi .tar.gz, .deb ataupun .tea anda dapat menginstalnya tanpa koneksi internet.</p>
+<ul>
+<li><p>Menginstall aplikasi .tar.gz<br>Buka terminal anda lalu ketikkan perintah </p>
+<p>   tar xzvf nama_file.tar.gz</p>
+<p>(perintah untuk mengekstrak file)<br>Masuk ke folder yang telah di ekstrak </p>
+<p>   cd nama_file </p>
+<p>   ./configure </p>
+<p>   make </p>
+<p>   sudo su </p>
+<p>   #make install</p>
+<p>Pada umumnya penginstalan file tar.gz menggunakan perintah diatas namun jika aplikasi tidak terinstall atau terjadi error, sebaiknya anda membaca file README atau INSTALL yang biasanya disertakan dalam file aplikasi tersebut untuk panduan penginstalan.</p>
+</li>
+<li><p>Menginstall aplikasi .deb<br>Jika anda ingin menginstall aplikasi berekstensi .deb yang merupakan debian paket ada dua langkah.</p>
+<ul>
+<li><p>Menggunakan Package Installer<br>kliknya dua kali pada file .deb<br>klik tombol Install Package<br>Masukkan password anda<br>Tunggu hingga muncul pesan Installation finished.</p>
+</li>
+<li><p>Menggunakan Terminal<br>Buka teminal ketikkan perintah </p>
+<pre><code>sudo dpkg -i nama_file.deb
+</code></pre></li>
+</ul>
+</li>
+<li><p>Menginstall aplikasi .tea<br>Penginstalan paket aplikasi .tea dengan menggunakan Tea Package Installer</p>
+<p><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ System → Tea Package Installer</code><br>Pilih <code>Cari</code><br>Lakukan pencarian dimana anda meletakkan file .tea<br>Pilih <code>Install</code><br>Pilih <code>Lanjut</code> hingga selesai.</p>
+</li>
+<li><p>Menginstall melalui Tea Module Installer<br>Untuk mengistall aplikasi melalui Tea Module Installer anda dapat melihatnya <a href="http://tealinuxos.org/dukungan/tea-mudule-installer" target="_blank" rel="noopener">disini</a>.</p>
+</li>
+</ul>
+<h2 id="Uninstall-Software"><a href="#Uninstall-Software" class="headerlink" title="Uninstall Software"></a>Uninstall Software</h2><p> Untuk menguinstall software tertentu anda dapat melakukannya dengan cara berikut:<br>Buka terminal dan pastikan terlebih dahulu nama paket yang ingin anda uninstall denganmenggunakan perintah: </p>
+<pre><code>dpkg –list
+</code></pre><p>Setelah mamastikan paket yang ingin ada uninstall ketikkan perintah </p>
+<pre><code>sudo apt-get remove nama_paket 
+</code></pre><p>Masukan password<br>Tunggu hingga proses uninstall selesai.</p>
+<h2 id="Menambah-Repository"><a href="#Menambah-Repository" class="headerlink" title="Menambah Repository"></a>Menambah Repository</h2><p>Repository merupakan sekumpulan paket-paket aplikasi atau program untuk sebuah sistem operasi (Linux) yang digunakan untuk menunjang kinerja dari sebuah aplikasi, program dan sebagainya yang didapatkan dari server mirror website paket-paket tersebut. Ada dua cara untuk menambahkan repository ke sistem.</p>
+<ul>
+<li><p>Melalui Terminal<br>Buka terminal, lalu ketikkan perintah: </p>
+<p>   sudo add-apt-repository ppa:nama_pembuat/nama_paket </p>
+<p>   sudo apt-get update </p>
+<p>   sudo apt-get install nama_paket</p>
+</li>
+<li><p>Melalui Sistem<br><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Settings → Software &amp; Updaters</code><br>Pada jendela Software &amp; Updaters pilih tab <code>Other Software</code><br>Klik tombol <code>Add</code><br>Isikan repository yang ingin ditambahkan<br>Klik tombol <code>Add Source</code></p>
+</li>
+</ul>
+<h2 id="Menginstall-melalui-Tealinuxos-IDE-Installer"><a href="#Menginstall-melalui-Tealinuxos-IDE-Installer" class="headerlink" title="Menginstall melalui Tealinuxos IDE Installer"></a>Menginstall melalui Tealinuxos IDE Installer</h2><p>Anda dapat menginstall paket menggunakan TeaLinux IDE Installer sebagai berikut:</p>
+<ul>
+<li>Masukkan CD IDE Installer</li>
+<li>Jalankan TeaLinux IDE Installer <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Accessories → tealinux-ide-installer</code></li>
+<li>Pilih paket yang ingin di Install</li>
+<li>Klik tombol <code>Install</code></li>
+</ul>
+<h2 id="Mengupdate-software"><a href="#Mengupdate-software" class="headerlink" title="Mengupdate software"></a>Mengupdate software</h2><p> <img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br> <code>→ Settings → Software Updater</code><br>Mengupdate software dapat dilakukan melalui layanan Software Updater, sistem akan mengecek update software lalu akan mengunduh dari internet dan memasang update-update untuk software. </p>
+
+
+    
+      <div class="guide-links">
+        
+          <span>← <a href="/panduan/print-dan-scan.html">Print dan Scan</a></span>
+        
+        
+          <span style="float:right"><a href="/panduan/menjaga-keamanan.html">Menjaga Keamanan Komputer</a> →</span>
+        
+      </div>
+    
+
+    <div class="footer">
+        
+            Menemukan kesahalan atau ingin berkontribusi pada dokumentasi ini ?  <a href="https://github.com/doscom/tealinuxos.org/blob/master/src/panduan/mengelola-aplikasi.md" target="_blank"><br> Sunting halaman ini secara langsung di Github  </a>
+        
+
+
+    </div>
+</div>
+
+                
+            </div>
+            <script src="/js/smooth-scroll.min.js"></script>
+        
+
+        <!-- main custom script for sidebars, version selects etc. -->
+        <script src="/js/common.js"></script>
+
+        <!-- ga -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-46852172-1', 'tealinuxos.org');
+          ga('send', 'pageview');
+        </script>
+
+        <!-- search -->
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
+        <link rel="stylesheet" href="/css/search.css">
+        <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+        <script>
+        [
+          '#search-query-nav',
+          '#search-query-sidebar'
+        ].forEach(function (selector) {
+          if (!document.querySelector(selector)) return
+          // search index defaults to v2
+          var match = window.location.pathname.match(/^\/(v\d+)/)
+          var version = match ? match[1] : 'v2'
+          docsearch({
+            appId: '4HHIOVQW5D',
+            apiKey: '81a2df272c14cc262c8b38f6a3afd683',
+            indexName: 'tealinuxos',
+            inputSelector: selector,
+            algoliaOptions: { facetFilters: ["version:" + version] }
+          })
+        })
+        </script> -->
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+        <script type="text/javascript"> docsearch({
+        apiKey: '81a2df272c14cc262c8b38f6a3afd683',
+        indexName: 'tealinuxos',
+        inputSelector: '#search-query-nav',
+        debug: false // Set debug to true if you want to inspect the dropdown
+        });
+        </script>
+
+
+        <!-- fastclick -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          FastClick.attach(document.body)
+        }, false)
+        </script>
+    </body>
+</html>
