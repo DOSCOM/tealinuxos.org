@@ -32,9 +32,9 @@ Membuat folder baru (new folder)
 
     Klik kanan → New Folder
 
-### Mengopi file (copy)
+### Menyalin file (copy)
 
-    Pilih folder atau file yang ingin dicopy
+    Pilih folder atau file yang ingin dicopy/disalin
     Klik kanan → Copy
     atau menggunakan shortcut Ctrl + c
 
