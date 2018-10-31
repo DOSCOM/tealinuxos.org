@@ -9,7 +9,7 @@ order: 109
 
 ### Menginstall aplikasi dengan menggunakan internet
 
-Pastikan komputer anda terkoneksi dengan jaringan komputer karena penginstalan akan langsung mengunduh paket aplikasi yang ingin di install dari repository ubuntu. Cara paling mudah adalah melalui Software Center.
+Pastikan komputer anda terhubung dengan jaringan komputer karena penginstalan akan langsung mengunduh paket aplikasi yang ingin di install dari repository ubuntu. Cara paling mudah adalah melalui Software Center.
 
 Klik ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  `→ Software`
@@ -17,7 +17,7 @@ Klik ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a
  ![software-center](https://cloud.githubusercontent.com/assets/26142091/23578129/6d894e06-0102-11e7-8672-2a7212299881.png)
 
 
-Atau lewat terminal, Buka terminal dan
+Atau melalui terminal, Buka terminal dan
 Ketikan perintah: 
 
     sudo apt-get install nama_paket 
@@ -78,7 +78,7 @@ Jika anda memiliki aplikasi dengan ekstensi .tar.gz, .deb ataupun .tea anda dapa
 
 ## Uninstall Software
 
- Untuk menguinstall software tertentu anda dapat melakukannya dengan cara berikut:
+ Untuk men-uninstall software tertentu anda dapat melakukannya dengan cara berikut:
 Buka terminal dan pastikan terlebih dahulu nama paket yang ingin anda uninstall denganmenggunakan perintah: 
 
     dpkg –list
@@ -124,4 +124,4 @@ Anda dapat menginstall paket menggunakan TeaLinux IDE Installer sebagai berikut:
 
  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  `→ Settings → Software Updater`
-Mengupdate software dapat dilakukan melalui layanan Software Updater, sistem akan mengecek update software lalu akan mengunduh dari internet dan memasang update-update untuk software. 
+memperbaharui perangkat lunak dapat dilakukan melalui layanan Software Updater, sistem akan mengecek pembaharuan perangkat lunak lalu akan mengunduh dari internet dan memasang pembaharuan yang ada untuk perangkat lunak. 
