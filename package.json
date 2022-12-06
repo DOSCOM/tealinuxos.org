@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "hexo": "^3.2.2",
-    "hexo-admin": "^2.1.0",
+    "hexo-admin": "^2.3.0",
     "hexo-deployer-git": "^0.1.0",
     "hexo-generator-alias": "git+https://github.com/chrisvfritz/vuejs.org-hexo-generator-alias.git",
     "hexo-generator-archive": "^0.1.4",
